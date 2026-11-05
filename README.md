@@ -101,6 +101,22 @@ is fixed in the code ([paper, section 7](paper/REVIEW.md#7-failure-analysis)).
 
 The general lesson: log decisions, not just losses, and validate on real speech.
 
+## Related work
+
+Alba is small next to the open full-duplex models, and learns from them:
+[Moshi](https://github.com/kyutai-labs/moshi) (the reference design, 7.7B),
+[PersonaPlex](https://github.com/NVIDIA/personaplex) (strongest open turn-taking, 7B),
+[Voice Activity Projection](https://github.com/ErikEkstedt/VoiceActivityProjection) (learned turn-taking),
+[LoopSpeech](https://github.com/FreedomIntelligence/LoopSpeech) (models listening to themselves), and
+[Full-Duplex-Bench](https://github.com/DanielLin94144/Full-Duplex-Bench) (a shared benchmark). The full list, with
+what each can teach this project, is in [docs/related-work.md](docs/related-work.md).
+
+## Contributing
+
+Feedback, issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Every change is reviewed by
+the owner, and [SECURITY.md](SECURITY.md) explains how contributions are guarded against malicious code and prompt
+injection.
+
 ## Repository map
 
 | Folder | What |
