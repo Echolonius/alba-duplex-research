@@ -18,7 +18,12 @@ Opening a project like this to contributions invites two kinds of attack: malici
 - No new network access at runtime. The voice runs offline; its API binds to 127.0.0.1 only and refuses
   requests from other origins and host names.
 - No `pickle`/`torch.load` of untrusted files and no `trust_remote_code` on code that is not pinned and read.
-- Continuous integration never runs with secrets or write access on pull requests from forks.
+- Every pull request is audited automatically (`tools/audit_contribution.py`, run from `main` so a pull request
+  cannot change its own checker): binaries, weights, pickles, archives, files over 1 MB, hidden bidirectional
+  characters, scripts in SVG images and unlogged changes to frozen tests fail; risky code and text aimed at AI
+  tools are flagged for the reviewer.
+- Continuous integration never runs with secrets or write access, and pull requests from outside contributors
+  only run after the owner approves them.
 
 **Prompt injection.** The voice model can call tools, so it is a target in its own right.
 

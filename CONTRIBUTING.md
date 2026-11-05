@@ -17,6 +17,9 @@ where it stands and what is next.
 1. For anything bigger than a small fix, open an issue first and say what you want to change and why.
 2. Keep pull requests small and focused, with evidence: numbers from a saved script, not impressions.
 3. Fill in the pull request checklist. The owner reviews every change; nothing merges automatically.
+4. An automatic audit checks every pull request (`tools/audit_contribution.py`): it fails on binaries, weights,
+   files over 1 MB, hidden characters and unlogged changes to the frozen tests, and flags risky code for the
+   reviewer. It never runs your code.
 
 ## Rules that keep results honest
 
