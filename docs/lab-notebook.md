@@ -402,3 +402,5 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   test store in the temp folder; all files dated 4-5 Nov); tools/test_api.py now keeps its throwaway store in
   logs/ and removes it. No settings, firewall rules, shortcuts or scheduled tasks exist. README: "Removing
   everything". Still paused.
+- Logged change to the frozen record (10:28): data/tests/README.md gained the row for the tools set (documentation
+  only, no test data or scorer changed); its SHA-256 in data/tests/HASHES.txt is now 6e3969f4...

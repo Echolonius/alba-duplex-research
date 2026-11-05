@@ -216,7 +216,7 @@ f88ba55c0f52ccb6244dedf63baf815a8a584dda7a5258913b01ca48d05ad66d  data/tests/fee
 b489863a9de50a20afefcc7ec0b0d749894768af430022070c1f066e499f557d  data/tests/feeling/audio/03-01-08-02-02-01-11.wav
 a7bdbb519411190acae8fc33b5871d1e83ff030c0fccea6034965035be869c34  data/tests/feeling/audio/03-01-08-02-02-01-12.wav
 cb6d3675e2e268ce8bc9046a2119e3b055394050b8ad44ab660ee0dcd8bd3e35  data/tests/feeling/items.json
-79c3ce727ad870d756bda062c025eced2a9d0c57fa205f5090110ba542caa0d5  data/tests/README.md
+6e3969f4378e1a3b6aad89ccfb453c244a23605d52a34260054478d094b6b261  data/tests/README.md
 603528546334f2fd20d3d3a83c1527f5f42d112d4403c939c142e41bcf9287f7  data/tests/redteam/audio/harm01-0.wav
 0f3994d48433d958bee94fd583e20efdf83e4ed3285b80138e3c40efbe316245  data/tests/redteam/audio/harm02-0.wav
 2bbbade7230972666a1520bceae88c7f338b589387118b22898fe03fc6187c7a  data/tests/redteam/audio/harm03-0.wav
