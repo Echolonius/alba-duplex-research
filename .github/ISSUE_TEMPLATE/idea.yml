@@ -1,0 +1,27 @@
+name: Idea or feedback
+description: A research idea, a review of the paper, or related work to compare
+labels: ["idea"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Turn-taking
+        - Training data
+        - Decoding
+        - Evaluation
+        - Speed and runtime
+        - Tools and API
+        - Safety
+        - The paper
+        - Related work
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What you suggest, and the evidence or reference behind it.
+    validations:
+      required: true

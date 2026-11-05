@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Alba: a full-duplex voice model on a 4 GB laptop GPU"
+type: software
+authors:
+  - name: "The alba-duplex-research authors"
+date-released: 2026-11-05
+version: "0.1"
+license: MIT
+repository-code: "https://github.com/Echolonius/alba-duplex-research"
+abstract: >-
+  Research code, frozen test definitions, results and a review paper from an attempt to fine-tune
+  LFM3-Audio-2B into a single streaming full-duplex voice model that listens and talks in 80 ms steps on
+  an RTX 3050 Laptop GPU with 4 GB of memory, including a failure analysis of the first two training runs.
+keywords:
+  - full-duplex spoken dialogue
+  - turn-taking
+  - speech language model
+  - QLoRA
+  - llama.cpp
+  - CUDA graphs

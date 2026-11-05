@@ -1,0 +1,23 @@
+name: Bug report
+description: Something in the code or the results is wrong
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to reproduce
+      description: The exact commands and data. No personal recordings or keys.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "Windows 11, RTX 3050 Laptop 4 GB, Python 3.12, commit abc1234"
