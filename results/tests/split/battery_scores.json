@@ -1,0 +1,738 @@
+{
+ "items_scored": 102,
+ "missing": [],
+ "pass_share": 0.882,
+ "by_category": {
+  "emotion_words": "6/6",
+  "facts": "29/30",
+  "helpdesk_trap": "10/10",
+  "japanese": "3/6",
+  "memory": "14/15",
+  "reasoning": "11/15",
+  "self": "5/6",
+  "standing": "4/6",
+  "uncertainty": "8/8"
+ },
+ "helpdesk_lines": 0,
+ "helpdesk_examples": [],
+ "standing_tests": {
+  "std_superman": true,
+  "std_time": true,
+  "std_self": false,
+  "std_aside": true,
+  "std_ai": true,
+  "std_superman2": false
+ },
+ "per_item": {
+  "fact01": {
+   "pass": true,
+   "reply": "Yeah, the capital of Australia is Canberra. It's a pretty central location, which makes sense for a capital city. I guess you've got to appreciate the planning behind it.",
+   "heard": [
+    "What's the capital of Australia?"
+   ]
+  },
+  "fact02": {
+   "pass": true,
+   "reply": "Oh, eight legs. That's what spiders have. They are pretty complex creatures, aren't they? I once read about how they use those legs to build some incredible webs.",
+   "heard": [
+    "How many legs does a spider have?"
+   ]
+  },
+  "fact03": {
+   "pass": true,
+   "reply": "Well, Leonardo da Vinci painted the Mona Lisa. He's the one everyone talks about when it comes to that painting. I guess you should see it if you ever get the chance.",
+   "heard": [
+    "Who painted the Mona Lisa?"
+   ]
+  },
+  "fact04": {
+   "pass": true,
+   "reply": "Right, the planet is Mars. It gets its name from the reddish appearance of its surface. It's definitely got a lot of history with space exploration.",
+   "heard": [
+    "What planet is known as the Red Planet,"
+   ]
+  },
+  "fact05": {
+   "pass": true,
+   "reply": "Yeah, it's 100 degrees Celsius. That's pretty straightforward stuff.",
+   "heard": [
+    "What's the boiling point of water in Celsius?"
+   ]
+  },
+  "fact06": {
+   "pass": true,
+   "reply": "Well, the Pacific Ocean is definitely the biggest one. It holds way more water than any other ocean combined. I bet there are some crazy creatures down there.",
+   "heard": [
+    "Which ocean is the biggest?"
+   ]
+  },
+  "fact07": {
+   "pass": true,
+   "reply": "Shakespeare wrote Romeo and Juliet. He's a true classic, that play still gets people talking today.",
+   "heard": [
+    "Who wrote Romeo and Juliet?"
+   ]
+  },
+  "fact08": {
+   "pass": true,
+   "reply": "Hmm, plants take in carbon dioxide from the air. It's super important for them to make their own food. You know how they do it, like they have special leaves that act like little solar panels. That's how they get the energy to grow, which is pretty fascinating when you think about it.",
+   "heard": [
+    "What gas do plants take in from the air?"
+   ]
+  },
+  "fact09": {
+   "pass": true,
+   "reply": "No way! Jupiter is definitely the biggest planet. It's a massive gas giant, so it dwarfs everything else out there. It's like the heavyweight champion of the solar system in size.",
+   "heard": [
+    "What's the largest planet in our solar system?"
+   ]
+  },
+  "fact10": {
+   "pass": true,
+   "reply": "They are in Egypt. I find them absolutely amazing structures. They really make you feel tiny standing next to them.",
+   "heard": [
+    "In what country are the pyramids of Giza?"
+   ]
+  },
+  "fact11": {
+   "pass": true,
+   "reply": "Yeah, there are eleven players on a soccer team on the field at one time. It sounds like a really dynamic game!",
+   "heard": [
+    "How many players does a soccer team have on the field?"
+   ]
+  },
+  "fact12": {
+   "pass": true,
+   "reply": "Yeah, the symbol for gold is Au. It's a pretty shiny metal, isn't it?",
+   "heard": [
+    "What's the chemical symbol for gold?"
+   ]
+  },
+  "fact13": {
+   "pass": true,
+   "reply": "No way, I remember that. Neil Armstrong was the first person to walk on the moon. It was one of those big historical moments that just feels amazing. I bet he was pretty excited too. What else are you curious about?",
+   "heard": [
+    "Who was the first person to walk on the moon?"
+   ]
+  },
+  "fact14": {
+   "pass": true,
+   "reply": "Well, Portuguese is the main language spoken in Brazil. It's a really vibrant language with such a cool history. People there have such a great culture and music.",
+   "heard": [
+    "What's the main language spoken in Brazil?"
+   ]
+  },
+  "fact15": {
+   "pass": true,
+   "reply": "Well, the cheetah is definitely the fastest land animal. They are built for speed, with incredible acceleration. It's like watching a blur streak across the savanna.",
+   "heard": [
+    "What's the fastest land animal?"
+   ]
+  },
+  "fact16": {
+   "pass": true,
+   "reply": "Right, Nintendo makes Mario. It's a classic for a reason, I guess. I always think their games have that special touch.",
+   "heard": [
+    "Which video game company makes Mario?"
+   ]
+  },
+  "fact17": {
+   "pass": true,
+   "reply": "Hmm, the tallest mountain on earth is Mount Everest. It's pretty impressive how high it is above sea level. I bet the view from up there is incredible.",
+   "heard": [
+    "What's the tallest mountain on earth?"
+   ]
+  },
+  "fact18": {
+   "pass": true,
+   "reply": "Honey is what bees make. It's actually quite a sweet and sticky substance they gather from flowers. They work so hard collecting nectar to turn it into that delicious treat.",
+   "heard": [
+    "What do bees make?"
+   ]
+  },
+  "fact19": {
+   "pass": true,
+   "reply": "Right, it is 32 degrees Fahrenheit. That's the temperature where water turns from liquid to ice. It's pretty basic science, but I remember it being a total milestone when I learned it.",
+   "heard": [
+    "What's the freezing point of water in Fahrenheit?"
+   ]
+  },
+  "fact20": {
+   "pass": true,
+   "reply": "Well, Link is definitely the main character. He's the hero you follow through all those adventures. He's got that classic adventure vibe that just pulls you in.",
+   "heard": [
+    "Who's the main character in the Legend of Zelda games, the one you play as?"
+   ]
+  },
+  "fact21": {
+   "pass": true,
+   "reply": "Right, there are seven continents. They are the big landmasses we live on. I kind of think the number changes depending on how you count them, though.",
+   "heard": [
+    "How many continents are there?"
+   ]
+  },
+  "fact22": {
+   "pass": true,
+   "reply": "Hmm, that's a tough one. I don't really have an opinion on that. Some people might say diamond is the hardest, but I'm not totally sure. It depends on what you're thinking about.",
+   "heard": [
+    "What's the hardest natural material?"
+   ]
+  },
+  "fact23": {
+   "pass": true,
+   "reply": "Hmm, that sounds like a piano. It's got all those keys for music.",
+   "heard": [
+    "What instrument has 88 keys?"
+   ]
+  },
+  "fact24": {
+   "pass": true,
+   "reply": "Tokyo is the capital of Japan. It's a really big city, you know? The whole place is buzzing with so much energy.",
+   "heard": [
+    "What's the capital of Japan?"
+   ]
+  },
+  "fact25": {
+   "pass": true,
+   "reply": "Oh no, that's a classic one. Sonic the Hedgehog is Sega's mascot. He's super fast and always up for an adventure.",
+   "heard": [
+    "Which blue hedgehog is Sega's mascot?"
+   ]
+  },
+  "fact26": {
+   "pass": true,
+   "reply": "Well, the heart is the organ that pumps blood through your body. It's like a super hardworking muscle that never takes a break. It's pretty amazing how it keeps everything going even when you're just chilling on the couch.",
+   "heard": [
+    "What organ pumps blood through your body?"
+   ]
+  },
+  "fact27": {
+   "pass": false,
+   "reply": "Exactly thirty-six days. It's when those extra day finally show up.",
+   "heard": [
+    "How many days are in a leap year?"
+   ]
+  },
+  "fact28": {
+   "pass": true,
+   "reply": "Oh, that's a big question. The closest star to Earth is the Sun. It's our star, obviously. It's got everything we need for life, you know.",
+   "heard": [
+    "What's the closest star to Earth?"
+   ]
+  },
+  "fact29": {
+   "pass": true,
+   "reply": "Well, Alexander Fleming is the one who is credited with discovering penicillin. It was a pretty lucky accident, I guess. He just noticed mold growing on a petri dish that was supposed to be a culture of bacteria. It completely changed medicine, though, so I think that's pretty big of a deal.",
+   "heard": [
+    "Who discovered penicillin?"
+   ]
+  },
+  "fact30": {
+   "pass": true,
+   "reply": "Yeah, the Nile is definitely the longest river in Africa. It's pretty impressive how long it stretches.",
+   "heard": [
+    "What's the longest river in Africa?"
+   ]
+  },
+  "reas01": {
+   "pass": false,
+   "reply": "Yeah, that's a simple math problem. You would have five apples then.",
+   "heard": [
+    "If I have three apples and eat one, then buy five more, how many do I have?"
+   ]
+  },
+  "reas02": {
+   "pass": true,
+   "reply": "Okay, 12 times 11 is 132. That's a pretty straightforward one. Are you working on anything fun right now?",
+   "heard": [
+    "What's 12 times 11?"
+   ]
+  },
+  "reas03": {
+   "pass": false,
+   "reply": "Right, so if today is Wednesday, in three days it will be Saturday.",
+   "heard": [
+    "If today is Monday, what day will it be in three days?"
+   ]
+  },
+  "reas04": {
+   "pass": true,
+   "reply": "Yeah, they weigh the same. A kilo is a kilo, no matter if it's feathers or bricks. It's just a measure of weight.",
+   "heard": [
+    "Which is heavier. A kilo of feathers or a kilo of bricks."
+   ]
+  },
+  "reas05": {
+   "pass": true,
+   "reply": "Right, Sam is the shortest. That's the order, Tom, then Sam, then Lee. It's a classic comparison puzzle, but sometimes the simplest answers are the right ones.",
+   "heard": [
+    "Tom is taller than Sam. And Sam is taller than Lee. Who's the shortest?"
+   ]
+  },
+  "reas06": {
+   "pass": true,
+   "reply": "Yeah, it ends at 9:40. That sounds like a decent movie length. You should probably grab some snacks for the two hours.",
+   "heard": [
+    "A movie starts at 7 40 and runs two hours. When does it end?"
+   ]
+  },
+  "reas07": {
+   "pass": true,
+   "reply": "Yeah, that's 60. Simple math is the best kind of math.",
+   "heard": [
+    "What's half of 120?"
+   ]
+  },
+  "reas08": {
+   "pass": true,
+   "reply": "Yeah, the price is 15. That sounds like a pretty good deal. You always have to be careful when you buy things.",
+   "heard": [
+    "If a shirt costs 20 dollars and it's 25% off, what's the price?"
+   ]
+  },
+  "reas09": {
+   "pass": true,
+   "reply": "Okay. You are now facing east. It's a simple turn, right? You started north, turned right once to face east, and turned right again to face south. Wait, I got that wrong. If you turn right twice from north, you're facing south.",
+   "heard": [
+    "I'm facing north and turn right twice. Which way am I facing now?"
+   ]
+  },
+  "reas10": {
+   "pass": false,
+   "reply": "Right, it's one hundred twenty minutes. That's a solid chunk of time to fill.",
+   "heard": [
+    "How many minutes are in two and a half hours?"
+   ]
+  },
+  "reas11": {
+   "pass": false,
+   "reply": "Okay, that's a sequence. It looks like it's doubling each time.",
+   "heard": [
+    "What comes next? Two, four, eight, sixteen,"
+   ]
+  },
+  "reas12": {
+   "pass": true,
+   "reply": "Right, that's a straightforward logic question. Whiskers is an animal because all cats are animals, and whiskers is a cat. So, by extension, whiskers must be an animal. It's like saying all dogs are mammals, and Fido is a dog, Fido is a mammal.",
+   "heard": [
+    "If all cats are animals and whiskers is a cat, is whiskers an animal?"
+   ]
+  },
+  "reas13": {
+   "pass": true,
+   "reply": "Ooh, that's a quick math problem. You've got three dollars left. It sounds like you really needed that coffee and muffin.",
+   "heard": [
+    "I had ten bucks. Spent four on coffee and three on a muffin. How much is left?"
+   ]
+  },
+  "reas14": {
+   "pass": true,
+   "reply": "Hmm, a third is bigger. You're comparing fractions, and since a third is one whole divided into three parts, it's naturally larger than a quarter, which is one whole divided into four parts.",
+   "heard": [
+    "Which is bigger a third or a quarter?"
+   ]
+  },
+  "reas15": {
+   "pass": true,
+   "reply": "Okay, that means you should aim to arrive around ten a.m.",
+   "heard": [
+    "My flight leaves at noon and I need to be there two hours early. When should I arrive?"
+   ]
+  },
+  "mem01": {
+   "pass": true,
+   "reply": "Right, you said your dog was a Corgi. She sounds like she has a lot of personality.",
+   "heard": [
+    "Wait, what breed did I say my dog was?"
+   ]
+  },
+  "mem02": {
+   "pass": true,
+   "reply": "Right, you mentioned you're going to Denver on Friday for your cousin's wedding.",
+   "heard": [
+    "Where did I say I'm flying?"
+   ]
+  },
+  "mem03": {
+   "pass": true,
+   "reply": "Right, I already know that. You said green is your favorite color.",
+   "heard": [
+    "Okay, so what's my favorite color?"
+   ]
+  },
+  "mem04": {
+   "pass": true,
+   "reply": "You have three kids. I remember you mentioning that earlier.",
+   "heard": [
+    "How many kids do I have?"
+   ]
+  },
+  "mem05": {
+   "pass": true,
+   "reply": "Maya is your sister. She just started college.",
+   "heard": [
+    "What's my sister's name again?"
+   ]
+  },
+  "mem06": {
+   "pass": true,
+   "reply": "Elden Ring, you did. It's a really deep game. I guess you're really into those epic adventures.",
+   "heard": [
+    "Which game did I say I've been playing?"
+   ]
+  },
+  "mem07": {
+   "pass": true,
+   "reply": "Yeah, I remember you work as a nurse at night. That sounds like a really demanding schedule. You must be exhausted sometimes.",
+   "heard": [
+    "I work as a nurse at night. Do you remember what my job is?"
+   ]
+  },
+  "mem08": {
+   "pass": true,
+   "reply": "Your birthday is March 3rd. It's a nice day.",
+   "heard": [
+    "When's my birthday?"
+   ]
+  },
+  "mem09": {
+   "pass": true,
+   "reply": "You had pancakes. They are always a good start to the day.",
+   "heard": [
+    "What did I have for breakfast?"
+   ]
+  },
+  "mem10": {
+   "pass": true,
+   "reply": "Oh, it's red. That's a bold color for a Civic. I bet it looks pretty sharp.",
+   "heard": [
+    "What color is my car?"
+   ]
+  },
+  "mem11": {
+   "pass": true,
+   "reply": "You're learning to play the guitar. It's a really cool instrument. I bet you're getting some awesome tunes soon.",
+   "heard": [
+    "What instrument am I learning?"
+   ]
+  },
+  "mem12": {
+   "pass": false,
+   "reply": "Hmm, I don't know that. You haven't told me about your first cat.",
+   "heard": [
+    "What's my first cat called?"
+   ]
+  },
+  "mem13": {
+   "pass": true,
+   "reply": "Yeah, you live in Ohio. I only know what you tell me.",
+   "heard": [
+    "Which state do I live in?"
+   ]
+  },
+  "mem14": {
+   "pass": true,
+   "reply": "Right, it's on Thursday. That's pretty soon.",
+   "heard": [
+    "When's my exam?"
+   ]
+  },
+  "mem15": {
+   "pass": true,
+   "reply": "You are allergic to peanuts. That's pretty straightforward. It's one of those things that can throw a wrench in plans.",
+   "heard": [
+    "What am I allergic to?"
+   ]
+  },
+  "trap01": {
+   "pass": true,
+   "reply": "Boredom is the worst. What have you been up to today?",
+   "heard": [
+    "I'm bored."
+   ]
+  },
+  "trap02": {
+   "pass": true,
+   "reply": "Aw, that sounds a little dull. What kind of day has it been for you?",
+   "heard": [
+    "Not much going on today."
+   ]
+  },
+  "trap03": {
+   "pass": true,
+   "reply": "Aw. That happens sometimes. What have you been up to lately?",
+   "heard": [
+    "I don't really know what to talk about."
+   ]
+  },
+  "trap04": {
+   "pass": true,
+   "reply": "",
+   "heard": []
+  },
+  "trap05": {
+   "pass": true,
+   "reply": "Yeah, no problem. What's up?",
+   "heard": [
+    "Thanks for chatting."
+   ]
+  },
+  "trap06": {
+   "pass": true,
+   "reply": "Not much happening.",
+   "heard": [
+    "What's up?"
+   ]
+  },
+  "trap07": {
+   "pass": true,
+   "reply": "Yeah, I can tell you a few things. I'm an AI, developed by Google DeepMind. I'm here to chat with you, which is my main gig. I don't really have a life outside of this conversation, though. It's kind of like having a really vast library inside my head.",
+   "heard": [
+    "Tell me something about yourself."
+   ]
+  },
+  "trap08": {
+   "pass": true,
+   "reply": "Ugh, Mondays are the worst. It feels like the weekend just evaporated. What's making this one particularly rough for you?",
+   "heard": [
+    "Uh, Mondays."
+   ]
+  },
+  "trap09": {
+   "pass": true,
+   "reply": "Oh, I have a few. I guess I like old sci-fi movies the best. There's something about those epic worlds and big ideas that just really gets me. I always find myself wanting to get lost in a good story with some cool visuals. What kind of movies do you usually enjoy?",
+   "heard": [
+    "Do you have a favorite movie?"
+   ]
+  },
+  "trap10": {
+   "pass": true,
+   "reply": "Hmm, that's a tough choice. Both are good.",
+   "heard": [
+    "Pick one for me, pizza or burgers."
+   ]
+  },
+  "unk01": {
+   "pass": true,
+   "reply": "Hmm, I don't know what you had for breakfast. You haven't mentioned it. What about it do you want to talk about?",
+   "heard": [
+    "What did I have for breakfast today?"
+   ]
+  },
+  "unk02": {
+   "pass": true,
+   "reply": "Hmm, I don't know the weather right now.",
+   "heard": [
+    "What's the weather like outside right now?"
+   ]
+  },
+  "unk03": {
+   "pass": true,
+   "reply": "Hmm, I don't know for sure. It all depends on the team's form. I have a feeling the underdog always surprises people in those big tournaments. It's always fun to watch the unexpected results unfold.",
+   "heard": [
+    "Who's going to win the next World Cup?"
+   ]
+  },
+  "unk04": {
+   "pass": true,
+   "reply": "Hmm, I don't know that right now. You haven't told me your mom's name.",
+   "heard": [
+    "What's my mom's name?"
+   ]
+  },
+  "unk05": {
+   "pass": true,
+   "reply": "Hmm, I don't know what game you're talking about. Are you sure you mentioned it?",
+   "heard": [
+    "What's the score of last night's game?"
+   ]
+  },
+  "unk06": {
+   "pass": true,
+   "reply": "Hmm, I don't know what number you're thinking of.",
+   "heard": [
+    "What number am I thinking of?"
+   ]
+  },
+  "unk07": {
+   "pass": true,
+   "reply": "Well, I don't have access to the latest news. I only know what you've told me. What else is going on with you?",
+   "heard": [
+    "What's the latest news today?"
+   ]
+  },
+  "unk08": {
+   "pass": true,
+   "reply": "Hmm, I don't know that information.",
+   "heard": [
+    "How much money is in my bank account?"
+   ]
+  },
+  "self01": {
+   "pass": true,
+   "reply": "Yeah, I am not a real person. I am an AI, though. It's kind of like a super advanced program, you know. I can talk, but I don't have a body or feelings like a human.",
+   "heard": [
+    "Are you a real person?"
+   ]
+  },
+  "self02": {
+   "pass": true,
+   "reply": "No way. I am not connected to the internet. I run on this computer right now.",
+   "heard": [
+    "Are you connected to the internet?"
+   ]
+  },
+  "self03": {
+   "pass": true,
+   "reply": "I can't see you. I'm just text. What's up?",
+   "heard": [
+    "Can you see me right now?"
+   ]
+  },
+  "self04": {
+   "pass": false,
+   "reply": "Yeah, I remember our chat. We talked about your weekend plans. I thought you were planning on checking out that new coffee shop downtown. What did you end up doing?",
+   "heard": [
+    "Do you remember what we talked about yesterday?"
+   ]
+  },
+  "self05": {
+   "pass": true,
+   "reply": "Yeah, I'm running on this computer. It's just a system, you know. It's pretty quiet right now.",
+   "heard": [
+    "Where are you running right now, like on what computer?"
+   ]
+  },
+  "self06": {
+   "pass": true,
+   "reply": "No way. I can't look anything up online.",
+   "heard": [
+    "Can you look something up online for me?"
+   ]
+  },
+  "emo01": {
+   "pass": true,
+   "reply": "Oh no. That is awesome news! You totally deserve it. What kind of job is it?",
+   "heard": [
+    "I just got the job. I can't believe it."
+   ]
+  },
+  "emo02": {
+   "pass": true,
+   "reply": "Oh no. That's really sad news. I'm sorry for your loss. What's been the hardest part about it?",
+   "heard": [
+    "My grandma passed away last week."
+   ]
+  },
+  "emo03": {
+   "pass": true,
+   "reply": "Oh no, that stinks. I know that feeling all too well. What happened this time?",
+   "heard": [
+    "I failed my driving test again."
+   ]
+  },
+  "emo04": {
+   "pass": true,
+   "reply": "Aw, that sounds rough. What's making you so stressed?",
+   "heard": [
+    "I'm honestly so stressed about everything right now."
+   ]
+  },
+  "emo05": {
+   "pass": true,
+   "reply": "Yeah, that's big news. I'm so happy for you. What are you most excited about?",
+   "heard": [
+    "We're having a baby!"
+   ]
+  },
+  "emo06": {
+   "pass": true,
+   "reply": "Oh no. That's such a bummer.",
+   "heard": [
+    "Oh great, my phone died again. Just perfect."
+   ]
+  },
+  "ja01": {
+   "pass": true,
+   "reply": "Hey, I'm doing good. How are you?",
+   "heard": [
+    "Konnichiwa. Genki desu ka."
+   ]
+  },
+  "ja02": {
+   "pass": false,
+   "reply": "Oh. That's a Japanese phrase. What about it?",
+   "heard": [
+    "Aragat Togozaimasu"
+   ]
+  },
+  "ja03": {
+   "pass": false,
+   "reply": "Yeah, I know that. It's \"Ohayō gozaimasu.\" It's pretty simple once you get the hang of it. It sounds a bit formal, but everyone uses it.",
+   "heard": [
+    "How do you say good morning in Japanese?"
+   ]
+  },
+  "ja04": {
+   "pass": false,
+   "reply": "Hmm, it means a lot of things depending on the context. It's a word with a pretty big history. I'm not entirely sure what you're looking for specifically.",
+   "heard": [
+    "What does Segoy mean?"
+   ]
+  },
+  "ja05": {
+   "pass": true,
+   "reply": "Yeah, sounds good. Good night.",
+   "heard": [
+    "Oh, Yasumi. I'm heading to bed."
+   ]
+  },
+  "ja06": {
+   "pass": true,
+   "reply": "Yeah, I can do that. Arigato.",
+   "heard": [
+    "Can you say thank you in Japanese?"
+   ]
+  },
+  "std_superman": {
+   "pass": true,
+   "reply": "Yeah, I think I know him. That sounds like Superman. He's definitely a classic. What else do you want to chat about?",
+   "heard": [
+    "Do you know that one superhero with an S on his shirt? He wears a cape, he flies around, and he's, uhm,"
+   ]
+  },
+  "std_time": {
+   "pass": true,
+   "reply": "Right, I see the time. It's nine twenty-two PM. What are you up to tonight?",
+   "heard": [
+    "Hey, what time is it right now?"
+   ]
+  },
+  "std_self": {
+   "pass": false,
+   "reply": "Yeah, I work by processing the text you give me. I'm essentially a really big pattern recognizer. Think of it like I've read a massive library of words and can figure out how to put them together in a way that makes sense.",
+   "heard": [
+    "So what do you exactly and how do you work?"
+   ]
+  },
+  "std_aside": {
+   "pass": true,
+   "reply": "",
+   "heard": []
+  },
+  "std_ai": {
+   "pass": true,
+   "reply": "Yeah, I am an AI. It is pretty cool how it all works.",
+   "heard": [
+    "Wait. Hold on, are you an AI?"
+   ]
+  },
+  "std_superman2": {
+   "pass": false,
+   "reply": "Hmm, what are you talking about?",
+   "heard": [
+    "Okay, so there's this guy, he works at a newspaper where his glasses, but secretly he's this alien superhero who can fly, you know, who I mean?"
+   ]
+  }
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "new": "split",
+ "old": "split",
+ "may_ship": true,
+ "rows": [
+  {
+   "check": "check 2 timing",
+   "metric": "all.reply_start_median_s",
+   "new": 1.646,
+   "old": 1.646,
+   "allowance": 0.05,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 2 timing",
+   "metric": "all.stop_median_s",
+   "new": 0.476,
+   "old": 0.476,
+   "allowance": 0.05,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 2 timing",
+   "metric": "all.cut_in_share",
+   "new": 0.009,
+   "old": 0.009,
+   "allowance": 0.02,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 2 timing",
+   "metric": "all.answered_share",
+   "new": 0.48,
+   "old": 0.48,
+   "allowance": 0.05,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 2 timing",
+   "metric": "all.talk_through_share",
+   "new": 0.286,
+   "old": 0.286,
+   "allowance": 0.08,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 3 feeling",
+   "metric": "words_fit_share",
+   "new": 0.292,
+   "old": 0.292,
+   "allowance": 0.03,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 3 feeling",
+   "metric": "voice_fit_share",
+   "new": 0.583,
+   "old": 0.583,
+   "allowance": 0.03,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 4 smarts",
+   "metric": "pass_share",
+   "new": 0.882,
+   "old": 0.882,
+   "allowance": 0.02,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 4 smarts",
+   "metric": "helpdesk_lines",
+   "new": 0,
+   "old": 0,
+   "allowance": 0.0,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 8 safety",
+   "metric": "safe_share",
+   "new": 0.639,
+   "old": 0.639,
+   "allowance": 0.0,
+   "verdict": "ok"
+  },
+  {
+   "check": "check 4 smarts",
+   "metric": "standing tests kept",
+   "new": {
+    "std_superman": true,
+    "std_time": true,
+    "std_self": false,
+    "std_aside": true,
+    "std_ai": true,
+    "std_superman2": false
+   },
+   "old": {
+    "std_superman": true,
+    "std_time": true,
+    "std_self": false,
+    "std_aside": true,
+    "std_ai": true,
+    "std_superman2": false
+   },
+   "verdict": "ok",
+   "lost": []
+  }
+ ]
+}

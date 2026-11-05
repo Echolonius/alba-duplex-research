@@ -1,0 +1,203 @@
+{
+ "label": "Dessa",
+ "test_with_people": {
+  "conversations": 19,
+  "minutes": 67.42274479166666,
+  "response_offset_s": {
+   "n": 408,
+   "median": 0.1599999999999966,
+   "p25": -0.2725000000000075,
+   "p75": 0.6025000000000134,
+   "mean": 0.022549019607842953,
+   "share_overlapping_start": 0.4068627450980392,
+   "share_within_200ms": 0.2769607843137255,
+   "share_over_700ms": 0.2107843137254902
+  },
+  "backchannels_per_min_of_other_speech": 11.015986780815862,
+  "interruptions_per_min": 1.1865432095236779,
+  "kept_talking_when_talked_over_s": {
+   "n": 56,
+   "median": 0.375,
+   "p25": 0.1574999999999953,
+   "p75": 0.7925000000000049,
+   "mean": 0.8249999999999996,
+   "share_overlapping_start": 0.0,
+   "share_within_200ms": 0.3392857142857143,
+   "share_over_700ms": 0.30357142857142855
+  },
+  "talk_share": 0.5921417556938572,
+  "overlap_share_of_time": 0.07287834288306153,
+  "bandwidth_hz_median": 7687.353515625,
+  "f0_median_hz_per_conversation": [
+   206,
+   223,
+   124,
+   257,
+   84,
+   172,
+   134,
+   173,
+   105,
+   205,
+   164,
+   277,
+   186,
+   111,
+   122,
+   198,
+   121,
+   128,
+   142
+  ],
+  "f0_range_semitones_median": 12.266239184841222,
+  "f0_sd_semitones_median": 4.728979456208889,
+  "jitter_pct_median": 1.723391899940215,
+  "shimmer_pct_median": 8.767160150407472,
+  "hnr_db_median": 13.470124920613774
+ },
+ "people_with_test": {
+  "conversations": 19,
+  "minutes": 67.42274479166666,
+  "response_offset_s": {
+   "n": 398,
+   "median": 0.4150000000000009,
+   "p25": -0.12999999999999545,
+   "p75": 0.6899999999999906,
+   "mean": 0.205577889447236,
+   "share_overlapping_start": 0.29396984924623115,
+   "share_within_200ms": 0.15577889447236182,
+   "share_over_700ms": 0.24371859296482412
+  },
+  "backchannels_per_min_of_other_speech": 8.4869206810145,
+  "interruptions_per_min": 0.7267577158332528,
+  "kept_talking_when_talked_over_s": {
+   "n": 95,
+   "median": 0.37999999999999545,
+   "p25": 0.11499999999998778,
+   "p75": 0.9099999999999966,
+   "mean": 2.1033684210526333,
+   "share_overlapping_start": 0.0,
+   "share_within_200ms": 0.35789473684210527,
+   "share_over_700ms": 0.3368421052631579
+  },
+  "talk_share": 0.40785824430614265,
+  "overlap_share_of_time": 0.07287834288306153,
+  "bandwidth_hz_median": 7730.419921875,
+  "f0_median_hz_per_conversation": [
+   104,
+   122,
+   117,
+   110,
+   115,
+   124,
+   124,
+   118,
+   125,
+   124,
+   134,
+   127,
+   121,
+   118,
+   119,
+   121,
+   126,
+   119,
+   117
+  ],
+  "f0_range_semitones_median": 11.46615893352891,
+  "f0_sd_semitones_median": 4.362761673285643,
+  "jitter_pct_median": 2.14573541748532,
+  "shimmer_pct_median": 10.13617936678943,
+  "hnr_db_median": 12.211367422267648
+ },
+ "test_with_ai": {
+  "conversations": 2,
+  "minutes": 9.304402083333335,
+  "response_offset_s": {
+   "n": 36,
+   "median": -0.09999999999999432,
+   "p25": -0.4625000000000057,
+   "p75": 0.5700000000000003,
+   "mean": -2.166111111111111,
+   "share_overlapping_start": 0.5277777777777778,
+   "share_within_200ms": 0.19444444444444445,
+   "share_over_700ms": 0.2222222222222222
+  },
+  "backchannels_per_min_of_other_speech": 14.697432485559627,
+  "interruptions_per_min": 1.182236096578837,
+  "kept_talking_when_talked_over_s": {
+   "n": 18,
+   "median": 0.31500000000001194,
+   "p25": 0.13749999999998863,
+   "p75": 0.8599999999999994,
+   "mean": 0.7866666666666668,
+   "share_overlapping_start": 0.0,
+   "share_within_200ms": 0.3888888888888889,
+   "share_over_700ms": 0.2777777777777778
+  },
+  "talk_share": 0.426418039895924,
+  "overlap_share_of_time": 0.14088193758585343,
+  "bandwidth_hz_median": 7692.73681640625,
+  "f0_median_hz_per_conversation": [
+   196,
+   180
+  ],
+  "f0_range_semitones_median": 15.116332031350488,
+  "f0_sd_semitones_median": 5.075322779159204,
+  "jitter_pct_median": 1.9167181424585402,
+  "shimmer_pct_median": 8.492963454071015,
+  "hnr_db_median": 14.80754933675547
+ },
+ "ai_with_test": {
+  "conversations": 2,
+  "minutes": 9.304402083333335,
+  "response_offset_s": {
+   "n": 35,
+   "median": -0.009999999999990905,
+   "p25": -0.46999999999999176,
+   "p75": 0.5350000000000006,
+   "mean": 0.061714285714286846,
+   "share_overlapping_start": 0.5142857142857142,
+   "share_within_200ms": 0.17142857142857143,
+   "share_over_700ms": 0.22857142857142856
+  },
+  "backchannels_per_min_of_other_speech": 9.274702029858025,
+  "interruptions_per_min": 1.612140131698414,
+  "kept_talking_when_talked_over_s": {
+   "n": 22,
+   "median": 1.3949999999999818,
+   "p25": 0.26750000000000007,
+   "p75": 12.94250000000001,
+   "mean": 11.090454545454548,
+   "share_overlapping_start": 0.0,
+   "share_within_200ms": 0.18181818181818182,
+   "share_over_700ms": 0.5909090909090909
+  },
+  "talk_share": 0.5735819601040759,
+  "overlap_share_of_time": 0.14088193758585343,
+  "bandwidth_hz_median": 7676.5869140625,
+  "f0_median_hz_per_conversation": [
+   124,
+   185
+  ],
+  "f0_range_semitones_median": 23.67717322024914,
+  "f0_sd_semitones_median": 6.52867426863722,
+  "jitter_pct_median": 2.0241910028910586,
+  "shimmer_pct_median": 11.027632628317306,
+  "hnr_db_median": 9.822226200061923
+ },
+ "captions_test": {
+  "words": 1745,
+  "caption_seconds": 635.73,
+  "words_per_min_while_talking": 164.69255816148365,
+  "fillers_per_100_words": 4.98567335243553,
+  "immediate_repeats_per_100_words": 1.0315186246418337
+ },
+ "captions_people": {
+  "words": 1120,
+  "caption_seconds": 368.43999999999994,
+  "words_per_min_while_talking": 182.39061991097603,
+  "fillers_per_100_words": 4.375,
+  "immediate_repeats_per_100_words": 1.7857142857142856
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "wer": 0.121,
+ "planned_words_heard": 0.874,
+ "items": {
+  "c00000-0": {
+   "planned": "Serenity.Oh, yeah, I can do that. The quick brown fox jumps over the lazy dog.Yeah, that's fine.Yeah, I can say that. Good morning for a sec.",
+   "heard": "Serenity. Oh, yeah, I can do that. The quick brown fox jumps over the lazy dog. Yeah, that's fine. yeah i can say that. Good morning for a sec.",
+   "wer": 0.0
+  },
+  "c00001-0": {
+   "planned": "Aw, that sounds rough. It's like those days where you feel like you're just existing instead of thriving. I bet you had to fight a lot to get through it all.Hmm. It's so frustrating when things don't work out the way you hope they will. Sometimes you just have to accept the reality and keep moving forward anyway.",
+   "heard": "Ah. That sounds rough. It's like those days where you feel like you're just existing instead of thriving. I bet you had to fight a lot to get through it all. It's so frustrating when things don't work out the way you hope they will. Sometimes you just have to reality and keep moving forward anyway.",
+   "wer": 0.068
+  },
+  "c00002-0": {
+   "planned": "Oh no. Traffic is the worst. I might be late, but I'm hoping we can catch up later.",
+   "heard": "Oh no. Traffic is the worst. I might be late, but I'm hoping we can catch up later.",
+   "wer": 0.0
+  },
+  "c00003-0": {
+   "planned": "Hmm. Yeah, that sounds",
+   "heard": "",
+   "wer": 1.0
+  },
+  "c00004-0": {
+   "planned": "",
+   "heard": "",
+   "wer": 0.0
+  },
+  "c00005-0": {
+   "planned": "Hmm. Sounds like a chill evening. Tacos are always good, and leftovers are perfect when you're wiped. I hope you have a really fun time hanging out.",
+   "heard": "Hmm. Sounds like a chill evening. Tacos are always good and leftovers are perfect when you're white",
+   "wer": 0.407
+  },
+  "c00006-0": {
+   "planned": "Yeah, I know who you mean. I'm pretty fond of those kinds of stories. It's always cool to see characters with such big powers.",
+   "heard": "Yeah, I know who you mean. I'm pretty fond of those kinds of stories. It's always cool",
+   "wer": 0.292
+  },
+  "c00007-0": {
+   "planned": "Hmm, I think you should watch the new sci-fi flick. I heard it has some really cool visuals.",
+   "heard": "Mmm. I think you should watch the new sci-fi flick. I heard it has some really cool visuals.",
+   "wer": 0.053
+  },
+  "c00008-0": {
+   "planned": "No way! That's awesome news. You really crushed it. I bet you're feeling such a great energy right now.Aw, what was it?",
+   "heard": "No way. That's awesome news. You really crushed it. I bet you're feeling such a great energy right now. Ah! What was it?",
+   "wer": 0.043
+  },
+  "c00009-0": {
+   "planned": "",
+   "heard": "",
+   "wer": 0.0
+  },
+  "c00010-0": {
+   "planned": "Oh man. That sounds exhausting. It's frustrating when things get bogged down in the minutiae of a project. Sometimes it feels like all the real work is just getting stuck in the endless email thread.",
+   "heard": "Oh, man! That sounds exhausting. It's frustrating when things get bogged down in the minutia of a project. Sometimes it feels like all the real work is just getting stuck in the endless email thread.",
+   "wer": 0.029
+  }
+ }
+}

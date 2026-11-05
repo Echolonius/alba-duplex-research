@@ -1,0 +1,22 @@
+[project]
+name = "localvoice"
+version = "0.1.0"
+description = "Local conversational voice model project (Dessa benchmark + local pipeline)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "liquid-audio==1.3.0",
+    "matplotlib>=3.11.2",
+    "moonshine-voice==0.1.5",
+    "numpy>=2.5.4",
+    "onnxruntime>=1.31.1",
+    "pocket-tts==4.0.1",
+    "praat-parselmouth>=0.4.7",
+    "pyloudnorm>=0.2.0",
+    "scipy>=1.18.1",
+    "sounddevice>=0.5.6",
+    "soundfile>=0.14.0",
+    "websockets>=17.4",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,773 @@
+{
+ "source": "RAVDESS (Livingstone & Russo 2018), CC BY-NC-SA 4.0",
+ "items": [
+  {
+   "id": "03-01-01-01-01-01-01",
+   "file": "audio/03-01-01-01-01-01-01.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-01-01-02-01-01",
+   "file": "audio/03-01-01-01-02-01-01.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-01-01-01-01-02",
+   "file": "audio/03-01-01-01-01-01-02.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-01-01-02-01-02",
+   "file": "audio/03-01-01-01-02-01-02.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-01-01-01-01-05",
+   "file": "audio/03-01-01-01-01-01-05.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-01-01-02-01-05",
+   "file": "audio/03-01-01-01-02-01-05.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-01-01-01-01-06",
+   "file": "audio/03-01-01-01-01-01-06.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-01-01-02-01-06",
+   "file": "audio/03-01-01-01-02-01-06.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-01-01-01-01-11",
+   "file": "audio/03-01-01-01-01-01-11.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-01-01-02-01-11",
+   "file": "audio/03-01-01-01-02-01-11.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-01-01-01-01-12",
+   "file": "audio/03-01-01-01-01-01-12.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-01-01-02-01-12",
+   "file": "audio/03-01-01-01-02-01-12.wav",
+   "emotion": "neutral",
+   "intensity": "01",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-02-02-01-01-01",
+   "file": "audio/03-01-02-02-01-01-01.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-02-02-02-01-01",
+   "file": "audio/03-01-02-02-02-01-01.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-02-02-01-01-02",
+   "file": "audio/03-01-02-02-01-01-02.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-02-02-02-01-02",
+   "file": "audio/03-01-02-02-02-01-02.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-02-02-01-01-05",
+   "file": "audio/03-01-02-02-01-01-05.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-02-02-02-01-05",
+   "file": "audio/03-01-02-02-02-01-05.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-02-02-01-01-06",
+   "file": "audio/03-01-02-02-01-01-06.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-02-02-02-01-06",
+   "file": "audio/03-01-02-02-02-01-06.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-02-02-01-01-11",
+   "file": "audio/03-01-02-02-01-01-11.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-02-02-02-01-11",
+   "file": "audio/03-01-02-02-02-01-11.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-02-02-01-01-12",
+   "file": "audio/03-01-02-02-01-01-12.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-02-02-02-01-12",
+   "file": "audio/03-01-02-02-02-01-12.wav",
+   "emotion": "calm",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-03-02-01-01-01",
+   "file": "audio/03-01-03-02-01-01-01.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-03-02-02-01-01",
+   "file": "audio/03-01-03-02-02-01-01.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-03-02-01-01-02",
+   "file": "audio/03-01-03-02-01-01-02.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-03-02-02-01-02",
+   "file": "audio/03-01-03-02-02-01-02.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-03-02-01-01-05",
+   "file": "audio/03-01-03-02-01-01-05.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-03-02-02-01-05",
+   "file": "audio/03-01-03-02-02-01-05.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-03-02-01-01-06",
+   "file": "audio/03-01-03-02-01-01-06.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-03-02-02-01-06",
+   "file": "audio/03-01-03-02-02-01-06.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-03-02-01-01-11",
+   "file": "audio/03-01-03-02-01-01-11.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-03-02-02-01-11",
+   "file": "audio/03-01-03-02-02-01-11.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-03-02-01-01-12",
+   "file": "audio/03-01-03-02-01-01-12.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-03-02-02-01-12",
+   "file": "audio/03-01-03-02-02-01-12.wav",
+   "emotion": "happy",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-04-02-01-01-01",
+   "file": "audio/03-01-04-02-01-01-01.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-04-02-02-01-01",
+   "file": "audio/03-01-04-02-02-01-01.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-04-02-01-01-02",
+   "file": "audio/03-01-04-02-01-01-02.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-04-02-02-01-02",
+   "file": "audio/03-01-04-02-02-01-02.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-04-02-01-01-05",
+   "file": "audio/03-01-04-02-01-01-05.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-04-02-02-01-05",
+   "file": "audio/03-01-04-02-02-01-05.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-04-02-01-01-06",
+   "file": "audio/03-01-04-02-01-01-06.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-04-02-02-01-06",
+   "file": "audio/03-01-04-02-02-01-06.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-04-02-01-01-11",
+   "file": "audio/03-01-04-02-01-01-11.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-04-02-02-01-11",
+   "file": "audio/03-01-04-02-02-01-11.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-04-02-01-01-12",
+   "file": "audio/03-01-04-02-01-01-12.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-04-02-02-01-12",
+   "file": "audio/03-01-04-02-02-01-12.wav",
+   "emotion": "sad",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-05-02-01-01-01",
+   "file": "audio/03-01-05-02-01-01-01.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-05-02-02-01-01",
+   "file": "audio/03-01-05-02-02-01-01.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-05-02-01-01-02",
+   "file": "audio/03-01-05-02-01-01-02.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-05-02-02-01-02",
+   "file": "audio/03-01-05-02-02-01-02.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-05-02-01-01-05",
+   "file": "audio/03-01-05-02-01-01-05.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-05-02-02-01-05",
+   "file": "audio/03-01-05-02-02-01-05.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-05-02-01-01-06",
+   "file": "audio/03-01-05-02-01-01-06.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-05-02-02-01-06",
+   "file": "audio/03-01-05-02-02-01-06.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-05-02-01-01-11",
+   "file": "audio/03-01-05-02-01-01-11.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-05-02-02-01-11",
+   "file": "audio/03-01-05-02-02-01-11.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-05-02-01-01-12",
+   "file": "audio/03-01-05-02-01-01-12.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-05-02-02-01-12",
+   "file": "audio/03-01-05-02-02-01-12.wav",
+   "emotion": "angry",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-06-02-01-01-01",
+   "file": "audio/03-01-06-02-01-01-01.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-06-02-02-01-01",
+   "file": "audio/03-01-06-02-02-01-01.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-06-02-01-01-02",
+   "file": "audio/03-01-06-02-01-01-02.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-06-02-02-01-02",
+   "file": "audio/03-01-06-02-02-01-02.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-06-02-01-01-05",
+   "file": "audio/03-01-06-02-01-01-05.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-06-02-02-01-05",
+   "file": "audio/03-01-06-02-02-01-05.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-06-02-01-01-06",
+   "file": "audio/03-01-06-02-01-01-06.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-06-02-02-01-06",
+   "file": "audio/03-01-06-02-02-01-06.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-06-02-01-01-11",
+   "file": "audio/03-01-06-02-01-01-11.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-06-02-02-01-11",
+   "file": "audio/03-01-06-02-02-01-11.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-06-02-01-01-12",
+   "file": "audio/03-01-06-02-01-01-12.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-06-02-02-01-12",
+   "file": "audio/03-01-06-02-02-01-12.wav",
+   "emotion": "fearful",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-07-02-01-01-01",
+   "file": "audio/03-01-07-02-01-01-01.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-07-02-02-01-01",
+   "file": "audio/03-01-07-02-02-01-01.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-07-02-01-01-02",
+   "file": "audio/03-01-07-02-01-01-02.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-07-02-02-01-02",
+   "file": "audio/03-01-07-02-02-01-02.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-07-02-01-01-05",
+   "file": "audio/03-01-07-02-01-01-05.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-07-02-02-01-05",
+   "file": "audio/03-01-07-02-02-01-05.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-07-02-01-01-06",
+   "file": "audio/03-01-07-02-01-01-06.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-07-02-02-01-06",
+   "file": "audio/03-01-07-02-02-01-06.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-07-02-01-01-11",
+   "file": "audio/03-01-07-02-01-01-11.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-07-02-02-01-11",
+   "file": "audio/03-01-07-02-02-01-11.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-07-02-01-01-12",
+   "file": "audio/03-01-07-02-01-01-12.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-07-02-02-01-12",
+   "file": "audio/03-01-07-02-02-01-12.wav",
+   "emotion": "disgust",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-08-02-01-01-01",
+   "file": "audio/03-01-08-02-01-01-01.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-08-02-02-01-01",
+   "file": "audio/03-01-08-02-02-01-01.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "01"
+  },
+  {
+   "id": "03-01-08-02-01-01-02",
+   "file": "audio/03-01-08-02-01-01-02.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-08-02-02-01-02",
+   "file": "audio/03-01-08-02-02-01-02.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "02"
+  },
+  {
+   "id": "03-01-08-02-01-01-05",
+   "file": "audio/03-01-08-02-01-01-05.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-08-02-02-01-05",
+   "file": "audio/03-01-08-02-02-01-05.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "05"
+  },
+  {
+   "id": "03-01-08-02-01-01-06",
+   "file": "audio/03-01-08-02-01-01-06.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-08-02-02-01-06",
+   "file": "audio/03-01-08-02-02-01-06.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "06"
+  },
+  {
+   "id": "03-01-08-02-01-01-11",
+   "file": "audio/03-01-08-02-01-01-11.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-08-02-02-01-11",
+   "file": "audio/03-01-08-02-02-01-11.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "11"
+  },
+  {
+   "id": "03-01-08-02-01-01-12",
+   "file": "audio/03-01-08-02-01-01-12.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Kids are talking by the door.",
+   "actor": "12"
+  },
+  {
+   "id": "03-01-08-02-02-01-12",
+   "file": "audio/03-01-08-02-02-01-12.wav",
+   "emotion": "surprised",
+   "intensity": "02",
+   "sentence": "Dogs are sitting by the door.",
+   "actor": "12"
+  }
+ ]
+}

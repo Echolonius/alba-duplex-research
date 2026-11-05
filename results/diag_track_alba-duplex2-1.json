@@ -1,0 +1,215 @@
+{
+ "summary": {
+  "conversation": "val-V00_S0589_I00000497_P0742",
+  "minutes": 3.0,
+  "listen_bias": 1.61,
+  "ctx": 32768,
+  "keep": 2400,
+  "rebuilds": 0,
+  "eos_first": false,
+  "utterances": 11,
+  "utterance_s_median": 0.96,
+  "utterances_under_0.8s": 4,
+  "stopped_before_plan_end": 5,
+  "energy_segments": 11,
+  "turn_segments": 5,
+  "short_segments_whole_utterances": 3,
+  "short_segments_split_from_longer": 3,
+  "answered_share": 0.4,
+  "cut_in_share": 0.0,
+  "reply_start_median_s": 4.372,
+  "mmhm_per_min": 16.0,
+  "stop_median_s": 1.646
+ },
+ "utterances": [
+  {
+   "start_step": 26,
+   "stop_step": 44,
+   "frames": 19,
+   "plan_done": true,
+   "plan": "Uh, okay.|",
+   "p_eos_stop": [
+    0.1114,
+    0.1967
+   ],
+   "heard_s": 2.32,
+   "secs": 1.52
+  },
+  {
+   "start_step": 91,
+   "stop_step": 97,
+   "frames": 7,
+   "plan_done": true,
+   "plan": "She's 17.|",
+   "p_eos_stop": [
+    0.0188,
+    0.0761
+   ],
+   "heard_s": 7.52,
+   "secs": 0.56
+  },
+  {
+   "start_step": 186,
+   "stop_step": 213,
+   "frames": 28,
+   "plan_done": true,
+   "plan": "She's wearing sunglasses and the light is bright.|",
+   "p_eos_stop": [
+    0.3935,
+    0.5142
+   ],
+   "heard_s": 15.12,
+   "secs": 2.24
+  },
+  {
+   "start_step": 283,
+   "stop_step": 294,
+   "frames": 12,
+   "plan_done": false,
+   "plan": "She's dancing in the park",
+   "p_eos_stop": [
+    0.1098,
+    0.2302
+   ],
+   "heard_s": 22.88,
+   "secs": 0.96
+  },
+  {
+   "start_step": 344,
+   "stop_step": 369,
+   "frames": 26,
+   "plan_done": true,
+   "plan": "She's wearing sunglasses and the light is bright.|",
+   "p_eos_stop": [
+    0.0127,
+    0.0355
+   ],
+   "heard_s": 27.76,
+   "secs": 2.08
+  },
+  {
+   "start_step": 399,
+   "stop_step": 402,
+   "frames": 4,
+   "plan_done": false,
+   "plan": "She's dancing in the park",
+   "p_eos_stop": [
+    0.005,
+    0.0194
+   ],
+   "heard_s": 32.16,
+   "secs": 0.32
+  },
+  {
+   "start_step": 577,
+   "stop_step": 587,
+   "frames": 11,
+   "plan_done": false,
+   "plan": "Yeah, that's true.",
+   "p_eos_stop": [
+    0.0038,
+    0.018
+   ],
+   "heard_s": 46.4,
+   "secs": 0.88
+  },
+  {
+   "start_step": 1446,
+   "stop_step": 1447,
+   "frames": 2,
+   "plan_done": false,
+   "plan": "She's dancing in the park",
+   "p_eos_stop": [
+    0.0017,
+    0.0107
+   ],
+   "heard_s": 115.92,
+   "secs": 0.16
+  },
+  {
+   "start_step": 1468,
+   "stop_step": 1481,
+   "frames": 14,
+   "plan_done": true,
+   "plan": "She's dancing in the park.|",
+   "p_eos_stop": [
+    0.2628,
+    0.4497
+   ],
+   "heard_s": 117.68,
+   "secs": 1.12
+  },
+  {
+   "start_step": 1506,
+   "stop_step": 1514,
+   "frames": 9,
+   "plan_done": false,
+   "plan": "She's dancing in the park",
+   "p_eos_stop": [
+    0.0107,
+    0.0672
+   ],
+   "heard_s": 120.72,
+   "secs": 0.72
+  },
+  {
+   "start_step": 1807,
+   "stop_step": 1820,
+   "frames": 14,
+   "plan_done": true,
+   "plan": "She's dancing in the park.|",
+   "p_eos_stop": [
+    0.0874,
+    0.2399
+   ],
+   "heard_s": 144.8,
+   "secs": 1.12
+  }
+ ],
+ "segments": [
+  [
+   2.41,
+   2.85
+  ],
+  [
+   3.25,
+   3.6
+  ],
+  [
+   7.56,
+   8.0
+  ],
+  [
+   15.17,
+   17.28
+  ],
+  [
+   22.92,
+   23.76
+  ],
+  [
+   27.8,
+   29.76
+  ],
+  [
+   32.19,
+   32.4
+  ],
+  [
+   46.52,
+   47.2
+  ],
+  [
+   117.73,
+   118.72
+  ],
+  [
+   120.79,
+   121.36
+  ],
+  [
+   144.86,
+   145.84
+  ]
+ ]
+}

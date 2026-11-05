@@ -1,0 +1,14 @@
+{
+ "trained": {
+  "frames": 114,
+  "nll_mean": 4.583,
+  "nll_after_plan_text": 4.995,
+  "nll_after_heard": 4.552
+ },
+ "stock": {
+  "frames": 114,
+  "nll_mean": 9.501,
+  "nll_after_plan_text": 9.318,
+  "nll_after_heard": 9.515
+ }
+}

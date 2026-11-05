@@ -1,0 +1,4700 @@
+{
+ "vap_seconds_per_window_median": 0.6083445000003849,
+ "by_offset": {
+  "0.1": {
+   "ends": 89,
+   "pauses": 75,
+   "smart_turn": {
+    "auc": 0.7017977528089888,
+    "catch_5": 0.1797752808988764,
+    "catch_10": 0.29213483146067415
+   },
+   "vap_now": {
+    "auc": 0.7725842696629214,
+    "catch_5": 0.39325842696629215,
+    "catch_10": 0.4606741573033708
+   },
+   "vap_future": {
+    "auc": 0.8215730337078652,
+    "catch_5": 0.4943820224719101,
+    "catch_10": 0.5955056179775281
+   }
+  },
+  "0.2": {
+   "ends": 78,
+   "pauses": 58,
+   "smart_turn": {
+    "auc": 0.7024756852343059,
+    "catch_5": 0.14102564102564102,
+    "catch_10": 0.358974358974359
+   },
+   "vap_now": {
+    "auc": 0.8198496905393458,
+    "catch_5": 0.38461538461538464,
+    "catch_10": 0.48717948717948717
+   },
+   "vap_future": {
+    "auc": 0.8326702033598585,
+    "catch_5": 0.5256410256410257,
+    "catch_10": 0.5512820512820513
+   }
+  },
+  "0.3": {
+   "ends": 73,
+   "pauses": 46,
+   "smart_turn": {
+    "auc": 0.7212626563430613,
+    "catch_5": 0.1917808219178082,
+    "catch_10": 0.3287671232876712
+   },
+   "vap_now": {
+    "auc": 0.8508040500297797,
+    "catch_5": 0.4383561643835616,
+    "catch_10": 0.6027397260273972
+   },
+   "vap_future": {
+    "auc": 0.8779035139964264,
+    "catch_5": 0.589041095890411,
+    "catch_10": 0.6575342465753424
+   }
+  },
+  "0.5": {
+   "ends": 55,
+   "pauses": 39,
+   "smart_turn": {
+    "auc": 0.7412587412587412,
+    "catch_5": 0.2,
+    "catch_10": 0.32727272727272727
+   },
+   "vap_now": {
+    "auc": 0.9202797202797203,
+    "catch_5": 0.7272727272727273,
+    "catch_10": 0.7272727272727273
+   },
+   "vap_future": {
+    "auc": 0.9351981351981352,
+    "catch_5": 0.7090909090909091,
+    "catch_10": 0.7818181818181819
+   }
+  }
+ },
+ "rows": [
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.6957479119300842,
+   "vap_now": 0.5480822324752808,
+   "vap_future": 0.8081067204475403
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.8498003482818604,
+   "vap_now": 0.644565761089325,
+   "vap_future": 0.8309275507926941
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.7722399234771729,
+   "vap_now": 0.5620196461677551,
+   "vap_future": 0.806483268737793
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.4122953414916992,
+   "vap_now": 0.7941546440124512,
+   "vap_future": 0.8147528171539307
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.04772377014160156,
+   "vap_now": 0.7428930401802063,
+   "vap_future": 0.7393025755882263
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.025992244482040405,
+   "vap_now": 0.5316783785820007,
+   "vap_future": 0.784030556678772
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.044268637895584106,
+   "vap_now": 0.7392436861991882,
+   "vap_future": 0.8405587673187256
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.042631834745407104,
+   "vap_now": 0.9139754772186279,
+   "vap_future": 0.8804984092712402
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.7987582683563232,
+   "vap_now": 0.2483249008655548,
+   "vap_future": 0.7514388561248779
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.8595805764198303,
+   "vap_now": 0.6907778382301331,
+   "vap_future": 0.819740355014801
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9540347456932068,
+   "vap_now": 0.6996822953224182,
+   "vap_future": 0.8120046854019165
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.8934911489486694,
+   "vap_now": 0.9225980639457703,
+   "vap_future": 0.8706372380256653
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.12984824180603027,
+   "vap_future": 0.5360308885574341
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.010670661926269531,
+   "vap_now": 0.07674487680196762,
+   "vap_future": 0.40432074666023254
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.007221877574920654,
+   "vap_now": 0.14977294206619263,
+   "vap_future": 0.41281023621559143
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.006175607442855835,
+   "vap_now": 0.06575605273246765,
+   "vap_future": 0.2126689851284027
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9777120351791382,
+   "vap_now": 0.9700781106948853,
+   "vap_future": 0.9326359629631042
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.13573235273361206,
+   "vap_now": 0.2431698441505432,
+   "vap_future": 0.6238391995429993
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.15529656410217285,
+   "vap_now": 0.5102753043174744,
+   "vap_future": 0.6774365305900574
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.1829163134098053,
+   "vap_now": 0.5514588952064514,
+   "vap_future": 0.646798849105835
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.5781289935112,
+   "vap_now": 0.5413447618484497,
+   "vap_future": 0.6130455732345581
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.1829163134098053,
+   "vap_now": 0.19020242989063263,
+   "vap_future": 0.6941983103752136
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.6066516041755676,
+   "vap_now": 0.1030081957578659,
+   "vap_future": 0.5080254673957825
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.4122953414916992,
+   "vap_now": 0.22340704500675201,
+   "vap_future": 0.5702046155929565
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.7987582683563232,
+   "vap_now": 0.3529752194881439,
+   "vap_future": 0.6292681694030762
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.8688222169876099,
+   "vap_now": 0.44900888204574585,
+   "vap_future": 0.6765271425247192
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.7507920265197754,
+   "vap_now": 0.7046517729759216,
+   "vap_future": 0.7728004455566406
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.9768373966217041,
+   "vap_now": 0.07802962511777878,
+   "vap_future": 0.5474391579627991
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.9719371795654297,
+   "vap_now": 0.13303740322589874,
+   "vap_future": 0.5787151455879211
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.9660363793373108,
+   "vap_now": 0.37145915627479553,
+   "vap_future": 0.6866398453712463
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.17143553495407104,
+   "vap_now": 0.11240289360284805,
+   "vap_future": 0.44520828127861023
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.007221877574920654,
+   "vap_now": 0.14533506333827972,
+   "vap_future": 0.20968087017536163
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.006944864988327026,
+   "vap_now": 0.03835348039865494,
+   "vap_future": 0.0985398143529892
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.09181153774261475,
+   "vap_future": 0.26187264919281006
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.16862301528453827,
+   "vap_future": 0.590735673904419
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.6525336503982544,
+   "vap_now": 0.3667857348918915,
+   "vap_future": 0.7334635257720947
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.8547587990760803,
+   "vap_now": 0.5486403107643127,
+   "vap_future": 0.7931689023971558
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.91398024559021,
+   "vap_now": 0.724665641784668,
+   "vap_future": 0.8315778970718384
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.8547587990760803,
+   "vap_now": 0.7422985434532166,
+   "vap_future": 0.813444197177887
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.4606940746307373,
+   "vap_now": 0.02841200865805149,
+   "vap_future": 0.2582760453224182
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.01910117268562317,
+   "vap_now": 0.019104255363345146,
+   "vap_future": 0.2436111718416214
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.08002513647079468,
+   "vap_now": 0.0360904335975647,
+   "vap_future": 0.35501423478126526
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.019853323698043823,
+   "vap_now": 0.023983962833881378,
+   "vap_future": 0.24920625984668732
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.7580885291099548,
+   "vap_now": 0.7708257436752319,
+   "vap_future": 0.803301990032196
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.7121614813804626,
+   "vap_now": 0.6620427370071411,
+   "vap_future": 0.8251243829727173
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.7790932655334473,
+   "vap_now": 0.8154566287994385,
+   "vap_future": 0.8600890040397644
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.7040206789970398,
+   "vap_now": 0.10186238586902618,
+   "vap_future": 0.6010608673095703
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.9424859285354614,
+   "vap_now": 0.05888528749346733,
+   "vap_future": 0.516014814376831
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.37471699714660645,
+   "vap_now": 0.08423730731010437,
+   "vap_future": 0.5039145350456238
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.014565467834472656,
+   "vap_now": 0.04321301355957985,
+   "vap_future": 0.2541727125644684
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.01574045419692993,
+   "vap_now": 0.2043878138065338,
+   "vap_future": 0.6482397317886353
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.01574045419692993,
+   "vap_now": 0.45620134472846985,
+   "vap_future": 0.6210002303123474
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.5196834206581116,
+   "vap_now": 0.9514556527137756,
+   "vap_future": 0.8455986380577087
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.01514175534248352,
+   "vap_now": 0.03224074840545654,
+   "vap_future": 0.2994276285171509
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9836374521255493,
+   "vap_now": 0.8420620560646057,
+   "vap_future": 0.8724022507667542
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9870367050170898,
+   "vap_now": 0.9546332955360413,
+   "vap_future": 0.8676526546478271
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9884648323059082,
+   "vap_now": 0.9399321675300598,
+   "vap_future": 0.8037213683128357
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9880069494247437,
+   "vap_now": 0.9160497188568115,
+   "vap_future": 0.7211371064186096
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.9557313919067383,
+   "vap_now": 0.02633432298898697,
+   "vap_future": 0.35426267981529236
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.02144560217857361,
+   "vap_now": 0.006580988876521587,
+   "vap_future": 0.16310350596904755
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.24920794367790222,
+   "vap_now": 0.20359407365322113,
+   "vap_future": 0.7136040329933167
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.20124173164367676,
+   "vap_now": 0.4499015808105469,
+   "vap_future": 0.7565332651138306
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.4901544749736786,
+   "vap_now": 0.3447861671447754,
+   "vap_future": 0.7155902981758118
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9424859285354614,
+   "vap_now": 0.2177371233701706,
+   "vap_future": 0.8326545357704163
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9589470624923706,
+   "vap_now": 0.8151525259017944,
+   "vap_future": 0.9173443913459778
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9673051834106445,
+   "vap_now": 0.8957476615905762,
+   "vap_future": 0.9285090565681458
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.19498491287231445,
+   "vap_now": 0.09525693207979202,
+   "vap_future": 0.5633086562156677
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.6957479119300842,
+   "vap_now": 0.1843985766172409,
+   "vap_future": 0.7711602449417114
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9604700207710266,
+   "vap_now": 0.6131019592285156,
+   "vap_future": 0.9189748167991638
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9485659599304199,
+   "vap_now": 0.8625236749649048,
+   "vap_future": 0.929038405418396
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9719371795654297,
+   "vap_now": 0.8805399537086487,
+   "vap_future": 0.9250398278236389
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.014010816812515259,
+   "vap_now": 0.20388057827949524,
+   "vap_future": 0.11259948462247849
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.01910117268562317,
+   "vap_now": 0.18632902204990387,
+   "vap_future": 0.10930196940898895
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.018377035856246948,
+   "vap_now": 0.19922909140586853,
+   "vap_future": 0.10363969206809998
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.027422254905104637,
+   "vap_future": 0.046694912016391754
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.011094629764556885,
+   "vap_now": 0.08120401948690414,
+   "vap_future": 0.04010343179106712
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.009129524230957031,
+   "vap_now": 0.021867109462618828,
+   "vap_future": 0.02098037302494049
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.020634442567825317,
+   "vap_now": 0.013382533565163612,
+   "vap_future": 0.01392650231719017
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.017008602619171143,
+   "vap_now": 0.0059848204255104065,
+   "vap_future": 0.008210882544517517
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.04954594373703003,
+   "vap_now": 0.038812652230262756,
+   "vap_future": 0.26577508449554443
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.035279929637908936,
+   "vap_now": 0.06527760624885559,
+   "vap_future": 0.3077898621559143
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.029157280921936035,
+   "vap_now": 0.2549222707748413,
+   "vap_future": 0.3811553418636322
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.01728525198996067,
+   "vap_future": 0.04350956156849861
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.8831745386123657,
+   "vap_future": 0.36818400025367737
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.011094629764556885,
+   "vap_now": 0.9170836210250854,
+   "vap_future": 0.34926289319992065
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.011094629764556885,
+   "vap_now": 0.9416500329971313,
+   "vap_future": 0.4563577175140381
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.9146849513053894,
+   "vap_future": 0.40600407123565674
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.06667384505271912,
+   "vap_now": 0.009918519295752048,
+   "vap_future": 0.049345843493938446
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.030293136835098267,
+   "vap_now": 0.022568363696336746,
+   "vap_future": 0.05305979400873184
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.03952997922897339,
+   "vap_now": 0.031109550967812538,
+   "vap_future": 0.06027498096227646
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.5490754842758179,
+   "vap_now": 0.033553339540958405,
+   "vap_future": 0.17675668001174927
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9604700207710266,
+   "vap_now": 0.8614082336425781,
+   "vap_future": 0.4294309914112091
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9749865531921387,
+   "vap_now": 0.9126518964767456,
+   "vap_future": 0.47597241401672363
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9793655872344971,
+   "vap_now": 0.9097500443458557,
+   "vap_future": 0.4814538061618805
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9540347456932068,
+   "vap_now": 0.9074614644050598,
+   "vap_future": 0.4565395712852478
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.020634442567825317,
+   "vap_now": 0.11069905012845993,
+   "vap_future": 0.10377280414104462
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.11031565070152283,
+   "vap_now": 0.1342945247888565,
+   "vap_future": 0.1241290271282196
+  },
+  {
+   "rec": "ai-release",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.13573235273361206,
+   "vap_now": 0.10592146962881088,
+   "vap_future": 0.10723959654569626
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.22776007652282715,
+   "vap_now": 0.9821522831916809,
+   "vap_future": 0.5802751183509827
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.743350088596344,
+   "vap_now": 0.9860498309135437,
+   "vap_future": 0.5590320229530334
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.09241843223571777,
+   "vap_now": 0.983216404914856,
+   "vap_future": 0.5264713168144226
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.13573235273361206,
+   "vap_now": 0.9937359094619751,
+   "vap_future": 0.6263375878334045
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9793655872344971,
+   "vap_now": 0.6217923760414124,
+   "vap_future": 0.887032151222229
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9854345321655273,
+   "vap_now": 0.8261035680770874,
+   "vap_future": 0.9366495609283447
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.970842719078064,
+   "vap_now": 0.9488120675086975,
+   "vap_future": 0.9399226307868958
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9859892129898071,
+   "vap_now": 0.9211974740028381,
+   "vap_future": 0.8978672623634338
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.017008602619171143,
+   "vap_now": 0.26500895619392395,
+   "vap_future": 0.5609596967697144
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.007809102535247803,
+   "vap_now": 0.4922518730163574,
+   "vap_future": 0.5797199606895447
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.010670661926269531,
+   "vap_now": 0.5164180397987366,
+   "vap_future": 0.5639703273773193
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.7968486547470093,
+   "vap_future": 0.7426086664199829
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.016362518072128296,
+   "vap_now": 0.7624258399009705,
+   "vap_future": 0.7163487076759338
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.7224017977714539,
+   "vap_future": 0.7130014896392822
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.9348214268684387,
+   "vap_future": 0.8664566874504089
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.03147178888320923,
+   "vap_now": 0.6949141621589661,
+   "vap_future": 0.7932127118110657
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.017008602619171143,
+   "vap_now": 0.7529304027557373,
+   "vap_future": 0.7734138369560242
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.014010816812515259,
+   "vap_now": 0.8024232387542725,
+   "vap_future": 0.7918248176574707
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.030293136835098267,
+   "vap_now": 0.7358735799789429,
+   "vap_future": 0.7298466563224792
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.42187100648880005,
+   "vap_now": 0.4265623688697815,
+   "vap_future": 0.5991727709770203
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.1829163134098053,
+   "vap_now": 0.4622485041618347,
+   "vap_future": 0.6432379484176636
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.06193605065345764,
+   "vap_now": 0.7087482810020447,
+   "vap_future": 0.7285769581794739
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.509845495223999,
+   "vap_now": 0.8173500895500183,
+   "vap_future": 0.7575157880783081
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.006944864988327026,
+   "vap_now": 0.9824399352073669,
+   "vap_future": 0.9707387685775757
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.006944864988327026,
+   "vap_now": 0.9725124835968018,
+   "vap_future": 0.9699263572692871
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.6701734066009521,
+   "vap_now": 0.155739888548851,
+   "vap_future": 0.6058819890022278
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.3933483958244324,
+   "vap_now": 0.480798602104187,
+   "vap_future": 0.7051581740379333
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.8050150871276855,
+   "vap_now": 0.5977134108543396,
+   "vap_future": 0.7090929746627808
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.8547587990760803,
+   "vap_now": 0.6495708227157593,
+   "vap_future": 0.7036476731300354
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.23476183414459229,
+   "vap_now": 0.14180238544940948,
+   "vap_future": 0.6292340159416199
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.6344650983810425,
+   "vap_now": 0.48698890209198,
+   "vap_future": 0.7247204184532166
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.30425208806991577,
+   "vap_now": 0.7145302891731262,
+   "vap_future": 0.7356341481208801
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.008443742990493774,
+   "vap_now": 0.9870361089706421,
+   "vap_future": 0.950724184513092
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.010262787342071533,
+   "vap_now": 0.9938183426856995,
+   "vap_future": 0.9560469388961792
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.01199302077293396,
+   "vap_now": 0.991970419883728,
+   "vap_future": 0.9236903190612793
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.9939624667167664,
+   "vap_future": 0.942664384841919
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.4606940746307373,
+   "vap_now": 0.08532744646072388,
+   "vap_future": 0.48680809140205383
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.013476967811584473,
+   "vap_now": 0.8566510677337646,
+   "vap_future": 0.8564322590827942
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.011094629764556885,
+   "vap_now": 0.8932275176048279,
+   "vap_future": 0.8714330196380615
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.9726939797401428,
+   "vap_future": 0.9430997967720032
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.008443742990493774,
+   "vap_now": 0.9886342883110046,
+   "vap_future": 0.9597622752189636
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.9022449254989624,
+   "vap_future": 0.8850646615028381
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.007221877574920654,
+   "vap_now": 0.8919670581817627,
+   "vap_future": 0.8887519240379333
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.8556573390960693,
+   "vap_future": 0.8777451515197754
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.006944864988327026,
+   "vap_now": 0.974461555480957,
+   "vap_future": 0.9313796758651733
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.0744142234325409,
+   "vap_now": 0.9972258806228638,
+   "vap_future": 0.9915199279785156
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.06916707754135132,
+   "vap_now": 0.9972954988479614,
+   "vap_future": 0.9924395084381104
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.08601978421211243,
+   "vap_now": 0.9934725165367126,
+   "vap_future": 0.9890279769897461
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.030293136835098267,
+   "vap_now": 0.9983569383621216,
+   "vap_future": 0.9920059442520142
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9199748635292053,
+   "vap_now": 0.2187282294034958,
+   "vap_future": 0.72588050365448
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.8817123174667358,
+   "vap_now": 0.9051774740219116,
+   "vap_future": 0.9134561419487
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9255857467651367,
+   "vap_now": 0.9933430552482605,
+   "vap_future": 0.9731985926628113
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.007809102535247803,
+   "vap_now": 0.0306297168135643,
+   "vap_future": 0.6972813606262207
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.409633606672287,
+   "vap_future": 0.9416464567184448
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.012468844652175903,
+   "vap_now": 0.7935534715652466,
+   "vap_future": 0.9511005282402039
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.07174640893936157,
+   "vap_now": 0.9422511458396912,
+   "vap_future": 0.9485793113708496
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.17143553495407104,
+   "vap_now": 0.01847248151898384,
+   "vap_future": 0.462859183549881
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.03269481658935547,
+   "vap_now": 0.07640057802200317,
+   "vap_future": 0.7317957282066345
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.15529656410217285,
+   "vap_now": 0.25975754857063293,
+   "vap_future": 0.8543728590011597
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.3839901089668274,
+   "vap_now": 0.6541324853897095,
+   "vap_future": 0.864659309387207
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.029157280921936035,
+   "vap_now": 0.05600813403725624,
+   "vap_future": 0.4358946979045868
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.9075815677642822,
+   "vap_now": 0.15705899894237518,
+   "vap_future": 0.4323982298374176
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.9357357025146484,
+   "vap_now": 0.3385845124721527,
+   "vap_future": 0.47545158863067627
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.9589470624923706,
+   "vap_now": 0.025458771735429764,
+   "vap_future": 0.08913415670394897
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.03147178888320923,
+   "vap_now": 0.004495569504797459,
+   "vap_future": 0.047268494963645935
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.03664523363113403,
+   "vap_now": 0.012471292167901993,
+   "vap_future": 0.053973641246557236
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.4122953414916992,
+   "vap_now": 0.06124219298362732,
+   "vap_future": 0.064784474670887
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.7652381658554077,
+   "vap_now": 0.04014105349779129,
+   "vap_future": 0.08498656004667282
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.7790932655334473,
+   "vap_now": 0.042315270751714706,
+   "vap_future": 0.4422617256641388
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9522762298583984,
+   "vap_now": 0.1421714574098587,
+   "vap_future": 0.5853187441825867
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9357357025146484,
+   "vap_now": 0.2224643975496292,
+   "vap_future": 0.5572206974029541
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9740077257156372,
+   "vap_now": 0.4682987928390503,
+   "vap_future": 0.6371570825576782
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.91398024559021,
+   "vap_now": 0.23490187525749207,
+   "vap_future": 0.5391147136688232
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.9485659599304199,
+   "vap_now": 0.2528550326824188,
+   "vap_future": 0.44473353028297424
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.9660363793373108,
+   "vap_now": 0.29607877135276794,
+   "vap_future": 0.3707224726676941
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.9619386196136475,
+   "vap_now": 0.6302284598350525,
+   "vap_future": 0.3099859356880188
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.06916707754135132,
+   "vap_now": 0.05422975867986679,
+   "vap_future": 0.2868463099002838
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.07717296481132507,
+   "vap_now": 0.12594246864318848,
+   "vap_future": 0.32228341698646545
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.22776007652282715,
+   "vap_now": 0.2266567051410675,
+   "vap_future": 0.27501145005226135
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.3839901089668274,
+   "vap_now": 0.3212360143661499,
+   "vap_future": 0.25823652744293213
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.4901544749736786,
+   "vap_now": 0.06340288370847702,
+   "vap_future": 0.41731902956962585
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.4122953414916992,
+   "vap_now": 0.13886520266532898,
+   "vap_future": 0.4300539195537567
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.5684942007064819,
+   "vap_now": 0.26403993368148804,
+   "vap_future": 0.43450868129730225
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.828564465045929,
+   "vap_now": 0.3388757109642029,
+   "vap_future": 0.4018109142780304
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.009129524230957031,
+   "vap_now": 0.01730385795235634,
+   "vap_future": 0.14493857324123383
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.03699951246380806,
+   "vap_future": 0.2431902438402176
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.01199302077293396,
+   "vap_now": 0.09809479862451553,
+   "vap_future": 0.2468281090259552
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.010262787342071533,
+   "vap_now": 0.1925756335258484,
+   "vap_future": 0.24219657480716705
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.08002513647079468,
+   "vap_now": 0.19949880242347717,
+   "vap_future": 0.49619656801223755
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.03806141018867493,
+   "vap_now": 0.09376931935548782,
+   "vap_future": 0.15165181457996368
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.03147178888320923,
+   "vap_now": 0.08803214877843857,
+   "vap_future": 0.1275673657655716
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.04954594373703003,
+   "vap_now": 0.27448391914367676,
+   "vap_future": 0.3076501190662384
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.014565467834472656,
+   "vap_now": 0.032644230872392654,
+   "vap_future": 0.29774782061576843
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.06193605065345764,
+   "vap_now": 0.09919001907110214,
+   "vap_future": 0.3833266496658325
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.1142410933971405,
+   "vap_now": 0.2764848470687866,
+   "vap_future": 0.4144231677055359
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.7923524379730225,
+   "vap_now": 0.3234771490097046,
+   "vap_future": 0.4558505117893219
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.006494834087789059,
+   "vap_future": 0.10522031784057617
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.011044284328818321,
+   "vap_future": 0.1862623244524002
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.018377035856246948,
+   "vap_now": 0.06160946935415268,
+   "vap_future": 0.21609610319137573
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.011094629764556885,
+   "vap_now": 0.151332288980484,
+   "vap_future": 0.14467942714691162
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.05143404006958008,
+   "vap_now": 0.01848169043660164,
+   "vap_future": 0.3257937729358673
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.16053375601768494,
+   "vap_now": 0.02866422012448311,
+   "vap_future": 0.3587413728237152
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.19498491287231445,
+   "vap_now": 0.08368444442749023,
+   "vap_future": 0.4440687298774719
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.02316257357597351,
+   "vap_now": 0.006863710470497608,
+   "vap_future": 0.2670626640319824
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.01199302077293396,
+   "vap_now": 0.013675610534846783,
+   "vap_future": 0.2899019718170166
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.014565467834472656,
+   "vap_now": 0.06970644742250443,
+   "vap_future": 0.39840981364250183
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.20764753222465515,
+   "vap_now": 0.1922784298658371,
+   "vap_future": 0.7927323579788208
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.4509245455265045,
+   "vap_now": 0.3811388611793518,
+   "vap_future": 0.7729566097259521
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.643550455570221,
+   "vap_now": 0.6254411339759827,
+   "vap_future": 0.8211168050765991
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.743350088596344,
+   "vap_now": 0.810551643371582,
+   "vap_future": 0.8338099122047424
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.013476967811584473,
+   "vap_now": 0.07801748812198639,
+   "vap_future": 0.3878650367259979
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.013476967811584473,
+   "vap_now": 0.19470345973968506,
+   "vap_future": 0.31931841373443604
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.01574045419692993,
+   "vap_now": 0.08708912134170532,
+   "vap_future": 0.19906620681285858
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.019853323698043823,
+   "vap_now": 0.2716691493988037,
+   "vap_future": 0.3919415771961212
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.014565467834472656,
+   "vap_now": 0.005952295381575823,
+   "vap_future": 0.17402738332748413
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.20124173164367676,
+   "vap_now": 0.055153485387563705,
+   "vap_future": 0.4738037586212158
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.6344650983810425,
+   "vap_now": 0.2916020452976227,
+   "vap_future": 0.5440359115600586
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.6525336503982544,
+   "vap_now": 0.29623645544052124,
+   "vap_future": 0.47576186060905457
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.834087073802948,
+   "vap_now": 0.1362835168838501,
+   "vap_future": 0.2767620086669922
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.008123215287923813,
+   "vap_future": 0.098841093480587
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.015241846442222595,
+   "vap_future": 0.17094890773296356
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.06654755771160126,
+   "vap_future": 0.3157743811607361
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.2823253571987152,
+   "vap_future": 0.4648309350013733
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.014010816812515259,
+   "vap_now": 0.10170627385377884,
+   "vap_future": 0.4674656391143799
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.035279929637908936,
+   "vap_now": 0.20431266725063324,
+   "vap_future": 0.4096294045448303
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.035279929637908936,
+   "vap_now": 0.11800146847963333,
+   "vap_future": 0.29620158672332764
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.05751410126686096,
+   "vap_now": 0.3243120014667511,
+   "vap_future": 0.45753708481788635
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.7121614813804626,
+   "vap_now": 0.07722608745098114,
+   "vap_future": 0.17729361355304718
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.17143553495407104,
+   "vap_now": 0.15084996819496155,
+   "vap_future": 0.29346713423728943
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.828564465045929,
+   "vap_now": 0.2093653380870819,
+   "vap_future": 0.2796698212623596
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.9170267581939697,
+   "vap_now": 0.2466815859079361,
+   "vap_future": 0.31371185183525085
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.01514175534248352,
+   "vap_now": 0.8958264589309692,
+   "vap_future": 0.4502261281013489
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.012468844652175903,
+   "vap_now": 0.9158603549003601,
+   "vap_future": 0.4573821425437927
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.9449163675308228,
+   "vap_future": 0.5089979767799377
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.018377035856246948,
+   "vap_now": 0.9097757339477539,
+   "vap_future": 0.3589441478252411
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.010262787342071533,
+   "vap_now": 0.012987587600946426,
+   "vap_future": 0.045174453407526016
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.013476967811584473,
+   "vap_now": 0.016459740698337555,
+   "vap_future": 0.03843218460679054
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.19498491287231445,
+   "vap_now": 0.8156284093856812,
+   "vap_future": 0.7389745712280273
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.21420252323150635,
+   "vap_now": 0.8083168864250183,
+   "vap_future": 0.7503045797348022
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.5393059253692627,
+   "vap_now": 0.8456867337226868,
+   "vap_future": 0.6443325877189636
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.22090676426887512,
+   "vap_now": 0.8792003393173218,
+   "vap_future": 0.4962984025478363
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.042631834745407104,
+   "vap_now": 0.1017051413655281,
+   "vap_future": 0.6969771385192871
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.059686750173568726,
+   "vap_now": 0.4501524865627289,
+   "vap_future": 0.7924551963806152
+  },
+  {
+   "rec": "coffee-ding",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.03806141018867493,
+   "vap_now": 0.6395105719566345,
+   "vap_future": 0.7531723380088806
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.7652381658554077,
+   "vap_now": 0.027609769254922867,
+   "vap_future": 0.23265859484672546
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.7580885291099548,
+   "vap_now": 0.09926719218492508,
+   "vap_future": 0.3821154236793518
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.6160098910331726,
+   "vap_now": 0.17823122441768646,
+   "vap_future": 0.43334776163101196
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.4606940746307373,
+   "vap_now": 0.6999808549880981,
+   "vap_future": 0.725252091884613
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.02228793501853943,
+   "vap_now": 0.009647908620536327,
+   "vap_future": 0.24874725937843323
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.04596525430679321,
+   "vap_now": 0.02191477082669735,
+   "vap_future": 0.3376442790031433
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.40278559923171997,
+   "vap_now": 0.20551541447639465,
+   "vap_future": 0.5517318844795227
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9007586240768433,
+   "vap_now": 0.473276823759079,
+   "vap_future": 0.7259790897369385
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.1616077572107315,
+   "vap_future": 0.10898547619581223
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.11812309920787811,
+   "vap_future": 0.10832066088914871
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.2513255774974823,
+   "vap_future": 0.203436478972435
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.013476967811584473,
+   "vap_now": 0.6014556288719177,
+   "vap_future": 0.4785701334476471
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.059686750173568726,
+   "vap_now": 0.8967840075492859,
+   "vap_future": 0.8585702776908875
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.165912926197052,
+   "vap_now": 0.060304831713438034,
+   "vap_future": 0.2412671148777008
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.020634442567825317,
+   "vap_now": 0.017753850668668747,
+   "vap_future": 0.03508400544524193
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.03147178888320923,
+   "vap_now": 0.015167368575930595,
+   "vap_future": 0.03200768306851387
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.06667384505271912,
+   "vap_now": 0.02326998859643936,
+   "vap_future": 0.036079999059438705
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.8170837163925171,
+   "vap_now": 0.047258734703063965,
+   "vap_future": 0.05210055410861969
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.012468844652175903,
+   "vap_now": 0.019533704966306686,
+   "vap_future": 0.1014755591750145
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.01199302077293396,
+   "vap_now": 0.981838047504425,
+   "vap_future": 0.812362015247345
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.012963265180587769,
+   "vap_now": 0.9866105914115906,
+   "vap_future": 0.8218111395835876
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.014010816812515259,
+   "vap_now": 0.9856258630752563,
+   "vap_future": 0.8559926152229309
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.7280358076095581,
+   "vap_now": 0.8995043039321899,
+   "vap_future": 0.9400486350059509
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.19498491287231445,
+   "vap_now": 0.2159315049648285,
+   "vap_future": 0.4179576635360718
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.07174640893936157,
+   "vap_now": 0.15522918105125427,
+   "vap_future": 0.42373186349868774
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.029157280921936035,
+   "vap_now": 0.19674710929393768,
+   "vap_future": 0.4656217694282532
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.03147178888320923,
+   "vap_now": 0.4001576900482178,
+   "vap_future": 0.5332334041595459
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.011094629764556885,
+   "vap_now": 0.061843566596508026,
+   "vap_future": 0.09871266782283783
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.048916663974523544,
+   "vap_future": 0.07499562948942184
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.009129524230957031,
+   "vap_now": 0.057631198316812515,
+   "vap_future": 0.07496029883623123
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.06041667237877846,
+   "vap_future": 0.09024713188409805
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.11778955906629562,
+   "vap_future": 0.3718115985393524
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.31792911887168884,
+   "vap_future": 0.5343530774116516
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.47635549306869507,
+   "vap_future": 0.5318131446838379
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.5490754842758179,
+   "vap_now": 0.9958950281143188,
+   "vap_future": 0.9841222167015076
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.10650888085365295,
+   "vap_now": 0.9962494969367981,
+   "vap_future": 0.9835430979728699
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.28783851861953735,
+   "vap_now": 0.9971110820770264,
+   "vap_future": 0.9860454797744751
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.5,
+   "vap_now": 0.9983136057853699,
+   "vap_future": 0.9864444136619568
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.028062790632247925,
+   "vap_now": 0.7803471684455872,
+   "vap_future": 0.886902391910553
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.020634442567825317,
+   "vap_now": 0.9011778831481934,
+   "vap_future": 0.8832514882087708
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.016362518072128296,
+   "vap_now": 0.7658727765083313,
+   "vap_future": 0.8131285905838013
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.028062790632247925,
+   "vap_now": 0.9406213760375977,
+   "vap_future": 0.8855518698692322
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.4803165793418884,
+   "vap_now": 0.12772610783576965,
+   "vap_future": 0.5241364240646362
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.8817123174667358,
+   "vap_now": 0.1953357607126236,
+   "vap_future": 0.5037893652915955
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.010262787342071533,
+   "vap_now": 0.023011285811662674,
+   "vap_future": 0.10785617679357529
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.01574045419692993,
+   "vap_now": 0.027172205969691277,
+   "vap_future": 0.0892057716846466
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.018377035856246948,
+   "vap_now": 0.04631875455379486,
+   "vap_future": 0.04810360446572304
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.020634442567825317,
+   "vap_now": 0.03098740056157112,
+   "vap_future": 0.02265089936554432
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.008443742990493774,
+   "vap_now": 0.010266046039760113,
+   "vap_future": 0.02768816612660885
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.0103285051882267,
+   "vap_future": 0.027224978432059288
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.007809102535247803,
+   "vap_now": 0.014003935270011425,
+   "vap_future": 0.027678152546286583
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.008120238780975342,
+   "vap_now": 0.019049406051635742,
+   "vap_future": 0.032957930117845535
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.016362518072128296,
+   "vap_now": 0.0675341784954071,
+   "vap_future": 0.27454501390457153
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.3733372688293457,
+   "vap_future": 0.3840240240097046
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.01574045419692993,
+   "vap_now": 0.4146876037120819,
+   "vap_future": 0.49597665667533875
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.02316257357597351,
+   "vap_now": 0.2541961669921875,
+   "vap_future": 0.34964168071746826
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.024070680141448975,
+   "vap_now": 0.3395480811595917,
+   "vap_future": 0.32863757014274597
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.024070680141448975,
+   "vap_now": 0.400908499956131,
+   "vap_future": 0.23926091194152832
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.025013476610183716,
+   "vap_now": 0.7977381348609924,
+   "vap_future": 0.6680709719657898
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.029157280921936035,
+   "vap_now": 0.893415093421936,
+   "vap_future": 0.6999889612197876
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.0744142234325409,
+   "vap_now": 0.8823322057723999,
+   "vap_future": 0.5909765958786011
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.030293136835098267,
+   "vap_now": 0.9115707278251648,
+   "vap_future": 0.6020322442054749
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.01910117268562317,
+   "vap_now": 0.0291961170732975,
+   "vap_future": 0.1679733693599701
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.10741093754768372,
+   "vap_future": 0.06503719091415405
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.06193605065345764,
+   "vap_now": 0.025008024647831917,
+   "vap_future": 0.15172217786312103
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.035279929637908936,
+   "vap_now": 0.061843082308769226,
+   "vap_future": 0.053934648633003235
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.059686750173568726,
+   "vap_now": 0.08217131346464157,
+   "vap_future": 0.05462541803717613
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.007809102535247803,
+   "vap_now": 0.013466869480907917,
+   "vap_future": 0.08133240789175034
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.007809102535247803,
+   "vap_now": 0.0427565760910511,
+   "vap_future": 0.1399250626564026
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.008443742990493774,
+   "vap_now": 0.1030384972691536,
+   "vap_future": 0.12566867470741272
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.02228793501853943,
+   "vap_now": 0.06293058395385742,
+   "vap_future": 0.25384414196014404
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.020634442567825317,
+   "vap_now": 0.2544094920158386,
+   "vap_future": 0.48591068387031555
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.23476183414459229,
+   "vap_now": 0.46447548270225525,
+   "vap_future": 0.5480251312255859
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.03396362066268921,
+   "vap_now": 0.022124970331788063,
+   "vap_future": 0.2304183840751648
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.019853323698043823,
+   "vap_now": 0.013648463413119316,
+   "vap_future": 0.11263841390609741
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.006422132253646851,
+   "vap_now": 0.10593877732753754,
+   "vap_future": 0.10788888484239578
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.006678372621536255,
+   "vap_now": 0.07868002355098724,
+   "vap_future": 0.10386770218610764
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.006678372621536255,
+   "vap_now": 0.08320751041173935,
+   "vap_future": 0.10892361402511597
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.005938529968261719,
+   "vap_now": 0.09204063564538956,
+   "vap_future": 0.1182226613163948
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.008120238780975342,
+   "vap_now": 0.002176887821406126,
+   "vap_future": 0.018127383664250374
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.004584580194205046,
+   "vap_future": 0.03863883391022682
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.0042006587609648705,
+   "vap_future": 0.011715277098119259
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.006422132253646851,
+   "vap_now": 0.005078308749943972,
+   "vap_future": 0.013522434048354626
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.006422132253646851,
+   "vap_now": 0.004638916812837124,
+   "vap_future": 0.009598622098565102
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.007221877574920654,
+   "vap_now": 0.00654656533151865,
+   "vap_future": 0.013333335518836975
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.009129524230957031,
+   "vap_now": 0.6313548684120178,
+   "vap_future": 0.6303150057792664
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.888320803642273,
+   "vap_future": 0.6403777003288269
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.014565467834472656,
+   "vap_now": 0.8051298260688782,
+   "vap_future": 0.3434389531612396
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.016362518072128296,
+   "vap_now": 0.21842089295387268,
+   "vap_future": 0.12755876779556274
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.006944864988327026,
+   "vap_now": 0.001785525237210095,
+   "vap_future": 0.013769642449915409
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.006678372621536255,
+   "vap_now": 0.006611681543290615,
+   "vap_future": 0.017658276483416557
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.006944864988327026,
+   "vap_now": 0.01644671894609928,
+   "vap_future": 0.013861368410289288
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.006944864988327026,
+   "vap_now": 0.020231081172823906,
+   "vap_future": 0.013299087062478065
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.233688622713089,
+   "vap_future": 0.6710124611854553
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.36248070001602173,
+   "vap_future": 0.7187677621841431
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.009129524230957031,
+   "vap_now": 0.5373466610908508,
+   "vap_future": 0.7886629104614258
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.947005569934845,
+   "vap_future": 0.9047768712043762
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.02700820565223694,
+   "vap_now": 0.07846702635288239,
+   "vap_future": 0.5183724761009216
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.035279929637908936,
+   "vap_now": 0.21841953694820404,
+   "vap_future": 0.6011659502983093
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.11031565070152283,
+   "vap_now": 0.39310306310653687,
+   "vap_future": 0.6090536713600159
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.008120238780975342,
+   "vap_now": 0.007729866076260805,
+   "vap_future": 0.07668248564004898
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.009745671413838863,
+   "vap_future": 0.03893833979964256
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.020634442567825317,
+   "vap_now": 0.0007752566016279161,
+   "vap_future": 0.01278915535658598
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.03806141018867493,
+   "vap_now": 0.001089966855943203,
+   "vap_future": 0.025325575843453407
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.05751410126686096,
+   "vap_now": 0.003530300920829177,
+   "vap_future": 0.055777281522750854
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.2959793210029602,
+   "vap_now": 0.06030265986919403,
+   "vap_future": 0.05083388835191727
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.009129524230957031,
+   "vap_now": 0.0039350963197648525,
+   "vap_future": 0.01768854260444641
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.006529887206852436,
+   "vap_future": 0.01891333796083927
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.008647928014397621,
+   "vap_future": 0.026835128664970398
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.014964012429118156,
+   "vap_future": 0.036355603486299515
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.009129524230957031,
+   "vap_now": 0.6076765060424805,
+   "vap_future": 0.754120409488678
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.012468844652175903,
+   "vap_now": 0.3582090437412262,
+   "vap_future": 0.3081801235675812
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.012963265180587769,
+   "vap_now": 0.3934181034564972,
+   "vap_future": 0.3790861666202545
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.014565467834472656,
+   "vap_now": 0.4551790952682495,
+   "vap_future": 0.35555222630500793
+  },
+  {
+   "rec": "life-advice",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.12726496160030365,
+   "vap_future": 0.13108624517917633
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9403132200241089,
+   "vap_now": 0.7713931798934937,
+   "vap_future": 0.901957094669342
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9007586240768433,
+   "vap_now": 0.8971705436706543,
+   "vap_future": 0.9171906113624573
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.8817123174667358,
+   "vap_now": 0.9144954085350037,
+   "vap_future": 0.9054796695709229
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9697068929672241,
+   "vap_now": 0.9070363640785217,
+   "vap_future": 0.8497577905654907
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.22090676426887512,
+   "vap_now": 0.02154475264251232,
+   "vap_future": 0.40889620780944824
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.06426429748535156,
+   "vap_now": 0.06848546117544174,
+   "vap_future": 0.6014040112495422
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.03269481658935547,
+   "vap_now": 0.02896294742822647,
+   "vap_future": 0.36634981632232666
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.01514175534248352,
+   "vap_now": 0.02430569939315319,
+   "vap_future": 0.3607945740222931
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9697068929672241,
+   "vap_now": 0.2697713375091553,
+   "vap_future": 0.720356285572052
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9749865531921387,
+   "vap_now": 0.5735020637512207,
+   "vap_future": 0.8142166137695312
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9685282111167908,
+   "vap_now": 0.694938600063324,
+   "vap_future": 0.835669755935669
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9777120351791382,
+   "vap_now": 0.8149029016494751,
+   "vap_future": 0.8389815092086792
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.9445840716362,
+   "vap_now": 0.08328542858362198,
+   "vap_future": 0.6005699634552002
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.509845495223999,
+   "vap_now": 0.11476965993642807,
+   "vap_future": 0.6861445307731628
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.09577557444572449,
+   "vap_now": 0.1079515889286995,
+   "vap_future": 0.6526416540145874
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9777120351791382,
+   "vap_now": 0.7481281161308289,
+   "vap_future": 0.8317205905914307
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9823201894760132,
+   "vap_now": 0.7737452387809753,
+   "vap_future": 0.8365914225578308
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9619386196136475,
+   "vap_now": 0.8405659794807434,
+   "vap_future": 0.8541262745857239
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.963354766368866,
+   "vap_now": 0.8609533309936523,
+   "vap_future": 0.9203661680221558
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.6252830028533936,
+   "vap_now": 0.33619052171707153,
+   "vap_future": 0.6588023900985718
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.8170837163925171,
+   "vap_now": 0.34075433015823364,
+   "vap_future": 0.5876544713973999
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.8732463121414185,
+   "vap_now": 0.29357966780662537,
+   "vap_future": 0.6428899168968201
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.12245771288871765,
+   "vap_now": 0.7431530356407166,
+   "vap_future": 0.8632147908210754
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.03396362066268921,
+   "vap_now": 0.386179655790329,
+   "vap_future": 0.3635658025741577
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.03396362066268921,
+   "vap_now": 0.7423310279846191,
+   "vap_future": 0.6425126791000366
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.012468844652175903,
+   "vap_now": 0.6049838066101074,
+   "vap_future": 0.590270459651947
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.013476967811584473,
+   "vap_now": 0.632254958152771,
+   "vap_future": 0.7317129969596863
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.01199302077293396,
+   "vap_now": 0.17150653898715973,
+   "vap_future": 0.7235400080680847
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.016362518072128296,
+   "vap_now": 0.11215686798095703,
+   "vap_future": 0.6050341725349426
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.02144560217857361,
+   "vap_now": 0.30055224895477295,
+   "vap_future": 0.5994284749031067
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.07717296481132507,
+   "vap_now": 0.38863757252693176,
+   "vap_future": 0.5796204805374146
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.87754225730896,
+   "vap_now": 0.921658992767334,
+   "vap_future": 0.8821418881416321
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.743350088596344,
+   "vap_now": 0.8949832916259766,
+   "vap_future": 0.8521530032157898
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.30425208806991577,
+   "vap_now": 0.9194408655166626,
+   "vap_future": 0.8649711608886719
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.6252830028533936,
+   "vap_now": 0.9733869433403015,
+   "vap_future": 0.9238077402114868
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9660363793373108,
+   "vap_now": 0.11106228083372116,
+   "vap_future": 0.8781142234802246
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.975929319858551,
+   "vap_now": 0.670843780040741,
+   "vap_future": 0.9406291842460632
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9808988571166992,
+   "vap_now": 0.8675689697265625,
+   "vap_future": 0.9315690994262695
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9808988571166992,
+   "vap_now": 0.9410784840583801,
+   "vap_future": 0.9257268905639648
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.042631834745407104,
+   "vap_now": 0.9916613698005676,
+   "vap_future": 0.8717125654220581
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.21420252323150635,
+   "vap_now": 0.9917662739753723,
+   "vap_future": 0.9040524959564209
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.0744142234325409,
+   "vap_now": 0.9923874139785767,
+   "vap_future": 0.9250131845474243
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.21420252323150635,
+   "vap_now": 0.9885306358337402,
+   "vap_future": 0.9291805624961853
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.8857588768005371,
+   "vap_now": 0.34116294980049133,
+   "vap_future": 0.39519715309143066
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9108326435089111,
+   "vap_now": 0.36767512559890747,
+   "vap_future": 0.40256956219673157
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9540347456932068,
+   "vap_now": 0.9452568888664246,
+   "vap_future": 0.7827306389808655
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9228270053863525,
+   "vap_now": 0.9665743112564087,
+   "vap_future": 0.7399207353591919
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.8896843194961548,
+   "vap_now": 0.44083860516548157,
+   "vap_future": 0.25190943479537964
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9573681354522705,
+   "vap_now": 0.2855384647846222,
+   "vap_future": 0.2173490971326828
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.970842719078064,
+   "vap_now": 0.9099113941192627,
+   "vap_future": 0.6679202914237976
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.04954594373703003,
+   "vap_now": 0.15228496491909027,
+   "vap_future": 0.5754010081291199
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.04596525430679321,
+   "vap_now": 0.18589340150356293,
+   "vap_future": 0.427356481552124
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.07717296481132507,
+   "vap_now": 0.34541288018226624,
+   "vap_future": 0.466583788394928
+  },
+  {
+   "rec": "anniversary",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.15529656410217285,
+   "vap_now": 0.5280859470367432,
+   "vap_future": 0.5426680445671082
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.17143553495407104,
+   "vap_now": 0.877187967300415,
+   "vap_future": 0.9153399467468262
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.12675368785858154,
+   "vap_now": 0.7412557005882263,
+   "vap_future": 0.8694884777069092
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.8934911489486694,
+   "vap_now": 0.8767055869102478,
+   "vap_future": 0.8445432782173157
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.8447034358978271,
+   "vap_now": 0.9523025751113892,
+   "vap_future": 0.8559786677360535
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.04772377014160156,
+   "vap_now": 0.025608697906136513,
+   "vap_future": 0.1898905336856842
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.05951765179634094,
+   "vap_future": 0.32513025403022766
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.012963265180587769,
+   "vap_now": 0.12213911861181259,
+   "vap_future": 0.36792582273483276
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.01514175534248352,
+   "vap_now": 0.3027598559856415,
+   "vap_future": 0.5193597078323364
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.01574045419692993,
+   "vap_now": 0.4469304084777832,
+   "vap_future": 0.3684912919998169
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.09577557444572449,
+   "vap_now": 0.08150313794612885,
+   "vap_future": 0.569823682308197
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.025992244482040405,
+   "vap_now": 0.35968127846717834,
+   "vap_future": 0.5547699928283691
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.08916738629341125,
+   "vap_now": 0.6300254464149475,
+   "vap_future": 0.6819756627082825
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.03664523363113403,
+   "vap_now": 0.42421412467956543,
+   "vap_future": 0.4704020321369171
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.09924137592315674,
+   "vap_now": 0.2269602119922638,
+   "vap_future": 0.17115631699562073
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.04772377014160156,
+   "vap_now": 0.05314691364765167,
+   "vap_future": 0.33543020486831665
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.07174640893936157,
+   "vap_now": 0.1765436977148056,
+   "vap_future": 0.42880529165267944
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.053389936685562134,
+   "vap_now": 0.12236575037240982,
+   "vap_future": 0.09472676366567612
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.14041942358016968,
+   "vap_now": 0.650701642036438,
+   "vap_future": 0.23466938734054565
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.7507920265197754,
+   "vap_now": 0.37519243359565735,
+   "vap_future": 0.5567935109138489
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.9749865531921387,
+   "vap_now": 0.3586600124835968,
+   "vap_future": 0.47199586033821106
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.9170267581939697,
+   "vap_now": 0.08655215799808502,
+   "vap_future": 0.3755777180194855
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.8394662141799927,
+   "vap_now": 0.06059682369232178,
+   "vap_future": 0.19000191986560822
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.19498491287231445,
+   "vap_now": 0.31716495752334595,
+   "vap_future": 0.43653273582458496
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.00949278473854065,
+   "vap_now": 0.43853917717933655,
+   "vap_future": 0.24458527565002441
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.008443742990493774,
+   "vap_now": 0.49369311332702637,
+   "vap_future": 0.29975777864456177
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.850945234298706,
+   "vap_future": 0.32502490282058716
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.08916738629341125,
+   "vap_now": 0.6487514972686768,
+   "vap_future": 0.1402236819267273
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.05751410126686096,
+   "vap_now": 0.02276299148797989,
+   "vap_future": 0.19958895444869995
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.041052937507629395,
+   "vap_now": 0.03920662775635719,
+   "vap_future": 0.2332686483860016
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.018377035856246948,
+   "vap_now": 0.04694965109229088,
+   "vap_future": 0.14363805949687958
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.014010816812515259,
+   "vap_now": 0.04844972863793373,
+   "vap_future": 0.17219500243663788
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.7857974767684937,
+   "vap_now": 0.4048819839954376,
+   "vap_future": 0.6434412598609924
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.5781289935112,
+   "vap_now": 0.3126777708530426,
+   "vap_future": 0.312179833650589
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.7987582683563232,
+   "vap_now": 0.7596309185028076,
+   "vap_future": 0.5137975215911865
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.6957479119300842,
+   "vap_now": 0.71528559923172,
+   "vap_future": 0.3631727993488312
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.9380639791488647,
+   "vap_now": 0.9107430577278137,
+   "vap_future": 0.9052285552024841
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.9729918241500854,
+   "vap_now": 0.9372208714485168,
+   "vap_future": 0.9447745680809021
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9403132200241089,
+   "vap_now": 0.9649178981781006,
+   "vap_future": 0.9361171722412109
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.028062790632247925,
+   "vap_now": 0.04459604248404503,
+   "vap_future": 0.42350706458091736
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.42187100648880005,
+   "vap_now": 0.05364247038960457,
+   "vap_future": 0.4980112910270691
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.15529656410217285,
+   "vap_now": 0.01672617346048355,
+   "vap_future": 0.12946510314941406
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.4803165793418884,
+   "vap_now": 0.04057181254029274,
+   "vap_future": 0.4479276239871979
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.7580885291099548,
+   "vap_now": 0.2209690362215042,
+   "vap_future": 0.7173517346382141
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.9445840716362,
+   "vap_now": 0.42599838972091675,
+   "vap_future": 0.8029743432998657
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9801466464996338,
+   "vap_now": 0.7222893834114075,
+   "vap_future": 0.7822023034095764
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.09241843223571777,
+   "vap_now": 0.021217234432697296,
+   "vap_future": 0.05169875919818878
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.03269481658935547,
+   "vap_now": 0.598880410194397,
+   "vap_future": 0.6347936987876892
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.024070680141448975,
+   "vap_now": 0.6287192702293396,
+   "vap_future": 0.6812499761581421
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.02228793501853943,
+   "vap_now": 0.6244946122169495,
+   "vap_future": 0.6558843851089478
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 1,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.03664523363113403,
+   "vap_now": 0.888210117816925,
+   "vap_future": 0.857977032661438
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.011535167694091797,
+   "vap_now": 0.020451273769140244,
+   "vap_future": 0.3195711076259613
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.020471954718232155,
+   "vap_future": 0.05568881332874298
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.008120238780975342,
+   "vap_now": 0.020059773698449135,
+   "vap_future": 0.05348089709877968
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.009870380163192749,
+   "vap_now": 0.028100594878196716,
+   "vap_future": 0.04468555375933647
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.007809102535247803,
+   "vap_now": 0.025858983397483826,
+   "vap_future": 0.04990708455443382
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.02228793501853943,
+   "vap_now": 0.024389231577515602,
+   "vap_future": 0.25074145197868347
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.04772377014160156,
+   "vap_now": 0.0781312808394432,
+   "vap_future": 0.31125181913375854
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.06193605065345764,
+   "vap_now": 0.11498948931694031,
+   "vap_future": 0.23337742686271667
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.08297324180603027,
+   "vap_now": 0.18120144307613373,
+   "vap_future": 0.411308228969574
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.5340152382850647,
+   "vap_future": 0.317660391330719
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.008779913187026978,
+   "vap_now": 0.5262110233306885,
+   "vap_future": 0.3092251420021057
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.53501296043396,
+   "vap_future": 0.3077339828014374
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.007509768009185791,
+   "vap_now": 0.5641949772834778,
+   "vap_future": 0.32945749163627625
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.02700820565223694,
+   "vap_now": 0.43195170164108276,
+   "vap_future": 0.49105381965637207
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.041052937507629395,
+   "vap_now": 0.47404444217681885,
+   "vap_future": 0.5066508650779724
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.014565467834472656,
+   "vap_now": 0.01137136947363615,
+   "vap_future": 0.04523051530122757
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.029157280921936035,
+   "vap_now": 0.024126531556248665,
+   "vap_future": 0.030547741800546646
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.024070680141448975,
+   "vap_now": 0.3750109374523163,
+   "vap_future": 0.14651012420654297
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.017679840326309204,
+   "vap_now": 0.16208894550800323,
+   "vap_future": 0.12870986759662628
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.017008602619171143,
+   "vap_now": 0.3684694468975067,
+   "vap_future": 0.15389017760753632
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.024070680141448975,
+   "vap_now": 0.6370843052864075,
+   "vap_future": 0.48727676272392273
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.8934911489486694,
+   "vap_now": 0.8374530673027039,
+   "vap_future": 0.4863230288028717
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.9255857467651367,
+   "vap_now": 0.7340359687805176,
+   "vap_future": 0.5675433874130249
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.2959793210029602,
+   "vap_now": 0.7275100350379944,
+   "vap_future": 0.5591652989387512
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.007809102535247803,
+   "vap_now": 0.6064551472663879,
+   "vap_future": 0.4539664387702942
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.007221877574920654,
+   "vap_now": 0.5962234139442444,
+   "vap_future": 0.45871803164482117
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.006678372621536255,
+   "vap_now": 0.5700986981391907,
+   "vap_future": 0.49315693974494934
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.007221877574920654,
+   "vap_now": 0.6185216307640076,
+   "vap_future": 0.5117517113685608
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.24191147089004517,
+   "vap_now": 0.7067722678184509,
+   "vap_future": 0.9237550497055054
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.35644954442977905,
+   "vap_now": 0.7614671587944031,
+   "vap_future": 0.8985608816146851
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.59721440076828,
+   "vap_now": 0.8847242593765259,
+   "vap_future": 0.9147273898124695
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.042631834745407104,
+   "vap_now": 0.618151843547821,
+   "vap_future": 0.5839290618896484
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.03952997922897339,
+   "vap_now": 0.6166583299636841,
+   "vap_future": 0.579856812953949
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.016362518072128296,
+   "vap_now": 0.660473108291626,
+   "vap_future": 0.608474850654602
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.053389936685562134,
+   "vap_now": 0.43213868141174316,
+   "vap_future": 0.5016209483146667
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.005938529968261719,
+   "vap_now": 0.006481254938989878,
+   "vap_future": 0.03701985254883766
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.005938529968261719,
+   "vap_now": 0.006524083204567432,
+   "vap_future": 0.037121593952178955
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.006175607442855835,
+   "vap_now": 0.013161948882043362,
+   "vap_future": 0.05398622527718544
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.008443742990493774,
+   "vap_now": 0.05539089813828468,
+   "vap_future": 0.05764389783143997
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.3839901089668274,
+   "vap_now": 0.06764636188745499,
+   "vap_future": 0.13068035244941711
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.10281828045845032,
+   "vap_now": 0.07975596934556961,
+   "vap_future": 0.16696864366531372
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.23476183414459229,
+   "vap_now": 0.09465449303388596,
+   "vap_future": 0.18353021144866943
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.28783851861953735,
+   "vap_now": 0.12408874928951263,
+   "vap_future": 0.23223155736923218
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.011094629764556885,
+   "vap_now": 0.044624194502830505,
+   "vap_future": 0.4194102883338928
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.2,
+   "smart_turn": 0.02228793501853943,
+   "vap_now": 0.20114393532276154,
+   "vap_future": 0.5746435523033142
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.3,
+   "smart_turn": 0.01574045419692993,
+   "vap_now": 0.2653288245201111,
+   "vap_future": 0.5370264053344727
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.5,
+   "smart_turn": 0.01514175534248352,
+   "vap_now": 0.4003787338733673,
+   "vap_future": 0.6094029545783997
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.1,
+   "smart_turn": 0.012468844652175903,
+   "vap_now": 0.03793811798095703,
+   "vap_future": 0.35970503091812134
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.2,
+   "smart_turn": 0.1888766884803772,
+   "vap_now": 0.2006513476371765,
+   "vap_future": 0.5317487120628357
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.3,
+   "smart_turn": 0.42187100648880005,
+   "vap_now": 0.3210129141807556,
+   "vap_future": 0.587030827999115
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "end",
+   "offset": 0.5,
+   "smart_turn": 0.7121614813804626,
+   "vap_now": 0.5046899318695068,
+   "vap_future": 0.6896882653236389
+  },
+  {
+   "rec": "dc-comics",
+   "speaker": 2,
+   "kind": "mid",
+   "offset": 0.1,
+   "smart_turn": 0.08601978421211243,
+   "vap_now": 0.011972296983003616,
+   "vap_future": 0.11685319244861603
+  }
+ ]
+}

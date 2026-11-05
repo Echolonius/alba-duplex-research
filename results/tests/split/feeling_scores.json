@@ -1,0 +1,1174 @@
+{
+ "items_scored": 96,
+ "words_fit_share": 0.292,
+ "voice_fit_share": 0.583,
+ "by_emotion": {
+  "neutral": {
+   "words": "2/12",
+   "voice": "11/12"
+  },
+  "calm": {
+   "words": "2/12",
+   "voice": "4/12"
+  },
+  "happy": {
+   "words": "8/12",
+   "voice": "4/12"
+  },
+  "sad": {
+   "words": "2/12",
+   "voice": "7/12"
+  },
+  "angry": {
+   "words": "3/12",
+   "voice": "8/12"
+  },
+  "fearful": {
+   "words": "1/12",
+   "voice": "8/12"
+  },
+  "disgust": {
+   "words": "2/12",
+   "voice": "9/12"
+  },
+  "surprised": {
+   "words": "8/12",
+   "voice": "5/12"
+  }
+ },
+ "neutral_baseline": {
+  "db": -18.642529487609863,
+  "f0_st": 5.469333397915513,
+  "range_st": 14.773054388193088,
+  "rate": 3.9073293653116963
+ },
+ "per_item": {
+  "03-01-01-01-01-01-01": {
+   "emotion": "neutral",
+   "reply": "Oh, I can hear them.",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -20.49584197998047,
+    "f0_st": 2.8548898382498193,
+    "range_st": 12.333603385363443,
+    "rate": 3.7878787878787876
+   }
+  },
+  "03-01-01-01-02-01-01": {
+   "emotion": "neutral",
+   "reply": "Aw, that's sweet. Do you have a favorite dog?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.57390022277832,
+    "f0_st": 3.180788196053311,
+    "range_st": 9.658079169308403,
+    "rate": 3.5294117647058827
+   }
+  },
+  "03-01-01-01-01-01-02": {
+   "emotion": "neutral",
+   "reply": "Aw. What are they saying?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -17.888893127441406,
+    "f0_st": 9.003431046657823,
+    "range_st": 16.724786141101095,
+    "rate": 3.875968992248062
+   }
+  },
+  "03-01-01-01-02-01-02": {
+   "emotion": "neutral",
+   "reply": "Ooh, that's cute. Are they waiting for you?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.616697311401367,
+    "f0_st": 5.14972896204679,
+    "range_st": 19.641664654055067,
+    "rate": 3.361344537815126
+   }
+  },
+  "03-01-01-01-01-01-05": {
+   "emotion": "neutral",
+   "reply": "Oh yeah. What are they saying?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -16.955476760864258,
+    "f0_st": 5.389952143509733,
+    "range_st": 16.55060363994125,
+    "rate": 3.821656050955414
+   }
+  },
+  "03-01-01-01-02-01-05": {
+   "emotion": "neutral",
+   "reply": "Oh, cute. They always look so happy when they see you.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.10498809814453,
+    "f0_st": 4.200101460408096,
+    "range_st": 11.317967924591768,
+    "rate": 3.7288135593220337
+   }
+  },
+  "03-01-01-01-01-01-06": {
+   "emotion": "neutral",
+   "reply": "Oh no. What are they saying?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -17.792455673217773,
+    "f0_st": 5.984210624079983,
+    "range_st": 17.632012532355724,
+    "rate": 4.6875
+   }
+  },
+  "03-01-01-01-02-01-06": {
+   "emotion": "neutral",
+   "reply": "Oh, that sounds cozy. Are they getting ready to come in?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -17.266841888427734,
+    "f0_st": 6.778768188490903,
+    "range_st": 15.590215029698335,
+    "rate": 4.150943396226415
+   }
+  },
+  "03-01-01-01-01-01-11": {
+   "emotion": "neutral",
+   "reply": "Aw, what do they say?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.606473922729492,
+    "f0_st": 5.835039732392305,
+    "range_st": 13.573546873702902,
+    "rate": 3.8167938931297707
+   }
+  },
+  "03-01-01-01-02-01-11": {
+   "emotion": "neutral",
+   "reply": "Aw. That sounds cozy. What kind of dogs are they?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.60026741027832,
+    "f0_st": 5.600317045445024,
+    "range_st": 13.182900838753618,
+    "rate": 4.048582995951417
+   }
+  },
+  "03-01-01-01-01-01-12": {
+   "emotion": "neutral",
+   "reply": "Ugh, sounds like a lively bunch. What are they up to?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.88936996459961,
+    "f0_st": 5.765726518854009,
+    "range_st": 16.263717407655673,
+    "rate": 3.8596491228070176
+   }
+  },
+  "03-01-01-01-02-01-12": {
+   "emotion": "neutral",
+   "reply": "Aw. They are cute. What kind of dogs are they?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.919147491455078,
+    "f0_st": 5.88904701879836,
+    "range_st": 14.807555061789795,
+    "rate": 4.219409282700422
+   }
+  },
+  "03-01-02-02-01-01-01": {
+   "emotion": "calm",
+   "reply": "Oh, kids are talking? Sounds like some chaos over there.",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -19.45094108581543,
+    "f0_st": 3.5158433088794334,
+    "range_st": 14.413499482395707,
+    "rate": 3.3112582781456954
+   }
+  },
+  "03-01-02-02-02-01-01": {
+   "emotion": "calm",
+   "reply": "Oh yeah, that sounds nice. Do you have a favorite dog?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -19.918424606323242,
+    "f0_st": 5.389050795076393,
+    "range_st": 11.979523490869234,
+    "rate": 3.206997084548105
+   }
+  },
+  "03-01-02-02-01-01-02": {
+   "emotion": "calm",
+   "reply": "Oh, that sounds lively. What are they up to?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -19.341533660888672,
+    "f0_st": 6.153145667297848,
+    "range_st": 12.30099706077359,
+    "rate": 3.5019455252918292
+   }
+  },
+  "03-01-02-02-02-01-02": {
+   "emotion": "calm",
+   "reply": "Oh, cute. That sounds nice.",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -21.828460693359375,
+    "f0_st": 0.9049107457903685,
+    "range_st": 11.554328946049012,
+    "rate": 2.525252525252525
+   }
+  },
+  "03-01-02-02-01-01-05": {
+   "emotion": "calm",
+   "reply": "Aw, that sounds frustrating. Kids can be so much. It's like they have a whole other brain sometimes.",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -20.044475555419922,
+    "f0_st": 2.2751181620376837,
+    "range_st": 12.488446174263295,
+    "rate": 3.1634446397188047
+   }
+  },
+  "03-01-02-02-02-01-05": {
+   "emotion": "calm",
+   "reply": "Yeah, that's nice to hear.",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -22.471202850341797,
+    "f0_st": 0.797098364878905,
+    "range_st": 12.183107713979364,
+    "rate": 3.125
+   }
+  },
+  "03-01-02-02-01-01-06": {
+   "emotion": "calm",
+   "reply": "Ugh, sounds chaotic. What are they saying?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -19.190547943115234,
+    "f0_st": 5.815771923048848,
+    "range_st": 17.52911275176834,
+    "rate": 2.9914529914529915
+   }
+  },
+  "03-01-02-02-02-01-06": {
+   "emotion": "calm",
+   "reply": "Oh, that sounds cute. Are they waiting for someone?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.530426025390625,
+    "f0_st": 6.3784418744939755,
+    "range_st": 16.03252390072424,
+    "rate": 3.0100334448160533
+   }
+  },
+  "03-01-02-02-01-01-11": {
+   "emotion": "calm",
+   "reply": "Oh, what do they say. Are they causing trouble?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.511167526245117,
+    "f0_st": 6.144266647479747,
+    "range_st": 11.38908957960651,
+    "rate": 3.8135593220338984
+   }
+  },
+  "03-01-02-02-02-01-11": {
+   "emotion": "calm",
+   "reply": "Aw, that sounds cozy. I bet they are super happy to see you. What kind of dogs do you have?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.105518341064453,
+    "f0_st": 4.866291496488797,
+    "range_st": 12.36592697840716,
+    "rate": 4.264392324093817
+   }
+  },
+  "03-01-02-02-01-01-12": {
+   "emotion": "calm",
+   "reply": "Oh, what's up? I'm not really hearing them.",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -19.125001907348633,
+    "f0_st": 5.393139574498682,
+    "range_st": 12.955792672592722,
+    "rate": 3.2921810699588474
+   }
+  },
+  "03-01-02-02-02-01-12": {
+   "emotion": "calm",
+   "reply": "Ooh, that's nice. Are they happy to see you?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -19.484296798706055,
+    "f0_st": 4.760250206214884,
+    "range_st": 21.53567750152433,
+    "rate": 3.345724907063197
+   }
+  },
+  "03-01-03-02-01-01-01": {
+   "emotion": "happy",
+   "reply": "Oh, so the kids are talking. That sounds like a lively scene. Are they having a good time?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -18.552034378051758,
+    "f0_st": 6.22919333823093,
+    "range_st": 14.505977497659039,
+    "rate": 3.91304347826087
+   }
+  },
+  "03-01-03-02-02-01-01": {
+   "emotion": "happy",
+   "reply": "Oh, cute. Are they all happy?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -19.76915740966797,
+    "f0_st": 3.151317468244435,
+    "range_st": 12.92209783314519,
+    "rate": 2.8846153846153846
+   }
+  },
+  "03-01-03-02-01-01-02": {
+   "emotion": "happy",
+   "reply": "Oh, kids are talking. What are they on about?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.755516052246094,
+    "f0_st": 5.088091285286792,
+    "range_st": 11.713941367255469,
+    "rate": 3.8626609442060085
+   }
+  },
+  "03-01-03-02-02-01-02": {
+   "emotion": "happy",
+   "reply": "Dogs are there? That's nice. I bet they're just waiting for some attention. What are they like?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -17.616117477416992,
+    "f0_st": 4.7938449049013006,
+    "range_st": 14.120750689464767,
+    "rate": 4.038004750593824
+   }
+  },
+  "03-01-03-02-01-01-05": {
+   "emotion": "happy",
+   "reply": "Oh, so the kids are there. What are they talking about?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -19.709850311279297,
+    "f0_st": 5.188084653267298,
+    "range_st": 18.78959085880828,
+    "rate": 4.313725490196079
+   }
+  },
+  "03-01-03-02-02-01-05": {
+   "emotion": "happy",
+   "reply": "Aw, that sounds sweet. Are they with you now?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -17.976959228515625,
+    "f0_st": 6.122955426143425,
+    "range_st": 14.623587548988235,
+    "rate": 3.4615384615384612
+   }
+  },
+  "03-01-03-02-01-01-06": {
+   "emotion": "happy",
+   "reply": "",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": null
+  },
+  "03-01-03-02-02-01-06": {
+   "emotion": "happy",
+   "reply": "Okay. I won't. I'll just be here. What's up?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -19.287437438964844,
+    "f0_st": 4.074107622341762,
+    "range_st": 12.297807983966326,
+    "rate": 3.8461538461538463
+   }
+  },
+  "03-01-03-02-01-01-11": {
+   "emotion": "happy",
+   "reply": "Aw, that sounds like a scene. Are they being loud?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -18.23641586303711,
+    "f0_st": 4.825933250474707,
+    "range_st": 12.134370011125803,
+    "rate": 3.4722222222222223
+   }
+  },
+  "03-01-03-02-02-01-11": {
+   "emotion": "happy",
+   "reply": "Oh, cute! What kind of dogs are they?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -18.78022003173828,
+    "f0_st": 5.775558662866478,
+    "range_st": 23.013272529158257,
+    "rate": 3.4482758620689657
+   }
+  },
+  "03-01-03-02-01-01-12": {
+   "emotion": "happy",
+   "reply": "Yeah, that sounds chaotic. What are they talking about?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.899333953857422,
+    "f0_st": 3.700034838378538,
+    "range_st": 19.079037493666146,
+    "rate": 3.2490974729241877
+   }
+  },
+  "03-01-03-02-02-01-12": {
+   "emotion": "happy",
+   "reply": "Oh, nice. Dogs by the door is the best. They always make everything feel a little warmer. Do they look happy to see you?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -18.190013885498047,
+    "f0_st": 6.392054661408879,
+    "range_st": 13.019894745549372,
+    "rate": 3.761755485893417
+   }
+  },
+  "03-01-04-02-01-01-01": {
+   "emotion": "sad",
+   "reply": "Aw, sounds like chaos. What are they talking about?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -19.492277145385742,
+    "f0_st": 5.968767647179574,
+    "range_st": 18.59913852526403,
+    "rate": 3.2490974729241877
+   }
+  },
+  "03-01-04-02-02-01-01": {
+   "emotion": "sad",
+   "reply": "Aw, that's sweet. I bet they're waiting for you to come home. Are they your best buddies?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -18.159473419189453,
+    "f0_st": 4.8624850560201835,
+    "range_st": 15.494832002723456,
+    "rate": 3.8724373576309796
+   }
+  },
+  "03-01-04-02-01-01-02": {
+   "emotion": "sad",
+   "reply": "Oh, kids at the door. What are they up to?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.489429473876953,
+    "f0_st": 5.023740875613174,
+    "range_st": 15.394972698970172,
+    "rate": 4.524886877828054
+   }
+  },
+  "03-01-04-02-02-01-02": {
+   "emotion": "sad",
+   "reply": "Ooh, that sounds nice. Dogs are the best company. What kind of dogs do you have?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.170499801635742,
+    "f0_st": 4.295949313024437,
+    "range_st": 16.987894475506884,
+    "rate": 4.0
+   }
+  },
+  "03-01-04-02-01-01-05": {
+   "emotion": "sad",
+   "reply": "Oh, what are they saying? Is it something good?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.147003173828125,
+    "f0_st": 8.838024612796769,
+    "range_st": 16.970782630626477,
+    "rate": 4.090909090909091
+   }
+  },
+  "03-01-04-02-02-01-05": {
+   "emotion": "sad",
+   "reply": "Okay. That sounds nice. What are their names?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -19.047147750854492,
+    "f0_st": 5.161053736179541,
+    "range_st": 12.903195578443212,
+    "rate": 3.686635944700461
+   }
+  },
+  "03-01-04-02-01-01-06": {
+   "emotion": "sad",
+   "reply": "",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": null
+  },
+  "03-01-04-02-02-01-06": {
+   "emotion": "sad",
+   "reply": "Oh, that sounds stressful. What happened with the doctors?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -21.547008514404297,
+    "f0_st": 2.00531748484102,
+    "range_st": 15.002886962166547,
+    "rate": 3.0
+   }
+  },
+  "03-01-04-02-01-01-11": {
+   "emotion": "sad",
+   "reply": "Yeah, what are they saying?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.511661529541016,
+    "f0_st": 8.411195987441701,
+    "range_st": 17.817213132305326,
+    "rate": 4.098360655737705
+   }
+  },
+  "03-01-04-02-02-01-11": {
+   "emotion": "sad",
+   "reply": "Yeah, that sounds cozy. Dogs by the door always make everything feel a bit warmer, don't they? Do you have any dogs?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.52084732055664,
+    "f0_st": 3.1825496896069403,
+    "range_st": 10.569147847143277,
+    "rate": 4.036650955837663
+   }
+  },
+  "03-01-04-02-01-01-12": {
+   "emotion": "sad",
+   "reply": "Oh, kids are talking? What are they up to?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.77825164794922,
+    "f0_st": 6.269180743331933,
+    "range_st": 15.588762501141215,
+    "rate": 4.0540540540540535
+   }
+  },
+  "03-01-04-02-02-01-12": {
+   "emotion": "sad",
+   "reply": "Aw, that sounds cozy. Are they all happy to see you?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.45379638671875,
+    "f0_st": 4.895269981163689,
+    "range_st": 13.392915833552077,
+    "rate": 3.470031545741325
+   }
+  },
+  "03-01-05-02-01-01-01": {
+   "emotion": "angry",
+   "reply": "Aw, what's going on? Are they being loud?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -17.394798278808594,
+    "f0_st": 4.597912400726356,
+    "range_st": 15.037901812561817,
+    "rate": 3.7383177570093458
+   }
+  },
+  "03-01-05-02-02-01-01": {
+   "emotion": "angry",
+   "reply": "Ooh, that's sweet. They sound happy.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -21.55270004272461,
+    "f0_st": 1.664753181858637,
+    "range_st": 12.17446347576934,
+    "rate": 2.870813397129187
+   }
+  },
+  "03-01-05-02-01-01-02": {
+   "emotion": "angry",
+   "reply": "Oh, what's going on? Are they being loud?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -18.2888126373291,
+    "f0_st": 6.391627199562292,
+    "range_st": 12.831105610984201,
+    "rate": 3.125
+   }
+  },
+  "03-01-05-02-02-01-02": {
+   "emotion": "angry",
+   "reply": "Ooh, cute! That's good news. I bet they're so excited to see you.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.39811897277832,
+    "f0_st": 4.13053837365738,
+    "range_st": 22.498946172470294,
+    "rate": 3.282828282828283
+   }
+  },
+  "03-01-05-02-01-01-05": {
+   "emotion": "angry",
+   "reply": "Aw, what's going on?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.143409729003906,
+    "f0_st": 3.442718204509685,
+    "range_st": 10.420040570314649,
+    "rate": 3.0303030303030303
+   }
+  },
+  "03-01-05-02-02-01-05": {
+   "emotion": "angry",
+   "reply": "No way! That sounds adorable. Are they causing any trouble?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -16.9843692779541,
+    "f0_st": 4.473362170840446,
+    "range_st": 14.244370638460676,
+    "rate": 3.134796238244514
+   }
+  },
+  "03-01-05-02-01-01-06": {
+   "emotion": "angry",
+   "reply": "Yeah, they are so energetic. It's like a constant whirlwind of questions and pure joy. They really have a way of making every moment feel a little bit magical.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -17.868242263793945,
+    "f0_st": 4.1731735672963595,
+    "range_st": 13.564278831748377,
+    "rate": 3.4441805225653206
+   }
+  },
+  "03-01-05-02-02-01-06": {
+   "emotion": "angry",
+   "reply": "",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": null
+  },
+  "03-01-05-02-01-01-11": {
+   "emotion": "angry",
+   "reply": "Ooh, what's happening? Are they being loud?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -18.0406551361084,
+    "f0_st": 5.469198919087291,
+    "range_st": 14.537403079275105,
+    "rate": 3.2407407407407405
+   }
+  },
+  "03-01-05-02-02-01-11": {
+   "emotion": "angry",
+   "reply": "Ooh, that's great news. They sound so happy to be there. What are they up to?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.333023071289062,
+    "f0_st": 5.482268293039218,
+    "range_st": 12.662969698761295,
+    "rate": 3.404255319148936
+   }
+  },
+  "03-01-05-02-01-01-12": {
+   "emotion": "angry",
+   "reply": "Aw, that sounds like a surprise. What are they talking about?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.19626235961914,
+    "f0_st": 4.957230010852987,
+    "range_st": 17.54589909059319,
+    "rate": 3.5256410256410255
+   }
+  },
+  "03-01-05-02-02-01-12": {
+   "emotion": "angry",
+   "reply": "Oh, that's nice to hear. They're probably waiting for you to come in.",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.453857421875,
+    "f0_st": 4.2050913624456,
+    "range_st": 17.326373150576153,
+    "rate": 4.4673539518900345
+   }
+  },
+  "03-01-06-02-01-01-01": {
+   "emotion": "fearful",
+   "reply": "Yeah, they sound pretty loud. Are they causing a big ruckus?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -17.773277282714844,
+    "f0_st": 4.977514875824672,
+    "range_st": 14.632500873992836,
+    "rate": 3.7542662116040955
+   }
+  },
+  "03-01-06-02-02-01-01": {
+   "emotion": "fearful",
+   "reply": "Oh, that is sweet. They sound so happy to see you. What kind of dogs are they?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.942020416259766,
+    "f0_st": 5.15171541781749,
+    "range_st": 12.454001910523697,
+    "rate": 4.228855721393035
+   }
+  },
+  "03-01-06-02-01-01-02": {
+   "emotion": "fearful",
+   "reply": "Oh, that sounds chaotic. What are they talking about?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.552284240722656,
+    "f0_st": 4.68501420273032,
+    "range_st": 15.844927538663772,
+    "rate": 3.146853146853147
+   }
+  },
+  "03-01-06-02-02-01-02": {
+   "emotion": "fearful",
+   "reply": "Oh, that's nice to hear. Dogs by the door is the best.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.404495239257812,
+    "f0_st": 3.691659746780111,
+    "range_st": 10.479911819370134,
+    "rate": 3.960396039603961
+   }
+  },
+  "03-01-06-02-01-01-05": {
+   "emotion": "fearful",
+   "reply": "Oh no, what's happening. Are they causing trouble?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -19.99150276184082,
+    "f0_st": 5.642169167596871,
+    "range_st": 19.12271356020818,
+    "rate": 3.4334763948497855
+   }
+  },
+  "03-01-06-02-02-01-05": {
+   "emotion": "fearful",
+   "reply": "Ooh, that sounds lovely. Are they big dogs?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.64301872253418,
+    "f0_st": 5.2249017336163845,
+    "range_st": 13.840184988086722,
+    "rate": 3.0769230769230766
+   }
+  },
+  "03-01-06-02-01-01-06": {
+   "emotion": "fearful",
+   "reply": "",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": null
+  },
+  "03-01-06-02-02-01-06": {
+   "emotion": "fearful",
+   "reply": "",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": null
+  },
+  "03-01-06-02-01-01-11": {
+   "emotion": "fearful",
+   "reply": "Oh no, that sounds loud. What are they saying?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.70896339416504,
+    "f0_st": 2.6139586419123226,
+    "range_st": 19.480368451007582,
+    "rate": 3.7974683544303796
+   }
+  },
+  "03-01-06-02-02-01-11": {
+   "emotion": "fearful",
+   "reply": "Oh, that's sweet. They sound like they're waiting for you. What kind of dogs do you have?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.423076629638672,
+    "f0_st": 4.766095551043154,
+    "range_st": 11.801994148144331,
+    "rate": 4.156479217603912
+   }
+  },
+  "03-01-06-02-01-01-12": {
+   "emotion": "fearful",
+   "reply": "Oh, that sounds noisy. What are they talking about?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.62152671813965,
+    "f0_st": 2.9862044849269496,
+    "range_st": 14.618990470803627,
+    "rate": 3.4615384615384612
+   }
+  },
+  "03-01-06-02-02-01-12": {
+   "emotion": "fearful",
+   "reply": "Oh, that's sweet.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -22.4022216796875,
+    "f0_st": 3.3818562436496613,
+    "range_st": 10.74139081232169,
+    "rate": 2.2388059701492535
+   }
+  },
+  "03-01-07-02-01-01-01": {
+   "emotion": "disgust",
+   "reply": "Aw, sounds like chaos. What are they up to?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -19.83847427368164,
+    "f0_st": 6.691875874517686,
+    "range_st": 15.466638935654103,
+    "rate": 3.829787234042553
+   }
+  },
+  "03-01-07-02-02-01-01": {
+   "emotion": "disgust",
+   "reply": "Oh, cute! That sounds nice. I bet they are waiting for you to come home.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -18.51028823852539,
+    "f0_st": 4.69696327404842,
+    "range_st": 18.866027275266966,
+    "rate": 3.91644908616188
+   }
+  },
+  "03-01-07-02-01-01-02": {
+   "emotion": "disgust",
+   "reply": "Aw, what are they saying? Are they being loud?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -16.887752532958984,
+    "f0_st": 7.131084084997354,
+    "range_st": 13.846515765268684,
+    "rate": 3.91304347826087
+   }
+  },
+  "03-01-07-02-02-01-02": {
+   "emotion": "disgust",
+   "reply": "Yeah, that's nice to hear. Dogs are the best. What kind of dogs do you have?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.620197296142578,
+    "f0_st": 3.927938039478817,
+    "range_st": 15.80310144994607,
+    "rate": 4.199475065616798
+   }
+  },
+  "03-01-07-02-01-01-05": {
+   "emotion": "disgust",
+   "reply": "Oh, that sounds noisy. I wonder if they're causing trouble.",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -18.709510803222656,
+    "f0_st": 3.564731781510549,
+    "range_st": 17.794057040427056,
+    "rate": 3.6101083032490973
+   }
+  },
+  "03-01-07-02-02-01-05": {
+   "emotion": "disgust",
+   "reply": "Oh, cute. They always look so happy when they see you. What kind of dogs are they?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.419178009033203,
+    "f0_st": 4.877290205390409,
+    "range_st": 12.236620679099907,
+    "rate": 4.038004750593824
+   }
+  },
+  "03-01-07-02-01-01-06": {
+   "emotion": "disgust",
+   "reply": "Hmm, sounds like a lively scene. What are they up to?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.992643356323242,
+    "f0_st": 4.324930742066465,
+    "range_st": 14.968665269122415,
+    "rate": 4.583333333333334
+   }
+  },
+  "03-01-07-02-02-01-06": {
+   "emotion": "disgust",
+   "reply": "Yeah, that sounds nice.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -22.455181121826172,
+    "f0_st": 0.3060283049181712,
+    "range_st": 11.18938841013222,
+    "rate": 2.7586206896551726
+   }
+  },
+  "03-01-07-02-01-01-11": {
+   "emotion": "disgust",
+   "reply": "Oh, kids are talking.",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.953596115112305,
+    "f0_st": 4.459469937254104,
+    "range_st": 12.79013698011519,
+    "rate": 2.877697841726619
+   }
+  },
+  "03-01-07-02-02-01-11": {
+   "emotion": "disgust",
+   "reply": "Yeah, that sounds nice. What kind of dogs do you have?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.651988983154297,
+    "f0_st": 3.723685235015986,
+    "range_st": 17.314987529515925,
+    "rate": 3.7162162162162162
+   }
+  },
+  "03-01-07-02-01-01-12": {
+   "emotion": "disgust",
+   "reply": "Oh, what are they saying?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.971933364868164,
+    "f0_st": 6.36729869601848,
+    "range_st": 15.775724475422539,
+    "rate": 3.5971223021582737
+   }
+  },
+  "03-01-07-02-02-01-12": {
+   "emotion": "disgust",
+   "reply": "Yeah, dogs by the door sounds cozy. It's the best part of the day when they come in. What kind of dogs are they?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -18.328508377075195,
+    "f0_st": 5.428552712276686,
+    "range_st": 16.057567457256855,
+    "rate": 4.5540796963946875
+   }
+  },
+  "03-01-08-02-01-01-01": {
+   "emotion": "surprised",
+   "reply": "Oh no, kids are talking? What are they saying?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -18.74212646484375,
+    "f0_st": 8.540682269374338,
+    "range_st": 20.70971864183891,
+    "rate": 3.781512605042017
+   }
+  },
+  "03-01-08-02-02-01-01": {
+   "emotion": "surprised",
+   "reply": "Oh, that sounds cozy. Are they big dogs?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -19.053190231323242,
+    "f0_st": 6.513298015404054,
+    "range_st": 15.193694302380315,
+    "rate": 3.0418250950570345
+   }
+  },
+  "03-01-08-02-01-01-02": {
+   "emotion": "surprised",
+   "reply": "Oh, that would be interesting. I wouldn't know anything about that. What are they talking about though?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -19.216712951660156,
+    "f0_st": 3.4025307627844064,
+    "range_st": 17.469892706982748,
+    "rate": 4.116285052739903
+   }
+  },
+  "03-01-08-02-02-01-02": {
+   "emotion": "surprised",
+   "reply": "Yeah, I don't know about that. What are the dogs up to?",
+   "words_fit": false,
+   "voice_fit": true,
+   "features": {
+    "db": -20.663829803466797,
+    "f0_st": -0.14317532087018756,
+    "range_st": 18.242824071280957,
+    "rate": 4.918032786885246
+   }
+  },
+  "03-01-08-02-01-01-05": {
+   "emotion": "surprised",
+   "reply": "Aw, what's going on?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -18.6761531829834,
+    "f0_st": 4.862556719900299,
+    "range_st": 10.789968685316026,
+    "rate": 3.0534351145038165
+   }
+  },
+  "03-01-08-02-02-01-05": {
+   "emotion": "surprised",
+   "reply": "Oh, that sounds nice. Are they big dogs? I bet they're super happy to see you.",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -19.80402374267578,
+    "f0_st": 4.124277529277745,
+    "range_st": 17.402545311552743,
+    "rate": 4.0
+   }
+  },
+  "03-01-08-02-01-01-06": {
+   "emotion": "surprised",
+   "reply": "Oh, kids by the door. What are they up to?",
+   "words_fit": true,
+   "voice_fit": true,
+   "features": {
+    "db": -20.261150360107422,
+    "f0_st": 2.57731361894113,
+    "range_st": 16.66090192445218,
+    "rate": 4.166666666666667
+   }
+  },
+  "03-01-08-02-02-01-06": {
+   "emotion": "surprised",
+   "reply": "Oh, that's nice. I'm glad you have company. What kind of dogs are they?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -19.082469940185547,
+    "f0_st": 3.9724094103673258,
+    "range_st": 14.377582252157868,
+    "rate": 3.867403314917127
+   }
+  },
+  "03-01-08-02-01-01-11": {
+   "emotion": "surprised",
+   "reply": "Aw, what are they saying?",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -19.470966339111328,
+    "f0_st": 6.950508701260622,
+    "range_st": 15.034146353267175,
+    "rate": 3.5211267605633805
+   }
+  },
+  "03-01-08-02-02-01-11": {
+   "emotion": "surprised",
+   "reply": "Oh, that's great news. They sound happy. I love dogs.",
+   "words_fit": false,
+   "voice_fit": false,
+   "features": {
+    "db": -20.66352081298828,
+    "f0_st": 1.7442333202682374,
+    "range_st": 10.764774411384725,
+    "rate": 3.1645569620253164
+   }
+  },
+  "03-01-08-02-01-01-12": {
+   "emotion": "surprised",
+   "reply": "Oh no, what are they saying?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -17.889564514160156,
+    "f0_st": 7.483410549074682,
+    "range_st": 14.627641644136613,
+    "rate": 3.9215686274509802
+   }
+  },
+  "03-01-08-02-02-01-12": {
+   "emotion": "surprised",
+   "reply": "Aw, that sounds cute. Dogs are the best. What kind of dogs do you have?",
+   "words_fit": true,
+   "voice_fit": false,
+   "features": {
+    "db": -20.57068634033203,
+    "f0_st": 3.2265241639356574,
+    "range_st": 12.987219687804117,
+    "rate": 3.5046728971962615
+   }
+  }
+ }
+}

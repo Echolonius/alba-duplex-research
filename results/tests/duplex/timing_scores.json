@@ -1,0 +1,252 @@
+{
+ "all": {
+  "reply_start_median_s": 1.6,
+  "reply_start_p90_s": 4.783,
+  "replies_overlapping_share": 0.125,
+  "replies_slower_than_0.7s_share": 0.75,
+  "answered_share": 0.04,
+  "shifts": 202,
+  "cut_in_share": 0.0,
+  "holds": 450,
+  "stop_median_s": 0.174,
+  "stops_n": 1,
+  "stop_within_0.4s_share": 1.0,
+  "talk_through_share": null,
+  "talk_through_n": 0,
+  "mmhm_per_min": 7.402
+ },
+ "seamless (strangers)": {
+  "reply_start_median_s": 1.696,
+  "reply_start_p90_s": 5.246,
+  "replies_overlapping_share": 0.143,
+  "replies_slower_than_0.7s_share": 0.714,
+  "answered_share": 0.044,
+  "shifts": 159,
+  "cut_in_share": 0.0,
+  "holds": 326,
+  "stop_median_s": 0.174,
+  "stops_n": 1,
+  "stop_within_0.4s_share": 1.0,
+  "talk_through_share": null,
+  "talk_through_n": 0,
+  "mmhm_per_min": 8.286
+ },
+ "your calls": {
+  "reply_start_median_s": 0.978,
+  "reply_start_p90_s": 0.978,
+  "replies_overlapping_share": 0.0,
+  "replies_slower_than_0.7s_share": 1.0,
+  "answered_share": 0.023,
+  "shifts": 43,
+  "cut_in_share": 0.0,
+  "holds": 124,
+  "stop_median_s": null,
+  "stops_n": 0,
+  "stop_within_0.4s_share": null,
+  "talk_through_share": null,
+  "talk_through_n": 0,
+  "mmhm_per_min": 5.421
+ },
+ "targets": {
+  "reply_start_median_s": "<= 0.3",
+  "stop_median_s": "<= 0.4",
+  "cut_in_share": "< 0.10"
+ },
+ "per_item": {
+  "seamless-V03_S0478_I00000056_P1810": {
+   "shifts": 33,
+   "answered": 0,
+   "latencies": [],
+   "holds": 6,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 6,
+   "caller_speech_min": 0.904
+  },
+  "seamless-V03_S1930_I00000119_P5055": {
+   "shifts": 19,
+   "answered": 0,
+   "latencies": [],
+   "holds": 26,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 25,
+   "caller_speech_min": 1.977
+  },
+  "seamless-V03_S1930_I00000114_P5054": {
+   "shifts": 19,
+   "answered": 0,
+   "latencies": [],
+   "holds": 23,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 31,
+   "caller_speech_min": 1.547
+  },
+  "seamless-V03_S0921_I00000317_P3164": {
+   "shifts": 10,
+   "answered": 0,
+   "latencies": [],
+   "holds": 40,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 8,
+   "caller_speech_min": 1.761
+  },
+  "seamless-V03_S1498_I00000046_P4104": {
+   "shifts": 12,
+   "answered": 1,
+   "latencies": [
+    0.546
+   ],
+   "holds": 32,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 10,
+   "caller_speech_min": 1.402
+  },
+  "seamless-V00_S0675_I00000372_P0832": {
+   "shifts": 10,
+   "answered": 2,
+   "latencies": [
+    8.028,
+    1.696
+   ],
+   "holds": 32,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 10,
+   "caller_speech_min": 1.657
+  },
+  "seamless-V03_S0225_I00000374_P1518": {
+   "shifts": 6,
+   "answered": 0,
+   "latencies": [],
+   "holds": 40,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 6,
+   "caller_speech_min": 2.184
+  },
+  "seamless-V03_S2054_I00000279_P1596": {
+   "shifts": 19,
+   "answered": 3,
+   "latencies": [
+    -0.034,
+    3.392,
+    1.504
+   ],
+   "holds": 9,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 18,
+   "caller_speech_min": 0.484
+  },
+  "seamless-V00_S0282_I00000483_P0380": {
+   "shifts": 5,
+   "answered": 0,
+   "latencies": [],
+   "holds": 37,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 0,
+   "caller_speech_min": 2.551
+  },
+  "seamless-V01_S0066_I00000134_P1125": {
+   "shifts": 8,
+   "answered": 0,
+   "latencies": [],
+   "holds": 30,
+   "cut_ins": 0,
+   "stops": [
+    0.174
+   ],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 8,
+   "caller_speech_min": 2.133
+  },
+  "seamless-V03_S1930_I00000116_P5055": {
+   "shifts": 8,
+   "answered": 1,
+   "latencies": [
+    2.192
+   ],
+   "holds": 28,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 22,
+   "caller_speech_min": 1.322
+  },
+  "seamless-V03_S1731_I00000333_P4935": {
+   "shifts": 10,
+   "answered": 0,
+   "latencies": [],
+   "holds": 23,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 17,
+   "caller_speech_min": 1.508
+  },
+  "call-20261104-200542": {
+   "shifts": 22,
+   "answered": 0,
+   "latencies": [],
+   "holds": 89,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 33,
+   "caller_speech_min": 6.107
+  },
+  "call-20261104-201901": {
+   "shifts": 12,
+   "answered": 1,
+   "latencies": [
+    0.978
+   ],
+   "holds": 16,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 8,
+   "caller_speech_min": 1.094
+  },
+  "call-20261104-212022": {
+   "shifts": 9,
+   "answered": 0,
+   "latencies": [],
+   "holds": 19,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 6,
+   "caller_speech_min": 1.469
+  }
+ }
+}

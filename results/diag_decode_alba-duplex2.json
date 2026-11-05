@@ -1,0 +1,6190 @@
+{
+ "c00000-0": {
+  "reply": "Good morning.",
+  "log": [
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "S",
+    "p_took": 0.038,
+    "top": [
+     [
+      "Ser",
+      0.313
+     ],
+     [
+      "Yeah",
+      0.164
+     ],
+     [
+      "ser",
+      0.078
+     ],
+     [
+      "Yes",
+      0.044
+     ],
+     [
+      "S",
+      0.038
+     ],
+     [
+      "Sure",
+      0.027
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "eren",
+    "p_took": 0.978,
+    "top": [
+     [
+      "eren",
+      0.978
+     ],
+     [
+      "her",
+      0.005
+     ],
+     [
+      "err",
+      0.003
+     ],
+     [
+      "atan",
+      0.001
+     ],
+     [
+      "erm",
+      0.001
+     ],
+     [
+      "ere",
+      0.001
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "ity",
+    "p_took": 0.98,
+    "top": [
+     [
+      "ity",
+      0.98
+     ],
+     [
+      "ely",
+      0.009
+     ],
+     [
+      ".",
+      0.008
+     ],
+     [
+      "ade",
+      0.001
+     ],
+     [
+      "ine",
+      0.0
+     ],
+     [
+      "eness",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.95,
+    "top": [
+     [
+      ".",
+      0.95
+     ],
+     [
+      "?",
+      0.035
+     ],
+     [
+      ",",
+      0.006
+     ],
+     [
+      "<|text_end|>",
+      0.005
+     ],
+     [
+      "\u0120is",
+      0.002
+     ],
+     [
+      "\u0120and",
+      0.0
+     ]
+    ],
+    "p_control": 0.005
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|text_end|>",
+    "p_took": 0.982,
+    "top": [
+     [
+      "<|text_end|>",
+      0.982
+     ],
+     [
+      "\u0120It",
+      0.008
+     ],
+     [
+      "\u0120Is",
+      0.001
+     ],
+     [
+      "\u0120That",
+      0.001
+     ],
+     [
+      "\u0120I",
+      0.001
+     ],
+     [
+      "\u0120Just",
+      0.001
+     ]
+    ],
+    "p_control": 0.982
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": true,
+    "p_eos_mean": 0.0047,
+    "p_eos_max": 0.0226,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": true,
+    "p_eos_mean": 0.0017,
+    "p_eos_max": 0.0093,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": true,
+    "p_eos_mean": 0.0007,
+    "p_eos_max": 0.0038,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": true,
+    "p_eos_mean": 0.0007,
+    "p_eos_max": 0.0035,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 4,
+    "text_done": true,
+    "p_eos_mean": 0.0006,
+    "p_eos_max": 0.0036,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 5,
+    "text_done": true,
+    "p_eos_mean": 0.0009,
+    "p_eos_max": 0.0027,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 6,
+    "text_done": true,
+    "p_eos_mean": 0.0006,
+    "p_eos_max": 0.0035,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 7,
+    "text_done": true,
+    "p_eos_mean": 0.0037,
+    "p_eos_max": 0.0138,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 8,
+    "text_done": true,
+    "p_eos_mean": 0.0224,
+    "p_eos_max": 0.0618,
+    "eos_drawn": 1
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Yeah",
+    "p_took": 0.627,
+    "top": [
+     [
+      "Yeah",
+      0.627
+     ],
+     [
+      "Mm",
+      0.077
+     ],
+     [
+      "Right",
+      0.038
+     ],
+     [
+      "Yes",
+      0.031
+     ],
+     [
+      "Oh",
+      0.03
+     ],
+     [
+      "S",
+      0.024
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.632,
+    "top": [
+     [
+      ".",
+      0.632
+     ],
+     [
+      ",",
+      0.363
+     ],
+     [
+      "?",
+      0.002
+     ],
+     [
+      "\u0120sure",
+      0.0
+     ],
+     [
+      "!",
+      0.0
+     ],
+     [
+      "\u0120I",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|text_end|>",
+    "p_took": 0.833,
+    "top": [
+     [
+      "<|text_end|>",
+      0.833
+     ],
+     [
+      "\u0120I",
+      0.045
+     ],
+     [
+      "\u0120Ser",
+      0.029
+     ],
+     [
+      "\u0120It",
+      0.025
+     ],
+     [
+      "\u0120That",
+      0.009
+     ],
+     [
+      "\u0120Yeah",
+      0.008
+     ]
+    ],
+    "p_control": 0.833
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": true,
+    "p_eos_mean": 0.0032,
+    "p_eos_max": 0.0166,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": true,
+    "p_eos_mean": 0.0007,
+    "p_eos_max": 0.0041,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": true,
+    "p_eos_mean": 0.0,
+    "p_eos_max": 0.0002,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": true,
+    "p_eos_mean": 0.0028,
+    "p_eos_max": 0.0153,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 4,
+    "text_done": true,
+    "p_eos_mean": 0.1817,
+    "p_eos_max": 0.73,
+    "eos_drawn": 2
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Yeah",
+    "p_took": 0.3,
+    "top": [
+     [
+      "Yeah",
+      0.3
+     ],
+     [
+      "Right",
+      0.087
+     ],
+     [
+      "Oh",
+      0.065
+     ],
+     [
+      "The",
+      0.049
+     ],
+     [
+      "Yes",
+      0.038
+     ],
+     [
+      "Mm",
+      0.037
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.923,
+    "top": [
+     [
+      ".",
+      0.923
+     ],
+     [
+      ",",
+      0.072
+     ],
+     [
+      "\u0120it",
+      0.001
+     ],
+     [
+      "\u0120that",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120and",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|text_end|>",
+    "p_took": 0.955,
+    "top": [
+     [
+      "<|text_end|>",
+      0.955
+     ],
+     [
+      "\u0120The",
+      0.011
+     ],
+     [
+      "\u0120Yeah",
+      0.003
+     ],
+     [
+      "\u0120And",
+      0.003
+     ],
+     [
+      "\u0120It",
+      0.002
+     ],
+     [
+      "\u0120the",
+      0.001
+     ]
+    ],
+    "p_control": 0.955
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": true,
+    "p_eos_mean": 0.0042,
+    "p_eos_max": 0.0195,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": true,
+    "p_eos_mean": 0.0002,
+    "p_eos_max": 0.0013,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": true,
+    "p_eos_mean": 0.0005,
+    "p_eos_max": 0.0018,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": true,
+    "p_eos_mean": 0.0041,
+    "p_eos_max": 0.0183,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 4,
+    "text_done": true,
+    "p_eos_mean": 0.2886,
+    "p_eos_max": 0.7587,
+    "eos_drawn": 1
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Hello",
+    "p_took": 0.177,
+    "top": [
+     [
+      "Yeah",
+      0.41
+     ],
+     [
+      "Hello",
+      0.177
+     ],
+     [
+      "hello",
+      0.054
+     ],
+     [
+      "Yes",
+      0.039
+     ],
+     [
+      "Sure",
+      0.038
+     ],
+     [
+      "Oh",
+      0.03
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120world",
+    "p_took": 0.812,
+    "top": [
+     [
+      "\u0120world",
+      0.812
+     ],
+     [
+      ",",
+      0.108
+     ],
+     [
+      ".",
+      0.052
+     ],
+     [
+      "\u0120World",
+      0.022
+     ],
+     [
+      "\u0120there",
+      0.001
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ]
+    ],
+    "p_control": 0.001
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.979,
+    "top": [
+     [
+      ".",
+      0.979
+     ],
+     [
+      "!",
+      0.007
+     ],
+     [
+      ",",
+      0.006
+     ],
+     [
+      "?",
+      0.002
+     ],
+     [
+      "\u0120to",
+      0.001
+     ],
+     [
+      "\u0120is",
+      0.001
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|text_end|>",
+    "p_took": 0.979,
+    "top": [
+     [
+      "<|text_end|>",
+      0.979
+     ],
+     [
+      "\u0120It",
+      0.003
+     ],
+     [
+      "\u0120Yeah",
+      0.002
+     ],
+     [
+      "\u0120That",
+      0.002
+     ],
+     [
+      "\u0120I",
+      0.002
+     ],
+     [
+      "\u0120You",
+      0.002
+     ]
+    ],
+    "p_control": 0.979
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": true,
+    "p_eos_mean": 0.0065,
+    "p_eos_max": 0.0228,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": true,
+    "p_eos_mean": 0.0049,
+    "p_eos_max": 0.0177,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": true,
+    "p_eos_mean": 0.0017,
+    "p_eos_max": 0.0038,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": true,
+    "p_eos_mean": 0.0076,
+    "p_eos_max": 0.0458,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 4,
+    "text_done": true,
+    "p_eos_mean": 0.0032,
+    "p_eos_max": 0.0152,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 5,
+    "text_done": true,
+    "p_eos_mean": 0.0012,
+    "p_eos_max": 0.0066,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 6,
+    "text_done": true,
+    "p_eos_mean": 0.0048,
+    "p_eos_max": 0.0281,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 7,
+    "text_done": true,
+    "p_eos_mean": 0.02,
+    "p_eos_max": 0.0709,
+    "eos_drawn": 1
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Ser",
+    "p_took": 0.103,
+    "top": [
+     [
+      "Yeah",
+      0.228
+     ],
+     [
+      "Ser",
+      0.103
+     ],
+     [
+      "S",
+      0.066
+     ],
+     [
+      "Yes",
+      0.043
+     ],
+     [
+      "Mm",
+      0.034
+     ],
+     [
+      "Sure",
+      0.032
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "end",
+    "p_took": 0.996,
+    "top": [
+     [
+      "end",
+      0.996
+     ],
+     [
+      "en",
+      0.004
+     ],
+     [
+      "ene",
+      0.0
+     ],
+     [
+      "otonin",
+      0.0
+     ],
+     [
+      "atonin",
+      0.0
+     ],
+     [
+      "ende",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "ip",
+    "p_took": 0.999,
+    "top": [
+     [
+      "ip",
+      0.999
+     ],
+     [
+      "if",
+      0.0
+     ],
+     [
+      "ity",
+      0.0
+     ],
+     [
+      "ipi",
+      0.0
+     ],
+     [
+      "ipation",
+      0.0
+     ],
+     [
+      "ipend",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "ity",
+    "p_took": 0.998,
+    "top": [
+     [
+      "ity",
+      0.998
+     ],
+     [
+      "it",
+      0.001
+     ],
+     [
+      ".",
+      0.0
+     ],
+     [
+      "y",
+      0.0
+     ],
+     [
+      "ety",
+      0.0
+     ],
+     [
+      "athy",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.937,
+    "top": [
+     [
+      ".",
+      0.937
+     ],
+     [
+      "\u0120is",
+      0.022
+     ],
+     [
+      ",",
+      0.02
+     ],
+     [
+      "<|text_end|>",
+      0.003
+     ],
+     [
+      "?",
+      0.002
+     ],
+     [
+      "\u0120and",
+      0.001
+     ]
+    ],
+    "p_control": 0.003
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|text_end|>",
+    "p_took": 0.964,
+    "top": [
+     [
+      "<|text_end|>",
+      0.964
+     ],
+     [
+      "\u0120Yeah",
+      0.005
+     ],
+     [
+      "\u0120It",
+      0.005
+     ],
+     [
+      "\u0120Ser",
+      0.003
+     ],
+     [
+      "\u0120Yes",
+      0.003
+     ],
+     [
+      "\u0120That",
+      0.002
+     ]
+    ],
+    "p_control": 0.964
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": true,
+    "p_eos_mean": 0.0031,
+    "p_eos_max": 0.009,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": true,
+    "p_eos_mean": 0.001,
+    "p_eos_max": 0.0037,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": true,
+    "p_eos_mean": 0.0031,
+    "p_eos_max": 0.0066,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": true,
+    "p_eos_mean": 0.0058,
+    "p_eos_max": 0.0409,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 4,
+    "text_done": true,
+    "p_eos_mean": 0.0018,
+    "p_eos_max": 0.0056,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 5,
+    "text_done": true,
+    "p_eos_mean": 0.0022,
+    "p_eos_max": 0.0056,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 6,
+    "text_done": true,
+    "p_eos_mean": 0.006,
+    "p_eos_max": 0.0201,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 7,
+    "text_done": true,
+    "p_eos_mean": 0.0056,
+    "p_eos_max": 0.0142,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 8,
+    "text_done": true,
+    "p_eos_mean": 0.0157,
+    "p_eos_max": 0.0541,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 9,
+    "text_done": true,
+    "p_eos_mean": 0.012,
+    "p_eos_max": 0.0536,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 10,
+    "text_done": true,
+    "p_eos_mean": 0.0424,
+    "p_eos_max": 0.0865,
+    "eos_drawn": 1
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Good",
+    "p_took": 0.163,
+    "top": [
+     [
+      "Good",
+      0.163
+     ],
+     [
+      "Yeah",
+      0.162
+     ],
+     [
+      "Okay",
+      0.136
+     ],
+     [
+      "Mm",
+      0.078
+     ],
+     [
+      "Oh",
+      0.061
+     ],
+     [
+      "Yes",
+      0.037
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120morning",
+    "p_took": 0.997,
+    "top": [
+     [
+      "\u0120morning",
+      0.997
+     ],
+     [
+      "\u0120Morning",
+      0.002
+     ],
+     [
+      "\u0120m",
+      0.0
+     ],
+     [
+      "m",
+      0.0
+     ],
+     [
+      ".",
+      0.0
+     ],
+     [
+      "\u0120M",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.902,
+    "top": [
+     [
+      ".",
+      0.902
+     ],
+     [
+      "\u0120to",
+      0.054
+     ],
+     [
+      "\u0120for",
+      0.025
+     ],
+     [
+      ",",
+      0.016
+     ],
+     [
+      "!",
+      0.001
+     ],
+     [
+      "\u0120then",
+      0.001
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|text_end|>",
+    "p_took": 0.996,
+    "top": [
+     [
+      "<|text_end|>",
+      0.996
+     ],
+     [
+      "\u0120Yeah",
+      0.001
+     ],
+     [
+      "\u0120I",
+      0.0
+     ],
+     [
+      "\u0120It",
+      0.0
+     ],
+     [
+      "\u0120You",
+      0.0
+     ],
+     [
+      "\u0120Yes",
+      0.0
+     ]
+    ],
+    "p_control": 0.996
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": true,
+    "p_eos_mean": 0.0016,
+    "p_eos_max": 0.0047,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": true,
+    "p_eos_mean": 0.0016,
+    "p_eos_max": 0.0033,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": true,
+    "p_eos_mean": 0.0026,
+    "p_eos_max": 0.0069,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": true,
+    "p_eos_mean": 0.0037,
+    "p_eos_max": 0.0105,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 4,
+    "text_done": true,
+    "p_eos_mean": 0.0069,
+    "p_eos_max": 0.0391,
+    "eos_drawn": 1
+   }
+  ]
+ },
+ "c00001-0": {
+  "reply": "Hmm, that stinks.rkada\u015f\u0633\u062a\u0647\u0644\u0627\u0643",
+  "log": [
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Aw",
+    "p_took": 0.518,
+    "top": [
+     [
+      "Aw",
+      0.518
+     ],
+     [
+      "Yeah",
+      0.172
+     ],
+     [
+      "Oh",
+      0.169
+     ],
+     [
+      "Hmm",
+      0.044
+     ],
+     [
+      "U",
+      0.027
+     ],
+     [
+      "No",
+      0.024
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ",",
+    "p_took": 0.619,
+    "top": [
+     [
+      ",",
+      0.619
+     ],
+     [
+      ".",
+      0.378
+     ],
+     [
+      "\u0120man",
+      0.001
+     ],
+     [
+      "...",
+      0.0
+     ],
+     [
+      "\u0120no",
+      0.0
+     ],
+     [
+      "\u0120yeah",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120b",
+    "p_took": 0.2,
+    "top": [
+     [
+      "\u0120that",
+      0.39
+     ],
+     [
+      "\u0120I",
+      0.246
+     ],
+     [
+      "\u0120b",
+      0.2
+     ],
+     [
+      "\u0120rough",
+      0.039
+     ],
+     [
+      "\u0120man",
+      0.034
+     ],
+     [
+      "\u0120you",
+      0.021
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "ummer",
+    "p_took": 0.994,
+    "top": [
+     [
+      "ummer",
+      0.994
+     ],
+     [
+      "itch",
+      0.006
+     ],
+     [
+      "immer",
+      0.0
+     ],
+     [
+      "itters",
+      0.0
+     ],
+     [
+      "itches",
+      0.0
+     ],
+     [
+      "am",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.73,
+    "top": [
+     [
+      ".",
+      0.73
+     ],
+     [
+      "\u0120that",
+      0.098
+     ],
+     [
+      "\u0120to",
+      0.082
+     ],
+     [
+      "\u0120when",
+      0.025
+     ],
+     [
+      "\u0120it",
+      0.017
+     ],
+     [
+      "\u0120you",
+      0.015
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120Yeah",
+    "p_took": 0.323,
+    "top": [
+     [
+      "\u0120Yeah",
+      0.323
+     ],
+     [
+      "\u0120Those",
+      0.19
+     ],
+     [
+      "\u0120It",
+      0.143
+     ],
+     [
+      "\u0120That",
+      0.118
+     ],
+     [
+      "\u0120Sounds",
+      0.05
+     ],
+     [
+      "\u0120What",
+      0.022
+     ]
+    ],
+    "p_control": 0.02
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|audio_start|>",
+      0.005
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|img_row_1_col_1|>",
+      0.003
+     ],
+     [
+      "<|mixed_start|>",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.002
+     ],
+     [
+      ",",
+      0.002
+     ]
+    ],
+    "p_control": 0.009
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.681
+     ],
+     [
+      "<|mixed_start|>",
+      0.074
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|audio_start|>",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.756
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120oyunc",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.395
+     ],
+     [
+      "<|mixed_start|>",
+      0.08
+     ],
+     [
+      "<|mixed_end|>",
+      0.015
+     ],
+     [
+      "<|text_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.004
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.479
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.827
+     ],
+     [
+      "<|mixed_start|>",
+      0.074
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.902
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.001,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.916
+     ],
+     [
+      "<|mixed_start|>",
+      0.055
+     ],
+     [
+      "<|mixed_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.971
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.783
+     ],
+     [
+      "<|mixed_start|>",
+      0.065
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.849
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.002,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.955
+     ],
+     [
+      "<|mixed_start|>",
+      0.031
+     ],
+     [
+      "<|mixed_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ]
+    ],
+    "p_control": 0.986
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.927
+     ],
+     [
+      "<|mixed_start|>",
+      0.044
+     ],
+     [
+      "<|mixed_end|>",
+      0.003
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.971
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.003,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.945
+     ],
+     [
+      "<|mixed_start|>",
+      0.036
+     ],
+     [
+      "<|mixed_end|>",
+      0.003
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.981
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.913
+     ],
+     [
+      "<|mixed_start|>",
+      0.054
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.968
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.007,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.913
+     ],
+     [
+      "<|mixed_start|>",
+      0.053
+     ],
+     [
+      "<|mixed_end|>",
+      0.007
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.966
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.011,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.899
+     ],
+     [
+      "<|mixed_start|>",
+      0.059
+     ],
+     [
+      "<|mixed_end|>",
+      0.011
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.958
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.013,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.889
+     ],
+     [
+      "<|mixed_start|>",
+      0.065
+     ],
+     [
+      "<|mixed_end|>",
+      0.013
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.955
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.014,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.875
+     ],
+     [
+      "<|mixed_start|>",
+      0.074
+     ],
+     [
+      "<|mixed_end|>",
+      0.014
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.95
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.013,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.881
+     ],
+     [
+      "<|mixed_start|>",
+      0.074
+     ],
+     [
+      "<|mixed_end|>",
+      0.013
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.955
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.013,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.866
+     ],
+     [
+      "<|mixed_start|>",
+      0.089
+     ],
+     [
+      "<|mixed_end|>",
+      0.013
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.955
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.012,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.857
+     ],
+     [
+      "<|mixed_start|>",
+      0.101
+     ],
+     [
+      "<|mixed_end|>",
+      0.012
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.958
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.011,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.854
+     ],
+     [
+      "<|mixed_start|>",
+      0.106
+     ],
+     [
+      "<|mixed_end|>",
+      0.011
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.96
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": false,
+    "p_eos_mean": 0.0112,
+    "p_eos_max": 0.0365,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": false,
+    "p_eos_mean": 0.0326,
+    "p_eos_max": 0.0539,
+    "eos_drawn": 1
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Hmm",
+    "p_took": 0.255,
+    "top": [
+     [
+      "Yeah",
+      0.391
+     ],
+     [
+      "Hmm",
+      0.255
+     ],
+     [
+      "Right",
+      0.107
+     ],
+     [
+      "Oh",
+      0.042
+     ],
+     [
+      "T",
+      0.031
+     ],
+     [
+      "U",
+      0.022
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ",",
+    "p_took": 0.384,
+    "top": [
+     [
+      ".",
+      0.615
+     ],
+     [
+      ",",
+      0.384
+     ],
+     [
+      "...",
+      0.0
+     ],
+     [
+      "m",
+      0.0
+     ],
+     [
+      "mm",
+      0.0
+     ],
+     [
+      "?",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120that",
+    "p_took": 0.677,
+    "top": [
+     [
+      "\u0120that",
+      0.677
+     ],
+     [
+      "\u0120rough",
+      0.087
+     ],
+     [
+      "\u0120those",
+      0.08
+     ],
+     [
+      "\u0120I",
+      0.038
+     ],
+     [
+      "\u0120it",
+      0.023
+     ],
+     [
+      "\u0120tough",
+      0.022
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120st",
+    "p_took": 0.559,
+    "top": [
+     [
+      "\u0120st",
+      0.559
+     ],
+     [
+      "'s",
+      0.272
+     ],
+     [
+      "\u0120sounds",
+      0.074
+     ],
+     [
+      "\u0120su",
+      0.07
+     ],
+     [
+      "\u0120is",
+      0.005
+     ],
+     [
+      "\u0120really",
+      0.003
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "inks",
+    "p_took": 0.974,
+    "top": [
+     [
+      "inks",
+      0.974
+     ],
+     [
+      "ings",
+      0.017
+     ],
+     [
+      "ink",
+      0.006
+     ],
+     [
+      "unk",
+      0.001
+     ],
+     [
+      "umb",
+      0.001
+     ],
+     [
+      "ung",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.994,
+    "top": [
+     [
+      ".",
+      0.994
+     ],
+     [
+      "\u0120when",
+      0.003
+     ],
+     [
+      "\u0120to",
+      0.002
+     ],
+     [
+      ",",
+      0.001
+     ],
+     [
+      "\u0120for",
+      0.0
+     ],
+     [
+      "\u0120right",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "rkada\u00c5\u0141",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|audio_start|>",
+      0.004
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|mixed_start|>",
+      0.003
+     ],
+     [
+      "<|img_row_1_col_1|>",
+      0.003
+     ],
+     [
+      "<|text_end|>",
+      0.003
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.01
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.008,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.622
+     ],
+     [
+      "<|mixed_start|>",
+      0.064
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|text_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.002
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.69
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u00d8\u00b3\u00d8\u00aa\u00d9\u0129\u00d9\u0126\u00d8\u00a7\u00d9\u0125",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.338
+     ],
+     [
+      "<|mixed_start|>",
+      0.088
+     ],
+     [
+      "<|mixed_end|>",
+      0.026
+     ],
+     [
+      "<|text_end|>",
+      0.015
+     ],
+     [
+      "<|audio_start|>",
+      0.005
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.441
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.007,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.861
+     ],
+     [
+      "<|mixed_start|>",
+      0.09
+     ],
+     [
+      "<|mixed_end|>",
+      0.007
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.952
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.817
+     ],
+     [
+      "<|mixed_start|>",
+      0.125
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.942
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.865
+     ],
+     [
+      "<|mixed_start|>",
+      0.092
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.958
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.008,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.896
+     ],
+     [
+      "<|mixed_start|>",
+      0.075
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.971
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.007,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.897
+     ],
+     [
+      "<|mixed_start|>",
+      0.08
+     ],
+     [
+      "<|mixed_end|>",
+      0.007
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.977
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.007,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.899
+     ],
+     [
+      "<|mixed_start|>",
+      0.076
+     ],
+     [
+      "<|mixed_end|>",
+      0.007
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.976
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.009,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.894
+     ],
+     [
+      "<|mixed_start|>",
+      0.078
+     ],
+     [
+      "<|mixed_end|>",
+      0.009
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.972
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.884
+     ],
+     [
+      "<|mixed_start|>",
+      0.084
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.968
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.012,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.877
+     ],
+     [
+      "<|mixed_start|>",
+      0.084
+     ],
+     [
+      "<|mixed_end|>",
+      0.012
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.961
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.013,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.88
+     ],
+     [
+      "<|mixed_start|>",
+      0.079
+     ],
+     [
+      "<|mixed_end|>",
+      0.013
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.96
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.011,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.879
+     ],
+     [
+      "<|mixed_start|>",
+      0.086
+     ],
+     [
+      "<|mixed_end|>",
+      0.011
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.966
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.009,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.874
+     ],
+     [
+      "<|mixed_start|>",
+      0.097
+     ],
+     [
+      "<|mixed_end|>",
+      0.009
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.971
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.008,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.867
+     ],
+     [
+      "<|mixed_start|>",
+      0.105
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.973
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.008,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.862
+     ],
+     [
+      "<|mixed_start|>",
+      0.11
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.972
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.008,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.86
+     ],
+     [
+      "<|mixed_start|>",
+      0.112
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.972
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": false,
+    "p_eos_mean": 0.0128,
+    "p_eos_max": 0.0544,
+    "eos_drawn": 1
+   }
+  ]
+ },
+ "c00002-0": {
+  "reply": "",
+  "log": [
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "U",
+    "p_took": 0.372,
+    "top": [
+     [
+      "U",
+      0.372
+     ],
+     [
+      "Oh",
+      0.233
+     ],
+     [
+      "Aw",
+      0.183
+     ],
+     [
+      "Yeah",
+      0.121
+     ],
+     [
+      "Right",
+      0.028
+     ],
+     [
+      "Hmm",
+      0.008
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "gh",
+    "p_took": 1.0,
+    "top": [
+     [
+      "gh",
+      1.0
+     ],
+     [
+      "ugh",
+      0.0
+     ],
+     [
+      "gg",
+      0.0
+     ],
+     [
+      "GH",
+      0.0
+     ],
+     [
+      "gly",
+      0.0
+     ],
+     [
+      "\u0120gh",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ",",
+    "p_took": 0.966,
+    "top": [
+     [
+      ",",
+      0.966
+     ],
+     [
+      ".",
+      0.034
+     ],
+     [
+      "\u0120man",
+      0.0
+     ],
+     [
+      "...",
+      0.0
+     ],
+     [
+      "?",
+      0.0
+     ],
+     [
+      "!",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120traffic",
+    "p_took": 0.721,
+    "top": [
+     [
+      "\u0120traffic",
+      0.721
+     ],
+     [
+      "\u0120that",
+      0.17
+     ],
+     [
+      "\u0120gross",
+      0.028
+     ],
+     [
+      "\u0120sounds",
+      0.023
+     ],
+     [
+      "\u0120I",
+      0.008
+     ],
+     [
+      "\u0120it",
+      0.005
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120is",
+    "p_took": 0.669,
+    "top": [
+     [
+      "\u0120is",
+      0.669
+     ],
+     [
+      "\u0120su",
+      0.222
+     ],
+     [
+      "\u0120can",
+      0.059
+     ],
+     [
+      "\u0120sounds",
+      0.025
+     ],
+     [
+      "\u0120st",
+      0.007
+     ],
+     [
+      "'s",
+      0.003
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120the",
+    "p_took": 0.82,
+    "top": [
+     [
+      "\u0120the",
+      0.82
+     ],
+     [
+      "\u0120a",
+      0.088
+     ],
+     [
+      "\u0120brutal",
+      0.02
+     ],
+     [
+      "\u0120such",
+      0.012
+     ],
+     [
+      "\u0120rough",
+      0.011
+     ],
+     [
+      "\u0120always",
+      0.01
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120azien",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|audio_start|>",
+      0.004
+     ],
+     [
+      "<|mixed_end|>",
+      0.003
+     ],
+     [
+      "<|mixed_start|>",
+      0.002
+     ],
+     [
+      "<|img_row_1_col_1|>",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.001
+     ]
+    ],
+    "p_control": 0.006
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.083
+     ],
+     [
+      "<|mixed_start|>",
+      0.038
+     ],
+     [
+      "<|text_end|>",
+      0.003
+     ],
+     [
+      "<|mixed_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      ".",
+      0.001
+     ]
+    ],
+    "p_control": 0.124
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.316
+     ],
+     [
+      "<|mixed_start|>",
+      0.1
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|text_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.003
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.419
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.827
+     ],
+     [
+      "<|mixed_start|>",
+      0.109
+     ],
+     [
+      "<|mixed_end|>",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.937
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.872
+     ],
+     [
+      "<|mixed_start|>",
+      0.096
+     ],
+     [
+      "<|mixed_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.968
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.001,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.84
+     ],
+     [
+      "<|mixed_start|>",
+      0.12
+     ],
+     [
+      "<|mixed_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.96
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.813
+     ],
+     [
+      "<|mixed_start|>",
+      0.091
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.904
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.87
+     ],
+     [
+      "<|mixed_start|>",
+      0.061
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.932
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.903
+     ],
+     [
+      "<|mixed_start|>",
+      0.059
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.962
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.009,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.849
+     ],
+     [
+      "<|mixed_start|>",
+      0.089
+     ],
+     [
+      "<|mixed_end|>",
+      0.009
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.938
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.009,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.836
+     ],
+     [
+      "<|mixed_start|>",
+      0.118
+     ],
+     [
+      "<|mixed_end|>",
+      0.009
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.954
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.012,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.806
+     ],
+     [
+      "<|mixed_start|>",
+      0.14
+     ],
+     [
+      "<|mixed_end|>",
+      0.012
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.946
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.013,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.779
+     ],
+     [
+      "<|mixed_start|>",
+      0.16
+     ],
+     [
+      "<|mixed_end|>",
+      0.013
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.939
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.014,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.785
+     ],
+     [
+      "<|mixed_start|>",
+      0.151
+     ],
+     [
+      "<|mixed_end|>",
+      0.014
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.936
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.012,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.801
+     ],
+     [
+      "<|mixed_start|>",
+      0.145
+     ],
+     [
+      "<|mixed_end|>",
+      0.012
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.946
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.011,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.793
+     ],
+     [
+      "<|mixed_start|>",
+      0.157
+     ],
+     [
+      "<|mixed_end|>",
+      0.011
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.95
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.011,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.782
+     ],
+     [
+      "<|mixed_start|>",
+      0.17
+     ],
+     [
+      "<|mixed_end|>",
+      0.011
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.952
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.011,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.777
+     ],
+     [
+      "<|mixed_start|>",
+      0.176
+     ],
+     [
+      "<|mixed_end|>",
+      0.011
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.954
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": false,
+    "p_eos_mean": 0.013,
+    "p_eos_max": 0.0443,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": false,
+    "p_eos_mean": 0.2201,
+    "p_eos_max": 0.4907,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": false,
+    "p_eos_mean": 0.0817,
+    "p_eos_max": 0.1561,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": false,
+    "p_eos_mean": 0.0842,
+    "p_eos_max": 0.1524,
+    "eos_drawn": 1
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Yeah",
+    "p_took": 0.657,
+    "top": [
+     [
+      "Yeah",
+      0.657
+     ],
+     [
+      "Oh",
+      0.104
+     ],
+     [
+      "Aw",
+      0.088
+     ],
+     [
+      "Hmm",
+      0.037
+     ],
+     [
+      "Right",
+      0.019
+     ],
+     [
+      "No",
+      0.018
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ",",
+    "p_took": 0.971,
+    "top": [
+     [
+      ",",
+      0.971
+     ],
+     [
+      ".",
+      0.019
+     ],
+     [
+      "?",
+      0.008
+     ],
+     [
+      "\u0120man",
+      0.001
+     ],
+     [
+      "...",
+      0.0
+     ],
+     [
+      "!",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120I",
+    "p_took": 0.638,
+    "top": [
+     [
+      "\u0120I",
+      0.638
+     ],
+     [
+      "\u0120maybe",
+      0.134
+     ],
+     [
+      "\u0120that",
+      0.047
+     ],
+     [
+      "\u0120totally",
+      0.037
+     ],
+     [
+      "\u0120we",
+      0.03
+     ],
+     [
+      "\u0120let",
+      0.028
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "'m",
+    "p_took": 0.268,
+    "top": [
+     [
+      "'m",
+      0.268
+     ],
+     [
+      "\u0120think",
+      0.15
+     ],
+     [
+      "'d",
+      0.109
+     ],
+     [
+      "\u0120hope",
+      0.08
+     ],
+     [
+      "\u0120would",
+      0.053
+     ],
+     [
+      "\u0120know",
+      0.05
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120totally",
+    "p_took": 0.092,
+    "top": [
+     [
+      "\u0120free",
+      0.422
+     ],
+     [
+      "\u0120totally",
+      0.092
+     ],
+     [
+      "\u0120with",
+      0.077
+     ],
+     [
+      "\u0120here",
+      0.071
+     ],
+     [
+      "\u0120up",
+      0.041
+     ],
+     [
+      "\u0120an",
+      0.028
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120down",
+    "p_took": 0.26,
+    "top": [
+     [
+      "\u0120down",
+      0.26
+     ],
+     [
+      "\u0120with",
+      0.246
+     ],
+     [
+      "\u0120sw",
+      0.09
+     ],
+     [
+      ".",
+      0.082
+     ],
+     [
+      "\u0120free",
+      0.041
+     ],
+     [
+      "\u0120up",
+      0.031
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|audio_start|>",
+      0.004
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|mixed_start|>",
+      0.003
+     ],
+     [
+      "<|img_row_1_col_1|>",
+      0.003
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.008
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\"thro",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.128
+     ],
+     [
+      "<|mixed_start|>",
+      0.057
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.002
+     ],
+     [
+      ".",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ]
+    ],
+    "p_control": 0.187
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.663
+     ],
+     [
+      "<|mixed_start|>",
+      0.125
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.001
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.788
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.856
+     ],
+     [
+      "<|mixed_start|>",
+      0.089
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.945
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.855
+     ],
+     [
+      "<|mixed_start|>",
+      0.098
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.953
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.887
+     ],
+     [
+      "<|mixed_start|>",
+      0.077
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.965
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.006,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.914
+     ],
+     [
+      "<|mixed_start|>",
+      0.066
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.98
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.006,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.908
+     ],
+     [
+      "<|mixed_start|>",
+      0.071
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.979
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.008,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.908
+     ],
+     [
+      "<|mixed_start|>",
+      0.064
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.972
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.009,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.9
+     ],
+     [
+      "<|mixed_start|>",
+      0.071
+     ],
+     [
+      "<|mixed_end|>",
+      0.009
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.971
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.883
+     ],
+     [
+      "<|mixed_start|>",
+      0.084
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.968
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.871
+     ],
+     [
+      "<|mixed_start|>",
+      0.095
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.966
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.871
+     ],
+     [
+      "<|mixed_start|>",
+      0.095
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.967
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.88
+     ],
+     [
+      "<|mixed_start|>",
+      0.089
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.969
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.009,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.875
+     ],
+     [
+      "<|mixed_start|>",
+      0.095
+     ],
+     [
+      "<|mixed_end|>",
+      0.009
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.97
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.009,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.864
+     ],
+     [
+      "<|mixed_start|>",
+      0.105
+     ],
+     [
+      "<|mixed_end|>",
+      0.009
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.969
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.01,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.852
+     ],
+     [
+      "<|mixed_start|>",
+      0.115
+     ],
+     [
+      "<|mixed_end|>",
+      0.01
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.967
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.011,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.848
+     ],
+     [
+      "<|mixed_start|>",
+      0.118
+     ],
+     [
+      "<|mixed_end|>",
+      0.011
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.966
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": false,
+    "p_eos_mean": 0.01,
+    "p_eos_max": 0.0437,
+    "eos_drawn": 1
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "Aw",
+    "p_took": 0.14,
+    "top": [
+     [
+      "Oh",
+      0.216
+     ],
+     [
+      "Yeah",
+      0.194
+     ],
+     [
+      "O",
+      0.141
+     ],
+     [
+      "Aw",
+      0.14
+     ],
+     [
+      "Well",
+      0.05
+     ],
+     [
+      "Right",
+      0.047
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ",",
+    "p_took": 0.974,
+    "top": [
+     [
+      ",",
+      0.974
+     ],
+     [
+      ".",
+      0.023
+     ],
+     [
+      "\u0120man",
+      0.001
+     ],
+     [
+      "\u0120yeah",
+      0.0
+     ],
+     [
+      "?",
+      0.0
+     ],
+     [
+      "...",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120that",
+    "p_took": 0.284,
+    "top": [
+     [
+      "\u0120that",
+      0.284
+     ],
+     [
+      "\u0120I",
+      0.128
+     ],
+     [
+      "\u0120you",
+      0.097
+     ],
+     [
+      "\u0120what",
+      0.087
+     ],
+     [
+      "\u0120which",
+      0.049
+     ],
+     [
+      "\u0120a",
+      0.047
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120sounds",
+    "p_took": 0.59,
+    "top": [
+     [
+      "\u0120sounds",
+      0.59
+     ],
+     [
+      "\u0120movie",
+      0.328
+     ],
+     [
+      "'s",
+      0.031
+     ],
+     [
+      "\u0120sound",
+      0.01
+     ],
+     [
+      "\u0120was",
+      0.006
+     ],
+     [
+      "\u0120is",
+      0.003
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120intense",
+    "p_took": 0.277,
+    "top": [
+     [
+      "\u0120rough",
+      0.322
+     ],
+     [
+      "\u0120intense",
+      0.277
+     ],
+     [
+      "\u0120like",
+      0.156
+     ],
+     [
+      "\u0120heavy",
+      0.059
+     ],
+     [
+      "\u0120wild",
+      0.023
+     ],
+     [
+      "\u0120tough",
+      0.018
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": ".",
+    "p_took": 0.999,
+    "top": [
+     [
+      ".",
+      0.999
+     ],
+     [
+      ",",
+      0.001
+     ],
+     [
+      "\u0120though",
+      0.0
+     ],
+     [
+      "\u0120to",
+      0.0
+     ],
+     [
+      "\u0120about",
+      0.0
+     ],
+     [
+      "!",
+      0.0
+     ]
+    ],
+    "p_control": 0.0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.007
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.006
+     ],
+     [
+      "<|mixed_start|>",
+      0.004
+     ],
+     [
+      "<|text_end|>",
+      0.002
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.001
+     ]
+    ],
+    "p_control": 0.014
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|img_row_7_col_10|>",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.543
+     ],
+     [
+      "<|mixed_start|>",
+      0.071
+     ],
+     [
+      "<|mixed_end|>",
+      0.008
+     ],
+     [
+      "<|text_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.002
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.617
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.687
+     ],
+     [
+      "<|mixed_start|>",
+      0.108
+     ],
+     [
+      "<|mixed_end|>",
+      0.007
+     ],
+     [
+      "<|text_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.001
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.796
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.929
+     ],
+     [
+      "<|mixed_start|>",
+      0.049
+     ],
+     [
+      "<|mixed_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.978
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.001,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.943
+     ],
+     [
+      "<|mixed_start|>",
+      0.043
+     ],
+     [
+      "<|mixed_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.986
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.001,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.92
+     ],
+     [
+      "<|mixed_start|>",
+      0.064
+     ],
+     [
+      "<|mixed_end|>",
+      0.001
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.984
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "\u0120\u00eb\u012d\u00ac\u00eb\u013f",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.919
+     ],
+     [
+      "<|mixed_start|>",
+      0.067
+     ],
+     [
+      "<|mixed_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.986
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.002,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.939
+     ],
+     [
+      "<|mixed_start|>",
+      0.049
+     ],
+     [
+      "<|mixed_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.988
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.003,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.915
+     ],
+     [
+      "<|mixed_start|>",
+      0.07
+     ],
+     [
+      "<|mixed_end|>",
+      0.003
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.985
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.003,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.919
+     ],
+     [
+      "<|mixed_start|>",
+      0.067
+     ],
+     [
+      "<|mixed_end|>",
+      0.003
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.986
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.911
+     ],
+     [
+      "<|mixed_start|>",
+      0.072
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.983
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.9
+     ],
+     [
+      "<|mixed_start|>",
+      0.08
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.98
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.006,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.897
+     ],
+     [
+      "<|mixed_start|>",
+      0.08
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.977
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.006,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.896
+     ],
+     [
+      "<|mixed_start|>",
+      0.08
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.976
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.9
+     ],
+     [
+      "<|mixed_start|>",
+      0.076
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.977
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.9
+     ],
+     [
+      "<|mixed_start|>",
+      0.079
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.979
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.9
+     ],
+     [
+      "<|mixed_start|>",
+      0.08
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.98
+   },
+   {
+    "kind": "piece",
+    "utt_step": 0,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.895
+     ],
+     [
+      "<|mixed_start|>",
+      0.085
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.979
+   },
+   {
+    "kind": "frame",
+    "utt_step": 0,
+    "text_done": false,
+    "p_eos_mean": 0.0102,
+    "p_eos_max": 0.0327,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 1,
+    "text_done": false,
+    "p_eos_mean": 0.0056,
+    "p_eos_max": 0.0126,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 2,
+    "text_done": false,
+    "p_eos_mean": 0.0003,
+    "p_eos_max": 0.0013,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 3,
+    "text_done": false,
+    "p_eos_mean": 0.0005,
+    "p_eos_max": 0.0022,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 4,
+    "text_done": false,
+    "p_eos_mean": 0.0007,
+    "p_eos_max": 0.0046,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 5,
+    "text_done": false,
+    "p_eos_mean": 0.0015,
+    "p_eos_max": 0.0038,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 6,
+    "text_done": false,
+    "p_eos_mean": 0.0016,
+    "p_eos_max": 0.0053,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 7,
+    "text_done": false,
+    "p_eos_mean": 0.0028,
+    "p_eos_max": 0.0068,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 8,
+    "text_done": false,
+    "p_eos_mean": 0.0011,
+    "p_eos_max": 0.0026,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 9,
+    "text_done": false,
+    "p_eos_mean": 0.0012,
+    "p_eos_max": 0.0028,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 10,
+    "text_done": false,
+    "p_eos_mean": 0.0004,
+    "p_eos_max": 0.0011,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 11,
+    "text_done": false,
+    "p_eos_mean": 0.0011,
+    "p_eos_max": 0.0024,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "\u0120technologiq",
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.814
+     ],
+     [
+      "<|mixed_start|>",
+      0.049
+     ],
+     [
+      "<|mixed_end|>",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.865
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.002,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.943
+     ],
+     [
+      "<|mixed_start|>",
+      0.012
+     ],
+     [
+      "<|mixed_end|>",
+      0.002
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ],
+     [
+      "\u0120br\u00c3\u00b6st",
+      0.0
+     ]
+    ],
+    "p_control": 0.955
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.957
+     ],
+     [
+      "<|mixed_start|>",
+      0.024
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.981
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.957
+     ],
+     [
+      "<|mixed_start|>",
+      0.03
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ],
+     [
+      "ozniak",
+      0.0
+     ]
+    ],
+    "p_control": 0.986
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.948
+     ],
+     [
+      "<|mixed_start|>",
+      0.037
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ],
+     [
+      "csharp",
+      0.0
+     ]
+    ],
+    "p_control": 0.985
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.943
+     ],
+     [
+      "<|mixed_start|>",
+      0.043
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ]
+    ],
+    "p_control": 0.986
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": null,
+    "p_took": 0.0,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.745
+     ],
+     [
+      "<|mixed_start|>",
+      0.106
+     ],
+     [
+      "<|mixed_end|>",
+      0.014
+     ],
+     [
+      "<|audio_start|>",
+      0.002
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "\u0120pr\u00c3\u00a9occu",
+      0.0
+     ]
+    ],
+    "p_control": 0.851
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.952
+     ],
+     [
+      "<|mixed_start|>",
+      0.027
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.979
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.003,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.931
+     ],
+     [
+      "<|mixed_start|>",
+      0.052
+     ],
+     [
+      "<|mixed_end|>",
+      0.003
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.983
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.003,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.939
+     ],
+     [
+      "<|mixed_start|>",
+      0.047
+     ],
+     [
+      "<|mixed_end|>",
+      0.003
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.985
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.925
+     ],
+     [
+      "<|mixed_start|>",
+      0.053
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.978
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.917
+     ],
+     [
+      "<|mixed_start|>",
+      0.063
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.98
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.914
+     ],
+     [
+      "<|mixed_start|>",
+      0.066
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.979
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.006,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.912
+     ],
+     [
+      "<|mixed_start|>",
+      0.066
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.978
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.006,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.916
+     ],
+     [
+      "<|mixed_start|>",
+      0.062
+     ],
+     [
+      "<|mixed_end|>",
+      0.006
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.979
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.92
+     ],
+     [
+      "<|mixed_start|>",
+      0.061
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.981
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.919
+     ],
+     [
+      "<|mixed_start|>",
+      0.062
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.981
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.921
+     ],
+     [
+      "<|mixed_start|>",
+      0.061
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.982
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.918
+     ],
+     [
+      "<|mixed_start|>",
+      0.063
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.981
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.005,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.918
+     ],
+     [
+      "<|mixed_start|>",
+      0.063
+     ],
+     [
+      "<|mixed_end|>",
+      0.005
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.982
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.911
+     ],
+     [
+      "<|mixed_start|>",
+      0.071
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.982
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.91
+     ],
+     [
+      "<|mixed_start|>",
+      0.072
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.983
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.907
+     ],
+     [
+      "<|mixed_start|>",
+      0.075
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.983
+   },
+   {
+    "kind": "piece",
+    "utt_step": 12,
+    "took": "<|mixed_end|>",
+    "p_took": 0.004,
+    "top": [
+     [
+      "<|img_row_1_col_1|>",
+      0.909
+     ],
+     [
+      "<|mixed_start|>",
+      0.074
+     ],
+     [
+      "<|mixed_end|>",
+      0.004
+     ],
+     [
+      "<|audio_start|>",
+      0.0
+     ],
+     [
+      "<|text_end|>",
+      0.0
+     ],
+     [
+      "-DD",
+      0.0
+     ]
+    ],
+    "p_control": 0.983
+   },
+   {
+    "kind": "frame",
+    "utt_step": 12,
+    "text_done": false,
+    "p_eos_mean": 0.0139,
+    "p_eos_max": 0.0544,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 13,
+    "text_done": false,
+    "p_eos_mean": 0.077,
+    "p_eos_max": 0.2206,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 14,
+    "text_done": false,
+    "p_eos_mean": 0.0215,
+    "p_eos_max": 0.0366,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 15,
+    "text_done": false,
+    "p_eos_mean": 0.1119,
+    "p_eos_max": 0.1891,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 16,
+    "text_done": false,
+    "p_eos_mean": 0.034,
+    "p_eos_max": 0.1145,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 17,
+    "text_done": false,
+    "p_eos_mean": 0.0249,
+    "p_eos_max": 0.0636,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 18,
+    "text_done": false,
+    "p_eos_mean": 0.004,
+    "p_eos_max": 0.0112,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 19,
+    "text_done": false,
+    "p_eos_mean": 0.0096,
+    "p_eos_max": 0.037,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 20,
+    "text_done": false,
+    "p_eos_mean": 0.0019,
+    "p_eos_max": 0.0058,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 21,
+    "text_done": false,
+    "p_eos_mean": 0.0077,
+    "p_eos_max": 0.0234,
+    "eos_drawn": 0
+   },
+   {
+    "kind": "frame",
+    "utt_step": 22,
+    "text_done": false,
+    "p_eos_mean": 0.0465,
+    "p_eos_max": 0.0812,
+    "eos_drawn": 1
+   }
+  ]
+ },
+ "c00003-0": {
+  "reply": "",
+  "log": []
+ }
+}

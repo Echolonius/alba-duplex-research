@@ -1,0 +1,18 @@
+{
+ "steps": 112,
+ "fast-eager": {
+  "cosine_min": 0.9999,
+  "cosine_mean": 0.99996,
+  "max_abs_diff": 0.0156,
+  "ms_per_step": 95.05
+ },
+ "fast-graph": {
+  "cosine_min": 0.9999,
+  "cosine_mean": 0.99996,
+  "max_abs_diff": 0.0156,
+  "ms_per_step": 6.15
+ },
+ "library": {
+  "ms_per_step": 81.16
+ }
+}

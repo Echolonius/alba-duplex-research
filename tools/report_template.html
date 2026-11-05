@@ -1,0 +1,300 @@
+<title>LocalVoice vs Dessa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one reading column like a lab notebook; charts and tables span the column. */
+:root {
+  --bg: #f7f8f9; --surface: #fcfcfb; --ink: #14171a; --ink-2: #4b5157; --ink-3: #737a81;
+  --rule: #dfe3e6; --accent: #2a5bd6;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a;
+  --good: #0ca30c; --warn: #b77900; --bad: #d03b3b;
+  --display: "Schibsted Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121416; --surface: #1a1a19; --ink: #eceeef; --ink-2: #b8bec3; --ink-3: #8d949a;
+  --rule: #2e3337; --accent: #7fa2ff; --s1: #3987e5; --s2: #d95926; --s3: #199e70;
+  --good: #3cc23c; --warn: #fab219; --bad: #e66767; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121416; --surface: #1a1a19; --ink: #eceeef; --ink-2: #b8bec3; --ink-3: #8d949a;
+  --rule: #2e3337; --accent: #7fa2ff; --s1: #3987e5; --s2: #d95926; --s3: #199e70;
+  --good: #3cc23c; --warn: #fab219; --bad: #e66767; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.page { max-width: 820px; margin: 0 auto; padding-block: 40px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--display); line-height: 1.2; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 24px; font-weight: 700; margin-top: 56px; }
+h3 { font-size: 17px; font-weight: 700; }
+p { margin: 12px 0 0; max-width: 68ch; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.lede { font-size: 19px; color: var(--ink-2); margin-top: 14px; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 18px; font-family: var(--mono); font-size: 12.5px; color: var(--ink-3); }
+.findings { display: grid; gap: 14px; margin-top: 28px; padding: 0; list-style: none; }
+.findings li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: start; }
+.findings .k { font-family: var(--mono); font-weight: 600; color: var(--accent); font-size: 14px; padding-top: 3px; }
+.findings b { font-family: var(--display); font-weight: 700; }
+figure { margin: 24px 0 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 16px 16px 12px; }
+figcaption { font-family: var(--display); font-size: 14px; color: var(--ink-2); margin-top: 8px; }
+figure h3 { margin-bottom: 4px; }
+.chart { width: 100%; height: auto; display: block; overflow: visible; }
+.chart text { font-family: var(--mono); font-size: 11px; fill: var(--ink-3); }
+.chart .lab { fill: var(--ink-2); font-size: 11.5px; }
+.chart .strong { fill: var(--ink); font-weight: 600; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--display); font-size: 13.5px; color: var(--ink-2); margin: 6px 0 2px; }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--c); }
+.scroll { overflow-x: auto; margin-top: 20px; }
+table { border-collapse: collapse; width: 100%; min-width: 600px; font-size: 15px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: var(--display); font-size: 13px; font-weight: 700; color: var(--ink-2); }
+td.n { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.chip { display: inline-flex; align-items: center; gap: 5px; font-family: var(--display); font-size: 12.5px; font-weight: 700; white-space: nowrap; }
+.chip::before { font-family: var(--mono); }
+.chip.ahead { color: var(--good); } .chip.ahead::before { content: "▲"; }
+.chip.close { color: var(--warn); } .chip.close::before { content: "≈"; }
+.chip.behind { color: var(--bad); } .chip.behind::before { content: "▼"; }
+.note { font-size: 14.5px; color: var(--ink-3); }
+.options { display: grid; gap: 12px; margin-top: 18px; }
+.option { border: 1px solid var(--rule); border-radius: 6px; padding: 14px 16px; background: var(--surface); }
+.option.pick { border-color: var(--accent); }
+.option h3 { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.option .tag { font-family: var(--mono); font-size: 11.5px; font-weight: 400; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; }
+.option p { margin-top: 6px; font-size: 16px; }
+code, .mono { font-family: var(--mono); font-size: 0.86em; }
+.tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font-family: var(--mono); font-size: 12px;
+  padding: 6px 8px; border-radius: 4px; white-space: nowrap; z-index: 20; }
+ol.sources { font-size: 14.5px; color: var(--ink-2); padding-left: 20px; }
+ol.sources li { margin-top: 4px; }
+a { color: var(--accent); }
+a:focus-visible, .hit:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 520px) { body { font-size: 16px; } h2 { margin-top: 44px; } }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Independent measurement · not affiliated with Block</div>
+  <h1>LocalVoice vs Dessa</h1>
+  <p class="lede">Block's Dessa is the most human-sounding voice AI shown in public so far. We measured all 21 of its public demo conversations, then built a voice that runs entirely on a laptop with a 4&nbsp;GB graphics card and measured it the same way.</p>
+  <div class="meta"><span>/*DATE*/</span><span>Dessa: 21 conversations, 87 min</span><span>LocalVoice: /*LV_CONV*/ test conversations, /*LV_MIN*/ min</span></div>
+
+  <ol class="findings">
+    <li><span class="k">1</span><span><b>Dessa hears and speaks at 16&nbsp;kHz, in two separate streams.</b> Every Dessa track stops sharply at about 7.7&nbsp;kHz, and each conversation is stored as one track per speaker, the layout used by full-duplex models such as Moshi.</span></li>
+    <li><span class="k">2</span><span><b>Its edge is timing.</b> It starts talking a median /*D_RESP*/&nbsp;s after a person stops, and 41% of its turns start while the person is still finishing. It makes about 11 short listening sounds ("mm-hm", "yeah") per minute and stops about 0.4&nbsp;s after being talked over.</span></li>
+    <li><span class="k">3</span><span><b>LocalVoice runs offline on this laptop.</b> A 2-billion-parameter speech model (LFM3-Audio) hears and speaks on the graphics card, and since 4 November a small text model (LFM2.5-1.2B) writes the words, so the voice stays in character. A timing controller tuned to Dessa's measurements decides when to answer, when to say "mm-hm", and when to stop.</span></li>
+    <li><span class="k">4</span><span><b>Where it stands:</b> /*VERDICT*/</span></li>
+  </ol>
+
+  <h2>What Dessa's demos give away</h2>
+  <p>Block's page serves each demo as two lossless tracks, one per speaker, with timed subtitles. Measuring them directly shows how the system is built, even though Block has published no paper or model card.</p>
+  <figure>
+    <h3>Where the sound stops</h3>
+    <div class="legend"><span style="--c: var(--s1)">Dessa</span><span style="--c: var(--s3)">LocalVoice</span></div>
+    <svg class="chart" id="ltas" viewBox="0 0 760 260" role="img" aria-label="Average spectrum of Dessa and LocalVoice speech"></svg>
+    <figcaption>Average spectrum of each voice's speech, relative to its loudest band. Dessa's content ends at about 7.7&nbsp;kHz: 16&nbsp;kHz audio, upsampled to 44.1&nbsp;kHz for the web. LocalVoice speaks at 24&nbsp;kHz and carries detail to about 11.4&nbsp;kHz.</figcaption>
+  </figure>
+  <figure>
+    <h3>Dessa changes its voice in every conversation</h3>
+    <div class="legend"><span style="--c: var(--s1)">Dessa</span><span style="--c: var(--s2)">The person it talked to</span></div>
+    <svg class="chart" id="pitch" viewBox="0 0 760 130" role="img" aria-label="Median voice pitch per conversation"></svg>
+    <figcaption>Median pitch in each of 19 conversations with people. Dessa ranged from a deep male voice to a high female one; the people, mostly the same few team members, stayed between 104 and 134&nbsp;Hz. This fits Block's statement that Dessa picks its own voice, the way a base model invents a speaker each time.</figcaption>
+  </figure>
+  <p class="note">Other measurements: the demo machine's speaker echo shows up in some tracks 70–140&nbsp;ms late, which puts the setup's audio round trip at about 0.1&nbsp;s. No fixed-rate artefact survives in Dessa's output, so its internal frame rate is not visible in these files.</p>
+
+  <h2>How fast each one answers</h2>
+  <p>Time from the moment the other side stops talking to the moment this side starts. Negative means it started before the other finished. LocalVoice was measured in real-time conversations with a simulated person who waits, pauses mid-thought, says "mm-hm", and sometimes interrupts, using human response times taken from the Dessa recordings.</p>
+  <figure>
+    <svg class="chart" id="hist" viewBox="0 0 760 330" role="img" aria-label="Distribution of response times"></svg>
+    <figcaption>Share of turn starts in each 0.1&nbsp;s bin. The vertical line marks the moment the other side stopped; the label shows each median.</figcaption>
+  </figure>
+
+  <h2>Scorecard</h2>
+  <div class="scroll"><table id="score">
+    <thead><tr><th>Measure</th><th>Dessa</th><th>People talking to Dessa</th><th>LocalVoice</th><th>LocalVoice vs Dessa</th></tr></thead>
+    <tbody>/*SCORE_ROWS*/</tbody>
+  </table></div>
+  <p class="note">Dessa: 19 conversations with people (67 min). LocalVoice: /*LV_CONV*/ simulated conversations (/*LV_MIN*/ min, /*LV_N*/ turns). Dessa's times are on its own timeline; the people's include about 0.1&nbsp;s of audio delay, so their own reaction is nearer 0.3&nbsp;s. LocalVoice keeps talking longer when interrupted on purpose: it waits long enough to tell a "mm-hm" from a real interruption (only a handful of real interruptions happen in these conversations, so that number moves a lot between runs). Assistant-mode lines ("I'm just a digital assistant", "How can I help?"): 0 in the split design's benchmark replies, against 5 of 32 for the voice model alone. The simulated person's synthetic voice ends every sentence with the falling tone of a finished turn, even mid-turn, which makes early starts more likely than with a real person. The graphics card is shared: in a test run while a game was also running, the voice generated at about half speed and answers took about 1&nbsp;s, so close games before talking to it.</p>
+
+  <h2>What was built</h2>
+  <figure>
+    <svg class="chart" id="pipe" viewBox="0 0 760 210" role="img" aria-label="How LocalVoice works"></svg>
+    <figcaption>Everything runs on the laptop. The model server listens only on the computer itself and runs offline.</figcaption>
+  </figure>
+  <p><b>Two models, one voice.</b> The speech model transcribes the person live while they talk, so their words are ready about 0.07&nbsp;s after they stop. A small text model writes the reply as Juno, and every sentence is checked before any sound is made: help-desk lines and repeats are dropped, and it may not tack a question onto every turn. The speech model then speaks it in its built-in voice, the same one it uses when it chats by itself. It needs care to be fast on one 4&nbsp;GB card: speech starts about 0.1&nbsp;s after it is asked, but 0.35&nbsp;s if the text model is still writing on the same card, so the first sentence is written, its sound is started, and only then is the rest written.</p>
+  <p>The timing rules are calibrated, not guessed. The "is the person done?" thresholds were tuned on 118 real turn ends and 342 mid-sentence pauses from Dessa's subtitled demos. The transcript adds a second opinion: words ending mid-sentence ("...and", no full stop) make the voice wait longer, and a question mark makes it answer sooner. The reply is written and voiced, unheard, during the pause, but the sound is held until the pause reaches 0.3–0.4&nbsp;s, so a person who was only pausing rarely hears it jump in. A reply that opens with "Oh," or "Yeah," says that word from ready-made clips the moment it is written, the way Dessa opens 44% of its turns and people 40%. When talked over it softens at 0.25&nbsp;s and stops at 0.65&nbsp;s, because 88% of people's "mm-hm"s in the demos end before then; but if both started at once, it backs off after 0.25&nbsp;s, a second burst of speech soon after the first also makes it stop, and once the person has cut in it lets them finish before speaking again. It also adapts: each audible early start makes it a little more patient with that person.</p>
+  <p>Without headphones, the laptop speakers leak into the microphone. An echo canceller and an echo gate keep the voice from hearing itself. In two simulated speaker conversations it stopped itself 5 times while the person interrupted 6 times; before the gate it stopped itself 53 times. It still misses some interruptions over speakers, so headphones are better.</p>
+
+  <h2>What three live test calls showed</h2>
+  <p>A person talked to LocalVoice three times through a small call window, over the laptop speakers, and said out loud whatever felt off. Both sides were recorded on the laptop, transcribed, and lined up with what the voice was doing at each moment.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>What the person said</th><th>What was actually happening</th><th>Change</th></tr></thead>
+    <tbody>
+      <tr><td>"I can't seem to interrupt very well."</td><td>The laptop's microphone already removes the speakers' sound, so LocalVoice's own echo filter mistook the person for echo and kept talking for about 4 s.</td><td>Echo filter rebuilt; replaying the call, it now stops within a second.</td></tr>
+      <tr><td>"You keep saying I'm sorry, I didn't catch that."</td><td>After being interrupted, only the tail of what the person said reached the model.</td><td>The model now hears everything said over it.</td></tr>
+      <tr><td>"You keep saying you're an AI."</td><td>One instruction line about admitting it is an AI made the small model say it in nearly every reply.</td><td>Line removed.</td></tr>
+      <tr><td>"Not matching my energy or tone."</td><td>Ready-made "Oh," / "Yeah." clips have one fixed tone.</td><td>Only soft "mhm" sounds kept; added openers off.</td></tr>
+      <tr><td>"It clicks in and out, abrupt."</td><td>No audio glitches were found; the voice started in pauses where the person was only thinking, then cut off quickly.</td><td>Waits for 0.3 s of silence, trails off over 0.2 s.</td></tr>
+      <tr><td>"It's a hiccup… what would you like to talk about?" (four times)</td><td>The 2-billion-parameter model falls into stock lines and, when the talk turns to itself, into assistant mode.</td><td>Split design (4 November): a small text model writes the words and every sentence is checked first. Assistant-mode lines in the benchmark: 5 of 32 replies before, 0 of 32 after.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">In the third call the voice started its turn a median 0.46&nbsp;s after the person stopped, and 27% of its turns overlapped their last words.</p>
+
+  <h2>Can Dessa itself be rebuilt here?</h2>
+  <p>Not by training from scratch on this laptop. Using the standard estimate (compute ≈ 6 × parameters × audio frames, at 12.5 frames per second):</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Model</th><th>Audio</th><th>This laptop</th><th>One rented H100</th><th>Rental cost</th></tr></thead>
+    <tbody>/*MATH_ROWS*/</tbody>
+  </table></div>
+  <p>Compute is not the real barrier: a Dessa-scale run costs about a thousand dollars of rented time. Data is. Dessa learned from real two-person conversations at a scale (roughly a million hours, by our estimate) that no open dataset offers. A small proof-of-concept model could train on this laptop in hours, but published models of that size babble.</p>
+
+  <h2>Next steps</h2>
+  <div class="options">
+    <div class="option pick"><h3>Test the split design live <span class="tag">Recommended next</span></h3><p>The benchmark is a simulated person. A few calls with the call window will show how the new design feels by ear. Each call is transcribed and lined up with what the voice did, so every awkward moment becomes a specific fix.</p></div>
+    <div class="option"><h3>Close the timing gap with a predictive turn model</h3><p>Dessa starts before you finish. Matching that needs a small model that predicts the end of your sentence from sound and words, trained on open conversation recordings. That is a few dollars of temporary cloud time and needs no personal data.</p></div>
+    <div class="option"><h3>Teach the text model the style</h3><p>Retraining the voice model is no longer needed. If the wording should get livelier, a small text-only fine-tune of the 1.2B text model would do it, and it fits on this laptop's card. Details in RETRAINING-PLAN.md.</p></div>
+    <div class="option"><h3>A bigger graphics card</h3><p>A 12–16&nbsp;GB card would run today's 7B full-duplex models (Moshi, NVIDIA's PersonaPlex), which listen and talk at the same time like Dessa.</p></div>
+  </div>
+
+  <h2>Method and sources</h2>
+  <p class="note">Audio measured with open signal processing (spectra, voice activity per track, pitch with Praat). Speech detection agrees with Block's subtitles on 71–94% of subtitled speech; the rest is mostly silence inside subtitle lines. Block chose these recordings. LocalVoice numbers come from a simulated person, not a real one.</p>
+  <ol class="sources">
+    <li>Block, <a href="https://block.xyz/dessa">Dessa: the Conversation Model trained only on speech</a> (demo audio and subtitles)</li>
+    <li>Liquid AI, <a href="https://huggingface.co/LiquidAI/LFM3-Audio-2B">LFM3-Audio-2B</a> model card</li>
+    <li>ggml-org, <a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a> (release b12094, realtime conversation endpoint)</li>
+    <li>Pipecat, <a href="https://huggingface.co/pipecat-ai/smart-turn-v3">Smart Turn v3</a>; Silero, <a href="https://github.com/snakers4/silero-vad">Silero VAD</a></li>
+    <li>Défossez et al., <a href="https://arxiv.org/abs/2410.00037">Moshi</a> (2024); Nguyen et al., <a href="https://arxiv.org/abs/2203.16502">dGSLM</a> (2023)</li>
+  </ol>
+</div>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const DATA = /*DATA*/;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const NS = 'http://www.w3.org/2000/svg';
+function el(tag, attrs, parent, text) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (text !== undefined) e.textContent = text;
+  if (parent) parent.appendChild(e);
+  return e;
+}
+const tip = document.getElementById('tip');
+function showTip(evt, html) {
+  tip.innerHTML = html; tip.hidden = false;
+  const x = Math.min(evt.clientX + 12, innerWidth - tip.offsetWidth - 8);
+  tip.style.left = x + 'px'; tip.style.top = (evt.clientY - 34) + 'px';
+}
+function hideTip() { tip.hidden = true; }
+const SERIES = [['Dessa', '--s1'], ['People talking to Dessa', '--s2'], ['LocalVoice', '--s3']];
+
+function drawHist() {
+  const svg = document.getElementById('hist'); svg.innerHTML = '';
+  const bins = DATA.report.bins, W = 760, left = 196, right = 24, rowH = 88, top = 10;
+  const x = v => left + (v - bins[0]) / (bins[bins.length - 1] - bins[0]) * (W - left - right);
+  const maxShare = Math.max(...SERIES.flatMap(([n]) => DATA.report.response_hist[n]));
+  SERIES.forEach(([name, tok], r) => {
+    const y0 = top + r * rowH, base = y0 + rowH - 22, h = DATA.report.response_hist[name];
+    el('text', { x: left - 12, y: base - 30, 'text-anchor': 'end', class: 'lab strong' }, svg, name);
+    el('text', { x: left - 12, y: base - 14, 'text-anchor': 'end', class: 'lab' }, svg, 'median ' + DATA.medians[name].toFixed(2) + ' s');
+    el('line', { x1: left, x2: W - right, y1: base, y2: base, stroke: css('--rule') }, svg);
+    h.forEach((v, i) => {
+      const bx = x(bins[i]) + 1, bw = x(bins[i + 1]) - x(bins[i]) - 2, bh = v / maxShare * (rowH - 30);
+      if (bh > 0) el('rect', { x: bx, y: base - bh, width: bw, height: bh, rx: 2, fill: css(tok) }, svg);
+      const hit = el('rect', { x: bx - 1, y: y0, width: bw + 2, height: rowH - 22, fill: 'transparent', class: 'hit' }, svg);
+      hit.addEventListener('mousemove', e => showTip(e, `${name}<br>${bins[i].toFixed(1)} to ${bins[i + 1].toFixed(1)} s: ${(v * 100).toFixed(1)}%`));
+      hit.addEventListener('mouseleave', hideTip);
+    });
+    const mx = x(Math.max(bins[0], Math.min(bins[bins.length - 1], DATA.medians[name])));
+    el('line', { x1: mx, x2: mx, y1: base - (rowH - 30), y2: base + 4, stroke: css('--ink'), 'stroke-width': 1.5, 'stroke-dasharray': '3 3' }, svg);
+  });
+  const axisY = top + 3 * rowH - 10;
+  [-1, -0.5, 0, 0.5, 1, 1.5].forEach(v => {
+    el('text', { x: x(v), y: axisY + 4, 'text-anchor': 'middle' }, svg, (v > 0 ? '+' : '') + v + ' s');
+  });
+  el('line', { x1: x(0), x2: x(0), y1: top, y2: axisY - 10, stroke: css('--ink-3'), 'stroke-width': 1 }, svg);
+  el('text', { x: x(0) + 6, y: top + 10, class: 'lab' }, svg, 'other side stops');
+}
+
+function drawLtas() {
+  const svg = document.getElementById('ltas'); svg.innerHTML = '';
+  const W = 760, H = 260, l = 62, r = 26, t = 12, b = 34, fmax = 16000, dmin = -100, dmax = 0;
+  const x = f => l + f / fmax * (W - l - r), y = d => t + (dmax - Math.max(dmin, d)) / (dmax - dmin) * (H - t - b);
+  for (let d = 0; d >= dmin; d -= 20) {
+    el('line', { x1: l, x2: W - r, y1: y(d), y2: y(d), stroke: css('--rule') }, svg);
+    el('text', { x: l - 8, y: y(d) + 4, 'text-anchor': 'end' }, svg, d + ' dB');
+  }
+  for (let f = 0; f <= fmax; f += 2000) el('text', { x: x(f), y: H - 12, 'text-anchor': 'middle' }, svg, (f / 1000) + ' kHz');
+  [['Dessa', '--s1'], ['LocalVoice', '--s3']].forEach(([name, tok]) => {
+    const s = DATA.report.ltas[name];
+    const d = s.f.map((f, i) => (i ? 'L' : 'M') + x(f).toFixed(1) + ' ' + y(s.db[i]).toFixed(1)).join(' ');
+    el('path', { d, fill: 'none', stroke: css(tok), 'stroke-width': 2, 'stroke-linejoin': 'round' }, svg);
+  });
+  const mark = (f, label, dy) => {
+    el('line', { x1: x(f), x2: x(f), y1: t, y2: H - b, stroke: css('--ink-3'), 'stroke-dasharray': '3 4' }, svg);
+    el('text', { x: x(f) + 6, y: t + 14 + dy, class: 'lab strong' }, svg, label);
+  };
+  mark(DATA.bw.Dessa, 'Dessa ends ' + (DATA.bw.Dessa / 1000).toFixed(1) + ' kHz', 0);
+  mark(DATA.bw.LocalVoice, 'LocalVoice ' + (DATA.bw.LocalVoice / 1000).toFixed(1) + ' kHz', 18);
+  const cross = el('line', { y1: t, y2: H - b, stroke: css('--ink'), 'stroke-width': 1, opacity: 0 }, svg);
+  const hit = el('rect', { x: l, y: t, width: W - l - r, height: H - t - b, fill: 'transparent' }, svg);
+  hit.addEventListener('mousemove', e => {
+    const p = svg.createSVGPoint(); p.x = e.clientX; p.y = e.clientY;
+    const q = p.matrixTransform(svg.getScreenCTM().inverse()), f = (q.x - l) / (W - l - r) * fmax;
+    cross.setAttribute('x1', q.x); cross.setAttribute('x2', q.x); cross.setAttribute('opacity', 0.5);
+    const at = s => { let k = 0; while (k < s.f.length - 1 && s.f[k] < f) k++; return s.db[k]; };
+    showTip(e, `${(f / 1000).toFixed(1)} kHz<br>Dessa ${at(DATA.report.ltas.Dessa).toFixed(0)} dB · LocalVoice ${at(DATA.report.ltas.LocalVoice).toFixed(0)} dB`);
+  });
+  hit.addEventListener('mouseleave', () => { cross.setAttribute('opacity', 0); hideTip(); });
+}
+
+function drawPitch() {
+  const svg = document.getElementById('pitch'); svg.innerHTML = '';
+  const W = 760, l = 150, r = 20, lo = 60, hi = 320;
+  const x = f => l + Math.log(f / lo) / Math.log(hi / lo) * (W - l - r);
+  [['Dessa', '--s1', DATA.report.dessa_f0_by_conversation, 30], ['The person', '--s2', DATA.report.people_f0_by_conversation, 70]].forEach(([name, tok, vals, yy]) => {
+    el('text', { x: l - 12, y: yy + 4, 'text-anchor': 'end', class: 'lab strong' }, svg, name);
+    el('line', { x1: l, x2: W - r, y1: yy, y2: yy, stroke: css('--rule') }, svg);
+    vals.forEach(v => {
+      const c = el('circle', { cx: x(v), cy: yy, r: 6, fill: css(tok), stroke: css('--surface'), 'stroke-width': 2 }, svg);
+      c.addEventListener('mousemove', e => showTip(e, `${name}: ${v} Hz`));
+      c.addEventListener('mouseleave', hideTip);
+    });
+  });
+  [80, 100, 150, 200, 250, 300].forEach(f => el('text', { x: x(f), y: 112, 'text-anchor': 'middle' }, svg, f + ' Hz'));
+}
+
+function drawPipe() {
+  const svg = document.getElementById('pipe'); svg.innerHTML = '';
+  const box = (x, y, w, h, title, sub, strong) => {
+    el('rect', { x, y, width: w, height: h, rx: 6, fill: css('--surface'), stroke: strong ? css('--accent') : css('--ink-3'), 'stroke-width': strong ? 2 : 1 }, svg);
+    el('text', { x: x + w / 2, y: y + h / 2 - 3, 'text-anchor': 'middle', class: 'lab strong' }, svg, title);
+    el('text', { x: x + w / 2, y: y + h / 2 + 14, 'text-anchor': 'middle' }, svg, sub);
+  };
+  const arrow = (x1, y1, x2, y2) => {
+    el('line', { x1, y1, x2, y2, stroke: css('--ink-2'), 'stroke-width': 1.5 }, svg);
+    const a = Math.atan2(y2 - y1, x2 - x1), s = 7;
+    el('path', { d: `M${x2} ${y2} L${x2 - s * Math.cos(a - 0.45)} ${y2 - s * Math.sin(a - 0.45)} L${x2 - s * Math.cos(a + 0.45)} ${y2 - s * Math.sin(a + 0.45)} Z`, fill: css('--ink-2') }, svg);
+  };
+  box(10, 20, 120, 56, 'Microphone', '48 kHz');
+  box(160, 20, 150, 56, 'Echo canceller', 'removes own voice');
+  box(340, 20, 170, 56, 'Speech + turn models', 'every 32 ms, CPU');
+  box(540, 20, 210, 56, 'Conductor', 'answer · mm-hm · yield', true);
+  box(340, 128, 170, 62, 'LFM3-Audio-2B', 'transcribes + speaks, GPU', true);
+  box(540, 128, 135, 62, 'LFM2.5-1.2B', 'writes the words, GPU', true);
+  arrow(510, 150, 540, 150); arrow(540, 170, 510, 170);
+  box(160, 128, 150, 62, 'Listening sounds', 'mm-hm, yeah…');
+  box(10, 128, 120, 62, 'Speakers', '24 kHz voice');
+  arrow(130, 48, 160, 48); arrow(310, 48, 340, 48); arrow(510, 48, 540, 48);
+  arrow(600, 76, 480, 128); el('text', { x: 560, y: 108, class: 'lab' }, svg, 'your audio, "answer now"');
+  arrow(340, 166, 310, 166); arrow(160, 166, 130, 166);
+  arrow(690, 76, 690, 104); el('line', { x1: 690, y1: 104, x2: 690, y2: 200, stroke: css('--ink-2'), 'stroke-width': 1.5 }, svg);
+  el('line', { x1: 690, y1: 200, x2: 235, y2: 200, stroke: css('--ink-2'), 'stroke-width': 1.5 }, svg);
+  arrow(235, 200, 235, 190);
+}
+
+function drawAll() { drawHist(); drawLtas(); drawPitch(); drawPipe(); }
+drawAll();
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', drawAll);
+new MutationObserver(drawAll).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+</script>

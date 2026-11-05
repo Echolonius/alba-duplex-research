@@ -1,0 +1,1570 @@
+{
+ "summary": {
+  "conversation": "val-V01_S0066_I00000309_P1124",
+  "minutes": 2.6,
+  "listen_bias": 0.0,
+  "ctx": 2400,
+  "keep": 900,
+  "rebuilds": 3,
+  "eos_first": false,
+  "utterances": 94,
+  "utterance_s_median": 0.4,
+  "utterances_under_0.8s": 83,
+  "stopped_before_plan_end": 0,
+  "energy_segments": 80,
+  "turn_segments": 0,
+  "short_segments_whole_utterances": 70,
+  "short_segments_split_from_longer": 10,
+  "answered_share": 0.0,
+  "cut_in_share": 0.0,
+  "reply_start_median_s": null,
+  "mmhm_per_min": 72.398,
+  "stop_median_s": null
+ },
+ "utterances": [
+  {
+   "start_step": 9,
+   "stop_step": 12,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "the|",
+   "p_eos_stop": [
+    0.0264,
+    0.0995
+   ],
+   "heard_s": 0.96,
+   "secs": 0.32
+  },
+  {
+   "start_step": 28,
+   "stop_step": 37,
+   "frames": 10,
+   "plan_done": true,
+   "plan": "out.|",
+   "p_eos_stop": [
+    0.882,
+    0.9404
+   ],
+   "heard_s": 2.48,
+   "secs": 0.8
+  },
+  {
+   "start_step": 100,
+   "stop_step": 102,
+   "frames": 3,
+   "plan_done": true,
+   "plan": "The|",
+   "p_eos_stop": [
+    0.5415,
+    0.7617
+   ],
+   "heard_s": 8.24,
+   "secs": 0.24
+  },
+  {
+   "start_step": 107,
+   "stop_step": 115,
+   "frames": 9,
+   "plan_done": true,
+   "plan": "Till the end.|",
+   "p_eos_stop": [
+    0.1262,
+    0.1669
+   ],
+   "heard_s": 8.8,
+   "secs": 0.72
+  },
+  {
+   "start_step": 129,
+   "stop_step": 132,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "The|",
+   "p_eos_stop": [
+    0.6324,
+    0.9029
+   ],
+   "heard_s": 10.56,
+   "secs": 0.32
+  },
+  {
+   "start_step": 137,
+   "stop_step": 139,
+   "frames": 3,
+   "plan_done": true,
+   "plan": "the|",
+   "p_eos_stop": [
+    0.3156,
+    0.5008
+   ],
+   "heard_s": 11.2,
+   "secs": 0.24
+  },
+  {
+   "start_step": 154,
+   "stop_step": 162,
+   "frames": 9,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.7229,
+    0.8043
+   ],
+   "heard_s": 12.56,
+   "secs": 0.72
+  },
+  {
+   "start_step": 185,
+   "stop_step": 189,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "The|",
+   "p_eos_stop": [
+    0.1466,
+    0.3539
+   ],
+   "heard_s": 15.04,
+   "secs": 0.4
+  },
+  {
+   "start_step": 196,
+   "stop_step": 198,
+   "frames": 3,
+   "plan_done": true,
+   "plan": "The|",
+   "p_eos_stop": [
+    0.0369,
+    0.0715
+   ],
+   "heard_s": 15.92,
+   "secs": 0.24
+  },
+  {
+   "start_step": 203,
+   "stop_step": 213,
+   "frames": 11,
+   "plan_done": true,
+   "plan": "Yes.|",
+   "p_eos_stop": [
+    0.0561,
+    0.111
+   ],
+   "heard_s": 16.48,
+   "secs": 0.88
+  },
+  {
+   "start_step": 221,
+   "stop_step": 232,
+   "frames": 12,
+   "plan_done": true,
+   "plan": "Yes.|",
+   "p_eos_stop": [
+    0.6615,
+    0.8003
+   ],
+   "heard_s": 17.92,
+   "secs": 0.96
+  },
+  {
+   "start_step": 237,
+   "stop_step": 246,
+   "frames": 10,
+   "plan_done": true,
+   "plan": "Mm-hm.|",
+   "p_eos_stop": [
+    0.1165,
+    0.44
+   ],
+   "heard_s": 19.2,
+   "secs": 0.8
+  },
+  {
+   "start_step": 287,
+   "stop_step": 290,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0038,
+    0.0179
+   ],
+   "heard_s": 23.2,
+   "secs": 0.32
+  },
+  {
+   "start_step": 301,
+   "stop_step": 311,
+   "frames": 11,
+   "plan_done": true,
+   "plan": "Mm-hm.|",
+   "p_eos_stop": [
+    0.3255,
+    0.4225
+   ],
+   "heard_s": 24.32,
+   "secs": 0.88
+  },
+  {
+   "start_step": 330,
+   "stop_step": 333,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yes.|",
+   "p_eos_stop": [
+    0.0342,
+    0.0892
+   ],
+   "heard_s": 26.64,
+   "secs": 0.32
+  },
+  {
+   "start_step": 335,
+   "stop_step": 335,
+   "frames": 1,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0177,
+    0.0536
+   ],
+   "heard_s": 27.04,
+   "secs": 0.08
+  },
+  {
+   "start_step": 351,
+   "stop_step": 354,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2066,
+    0.5512
+   ],
+   "heard_s": 28.32,
+   "secs": 0.32
+  },
+  {
+   "start_step": 363,
+   "stop_step": 367,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.4893,
+    0.8618
+   ],
+   "heard_s": 29.28,
+   "secs": 0.4
+  },
+  {
+   "start_step": 376,
+   "stop_step": 385,
+   "frames": 10,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.6983,
+    0.8237
+   ],
+   "heard_s": 30.32,
+   "secs": 0.8
+  },
+  {
+   "start_step": 394,
+   "stop_step": 398,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2525,
+    0.5731
+   ],
+   "heard_s": 31.76,
+   "secs": 0.4
+  },
+  {
+   "start_step": 415,
+   "stop_step": 423,
+   "frames": 9,
+   "plan_done": true,
+   "plan": "Mm-hm.|",
+   "p_eos_stop": [
+    0.5133,
+    0.8488
+   ],
+   "heard_s": 33.44,
+   "secs": 0.72
+  },
+  {
+   "start_step": 438,
+   "stop_step": 441,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0486,
+    0.1681
+   ],
+   "heard_s": 35.28,
+   "secs": 0.32
+  },
+  {
+   "start_step": 464,
+   "stop_step": 466,
+   "frames": 3,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1109,
+    0.3301
+   ],
+   "heard_s": 37.36,
+   "secs": 0.24
+  },
+  {
+   "start_step": 476,
+   "stop_step": 485,
+   "frames": 10,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.5598,
+    0.6516
+   ],
+   "heard_s": 38.32,
+   "secs": 0.8
+  },
+  {
+   "start_step": 520,
+   "stop_step": 523,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1992,
+    0.5362
+   ],
+   "heard_s": 41.84,
+   "secs": 0.32
+  },
+  {
+   "start_step": 576,
+   "stop_step": 576,
+   "frames": 1,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0073,
+    0.0326
+   ],
+   "heard_s": 46.32,
+   "secs": 0.08
+  },
+  {
+   "start_step": 579,
+   "stop_step": 582,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2919,
+    0.6548
+   ],
+   "heard_s": 46.56,
+   "secs": 0.32
+  },
+  {
+   "start_step": 585,
+   "stop_step": 596,
+   "frames": 12,
+   "plan_done": true,
+   "plan": "Mm-hm.|",
+   "p_eos_stop": [
+    0.0244,
+    0.0682
+   ],
+   "heard_s": 47.04,
+   "secs": 0.96
+  },
+  {
+   "start_step": 615,
+   "stop_step": 621,
+   "frames": 7,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0685,
+    0.1105
+   ],
+   "heard_s": 49.44,
+   "secs": 0.56
+  },
+  {
+   "start_step": 717,
+   "stop_step": 726,
+   "frames": 10,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.4196,
+    0.6127
+   ],
+   "heard_s": 57.6,
+   "secs": 0.8
+  },
+  {
+   "start_step": 756,
+   "stop_step": 756,
+   "frames": 1,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0095,
+    0.0479
+   ],
+   "heard_s": 60.72,
+   "secs": 0.08
+  },
+  {
+   "start_step": 782,
+   "stop_step": 784,
+   "frames": 3,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2401,
+    0.6005
+   ],
+   "heard_s": 62.8,
+   "secs": 0.24
+  },
+  {
+   "start_step": 792,
+   "stop_step": 795,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1915,
+    0.4312
+   ],
+   "heard_s": 63.6,
+   "secs": 0.32
+  },
+  {
+   "start_step": 801,
+   "stop_step": 804,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.3957,
+    0.6859
+   ],
+   "heard_s": 64.32,
+   "secs": 0.32
+  },
+  {
+   "start_step": 810,
+   "stop_step": 814,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2147,
+    0.4389
+   ],
+   "heard_s": 65.04,
+   "secs": 0.4
+  },
+  {
+   "start_step": 824,
+   "stop_step": 829,
+   "frames": 6,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2471,
+    0.544
+   ],
+   "heard_s": 66.16,
+   "secs": 0.48
+  },
+  {
+   "start_step": 835,
+   "stop_step": 839,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.3212,
+    0.7506
+   ],
+   "heard_s": 67.04,
+   "secs": 0.4
+  },
+  {
+   "start_step": 848,
+   "stop_step": 854,
+   "frames": 7,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0798,
+    0.1395
+   ],
+   "heard_s": 68.08,
+   "secs": 0.56
+  },
+  {
+   "start_step": 869,
+   "stop_step": 872,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0167,
+    0.105
+   ],
+   "heard_s": 69.76,
+   "secs": 0.32
+  },
+  {
+   "start_step": 898,
+   "stop_step": 899,
+   "frames": 2,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0118,
+    0.0427
+   ],
+   "heard_s": 72.08,
+   "secs": 0.16
+  },
+  {
+   "start_step": 906,
+   "stop_step": 910,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2501,
+    0.5841
+   ],
+   "heard_s": 72.72,
+   "secs": 0.4
+  },
+  {
+   "start_step": 921,
+   "stop_step": 925,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2032,
+    0.5299
+   ],
+   "heard_s": 73.92,
+   "secs": 0.4
+  },
+  {
+   "start_step": 939,
+   "stop_step": 944,
+   "frames": 6,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0755,
+    0.1534
+   ],
+   "heard_s": 75.36,
+   "secs": 0.48
+  },
+  {
+   "start_step": 960,
+   "stop_step": 963,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2022,
+    0.5857
+   ],
+   "heard_s": 77.04,
+   "secs": 0.32
+  },
+  {
+   "start_step": 979,
+   "stop_step": 984,
+   "frames": 6,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1287,
+    0.3762
+   ],
+   "heard_s": 78.56,
+   "secs": 0.48
+  },
+  {
+   "start_step": 994,
+   "stop_step": 998,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2101,
+    0.3923
+   ],
+   "heard_s": 79.76,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1020,
+   "stop_step": 1023,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.5096,
+    0.7319
+   ],
+   "heard_s": 81.84,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1031,
+   "stop_step": 1035,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1887,
+    0.6158
+   ],
+   "heard_s": 82.72,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1092,
+   "stop_step": 1097,
+   "frames": 6,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0547,
+    0.2047
+   ],
+   "heard_s": 87.6,
+   "secs": 0.48
+  },
+  {
+   "start_step": 1103,
+   "stop_step": 1107,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.7406,
+    0.8981
+   ],
+   "heard_s": 88.48,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1185,
+   "stop_step": 1189,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2834,
+    0.6406
+   ],
+   "heard_s": 95.04,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1204,
+   "stop_step": 1207,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0453,
+    0.2138
+   ],
+   "heard_s": 96.56,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1220,
+   "stop_step": 1224,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.4081,
+    0.6667
+   ],
+   "heard_s": 97.84,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1265,
+   "stop_step": 1269,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.259,
+    0.628
+   ],
+   "heard_s": 101.44,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1279,
+   "stop_step": 1283,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1802,
+    0.3769
+   ],
+   "heard_s": 102.56,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1355,
+   "stop_step": 1357,
+   "frames": 3,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0451,
+    0.2138
+   ],
+   "heard_s": 108.64,
+   "secs": 0.24
+  },
+  {
+   "start_step": 1371,
+   "stop_step": 1374,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0675,
+    0.3169
+   ],
+   "heard_s": 109.92,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1385,
+   "stop_step": 1389,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0988,
+    0.442
+   ],
+   "heard_s": 111.04,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1396,
+   "stop_step": 1397,
+   "frames": 2,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0306,
+    0.0636
+   ],
+   "heard_s": 111.92,
+   "secs": 0.16
+  },
+  {
+   "start_step": 1422,
+   "stop_step": 1422,
+   "frames": 1,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.005,
+    0.0155
+   ],
+   "heard_s": 114.0,
+   "secs": 0.08
+  },
+  {
+   "start_step": 1424,
+   "stop_step": 1428,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.3119,
+    0.7213
+   ],
+   "heard_s": 114.16,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1432,
+   "stop_step": 1436,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.7838,
+    0.9596
+   ],
+   "heard_s": 114.8,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1452,
+   "stop_step": 1456,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2524,
+    0.5148
+   ],
+   "heard_s": 116.4,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1472,
+   "stop_step": 1481,
+   "frames": 10,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.9125,
+    0.9638
+   ],
+   "heard_s": 118.0,
+   "secs": 0.8
+  },
+  {
+   "start_step": 1514,
+   "stop_step": 1519,
+   "frames": 6,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.3115,
+    0.6985
+   ],
+   "heard_s": 121.36,
+   "secs": 0.48
+  },
+  {
+   "start_step": 1531,
+   "stop_step": 1535,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1835,
+    0.5175
+   ],
+   "heard_s": 122.72,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1540,
+   "stop_step": 1544,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2019,
+    0.4087
+   ],
+   "heard_s": 123.44,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1552,
+   "stop_step": 1555,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0089,
+    0.0737
+   ],
+   "heard_s": 124.4,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1562,
+   "stop_step": 1566,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1419,
+    0.5062
+   ],
+   "heard_s": 125.2,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1571,
+   "stop_step": 1575,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.5103,
+    0.7676
+   ],
+   "heard_s": 125.92,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1584,
+   "stop_step": 1594,
+   "frames": 11,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2181,
+    0.3595
+   ],
+   "heard_s": 126.96,
+   "secs": 0.88
+  },
+  {
+   "start_step": 1606,
+   "stop_step": 1609,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1482,
+    0.266
+   ],
+   "heard_s": 128.72,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1614,
+   "stop_step": 1618,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.5159,
+    0.8263
+   ],
+   "heard_s": 129.36,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1627,
+   "stop_step": 1633,
+   "frames": 7,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1735,
+    0.3955
+   ],
+   "heard_s": 130.4,
+   "secs": 0.56
+  },
+  {
+   "start_step": 1639,
+   "stop_step": 1643,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.7696,
+    0.9114
+   ],
+   "heard_s": 131.36,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1654,
+   "stop_step": 1658,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.4279,
+    0.7483
+   ],
+   "heard_s": 132.56,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1666,
+   "stop_step": 1669,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0375,
+    0.1369
+   ],
+   "heard_s": 133.52,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1675,
+   "stop_step": 1675,
+   "frames": 1,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0073,
+    0.0256
+   ],
+   "heard_s": 134.24,
+   "secs": 0.08
+  },
+  {
+   "start_step": 1690,
+   "stop_step": 1693,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0976,
+    0.265
+   ],
+   "heard_s": 135.44,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1700,
+   "stop_step": 1701,
+   "frames": 2,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0344,
+    0.1109
+   ],
+   "heard_s": 136.24,
+   "secs": 0.16
+  },
+  {
+   "start_step": 1704,
+   "stop_step": 1707,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1025,
+    0.2491
+   ],
+   "heard_s": 136.56,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1718,
+   "stop_step": 1721,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.7638,
+    0.924
+   ],
+   "heard_s": 137.68,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1724,
+   "stop_step": 1725,
+   "frames": 2,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0243,
+    0.0886
+   ],
+   "heard_s": 138.16,
+   "secs": 0.16
+  },
+  {
+   "start_step": 1735,
+   "stop_step": 1739,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.4411,
+    0.8108
+   ],
+   "heard_s": 139.04,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1780,
+   "stop_step": 1786,
+   "frames": 7,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0682,
+    0.1146
+   ],
+   "heard_s": 142.64,
+   "secs": 0.56
+  },
+  {
+   "start_step": 1796,
+   "stop_step": 1800,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.1782,
+    0.4513
+   ],
+   "heard_s": 143.92,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1807,
+   "stop_step": 1810,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0307,
+    0.2054
+   ],
+   "heard_s": 144.8,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1839,
+   "stop_step": 1843,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.3095,
+    0.691
+   ],
+   "heard_s": 147.36,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1860,
+   "stop_step": 1863,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0559,
+    0.1852
+   ],
+   "heard_s": 149.04,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1891,
+   "stop_step": 1894,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.2924,
+    0.6019
+   ],
+   "heard_s": 151.52,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1903,
+   "stop_step": 1907,
+   "frames": 5,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.3013,
+    0.6309
+   ],
+   "heard_s": 152.48,
+   "secs": 0.4
+  },
+  {
+   "start_step": 1911,
+   "stop_step": 1914,
+   "frames": 4,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0109,
+    0.0416
+   ],
+   "heard_s": 153.12,
+   "secs": 0.32
+  },
+  {
+   "start_step": 1924,
+   "stop_step": 1925,
+   "frames": 2,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.0079,
+    0.0303
+   ],
+   "heard_s": 154.16,
+   "secs": 0.16
+  },
+  {
+   "start_step": 1940,
+   "stop_step": 1948,
+   "frames": 9,
+   "plan_done": true,
+   "plan": "Yeah.|",
+   "p_eos_stop": [
+    0.693,
+    0.8361
+   ],
+   "heard_s": 155.44,
+   "secs": 0.72
+  }
+ ],
+ "segments": [
+  [
+   1.09,
+   1.2
+  ],
+  [
+   2.5,
+   2.94
+  ],
+  [
+   8.83,
+   9.44
+  ],
+  [
+   10.62,
+   10.8
+  ],
+  [
+   12.62,
+   12.95
+  ],
+  [
+   15.13,
+   15.36
+  ],
+  [
+   16.54,
+   17.04
+  ],
+  [
+   18.01,
+   18.49
+  ],
+  [
+   19.3,
+   19.92
+  ],
+  [
+   23.27,
+   23.44
+  ],
+  [
+   24.41,
+   25.01
+  ],
+  [
+   26.72,
+   26.88
+  ],
+  [
+   28.39,
+   28.56
+  ],
+  [
+   29.34,
+   29.6
+  ],
+  [
+   30.41,
+   30.75
+  ],
+  [
+   31.87,
+   32.08
+  ],
+  [
+   33.52,
+   34.08
+  ],
+  [
+   35.34,
+   35.52
+  ],
+  [
+   37.4,
+   37.52
+  ],
+  [
+   38.41,
+   38.7
+  ],
+  [
+   41.86,
+   42.08
+  ],
+  [
+   46.65,
+   46.8
+  ],
+  [
+   47.14,
+   47.92
+  ],
+  [
+   49.53,
+   49.89
+  ],
+  [
+   57.7,
+   58.05
+  ],
+  [
+   62.83,
+   62.96
+  ],
+  [
+   63.67,
+   63.84
+  ],
+  [
+   64.38,
+   64.56
+  ],
+  [
+   65.13,
+   65.36
+  ],
+  [
+   66.36,
+   66.56
+  ],
+  [
+   67.15,
+   67.36
+  ],
+  [
+   68.11,
+   68.45
+  ],
+  [
+   69.83,
+   70.0
+  ],
+  [
+   72.87,
+   73.04
+  ],
+  [
+   74.01,
+   74.24
+  ],
+  [
+   75.44,
+   75.76
+  ],
+  [
+   77.11,
+   77.28
+  ],
+  [
+   78.65,
+   78.96
+  ],
+  [
+   79.84,
+   80.08
+  ],
+  [
+   81.89,
+   82.08
+  ],
+  [
+   82.81,
+   83.04
+  ],
+  [
+   87.73,
+   88.0
+  ],
+  [
+   88.59,
+   88.8
+  ],
+  [
+   95.1,
+   95.36
+  ],
+  [
+   96.69,
+   96.8
+  ],
+  [
+   97.94,
+   98.16
+  ],
+  [
+   101.57,
+   101.76
+  ],
+  [
+   102.63,
+   102.88
+  ],
+  [
+   109.96,
+   110.16
+  ],
+  [
+   111.12,
+   111.36
+  ],
+  [
+   114.27,
+   114.48
+  ],
+  [
+   114.93,
+   115.12
+  ],
+  [
+   116.5,
+   116.72
+  ],
+  [
+   118.07,
+   118.42
+  ],
+  [
+   121.58,
+   121.76
+  ],
+  [
+   122.8,
+   123.04
+  ],
+  [
+   123.54,
+   123.76
+  ],
+  [
+   124.53,
+   124.64
+  ],
+  [
+   125.31,
+   125.52
+  ],
+  [
+   126.04,
+   126.24
+  ],
+  [
+   127.09,
+   127.48
+  ],
+  [
+   128.75,
+   128.96
+  ],
+  [
+   129.47,
+   129.68
+  ],
+  [
+   130.54,
+   130.88
+  ],
+  [
+   131.51,
+   131.68
+  ],
+  [
+   132.68,
+   132.88
+  ],
+  [
+   133.63,
+   133.76
+  ],
+  [
+   135.48,
+   135.68
+  ],
+  [
+   136.67,
+   136.8
+  ],
+  [
+   137.74,
+   137.92
+  ],
+  [
+   139.14,
+   139.36
+  ],
+  [
+   142.7,
+   143.12
+  ],
+  [
+   144.01,
+   144.24
+  ],
+  [
+   144.9,
+   145.04
+  ],
+  [
+   147.49,
+   147.68
+  ],
+  [
+   149.11,
+   149.28
+  ],
+  [
+   151.62,
+   151.76
+  ],
+  [
+   152.62,
+   152.8
+  ],
+  [
+   153.25,
+   153.36
+  ],
+  [
+   155.5,
+   155.83
+  ]
+ ]
+}

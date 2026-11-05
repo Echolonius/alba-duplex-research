@@ -1,0 +1,144 @@
+{
+ "all_pass": true,
+ "checks": {
+  "both integrations registered their tools": {
+   "pass": true,
+   "detail": [
+    "calculator",
+    "clock",
+    "notes_search",
+    "save_note",
+    "search_knowledge",
+    "todo_add",
+    "todo_done",
+    "todo_list"
+   ]
+  },
+  "a change is refused without a yes": {
+   "pass": true,
+   "detail": "Ask the person first: should I add an item to the to-do list with {\"item\": \"buy milk\"}?"
+  },
+  "...and nothing changed": {
+   "pass": true,
+   "detail": {
+    "result": {
+     "open": []
+    }
+   }
+  },
+  "after a yes it runs": {
+   "pass": true,
+   "detail": {
+    "result": {
+     "ok": true,
+     "open": [
+      "buy milk"
+     ]
+    }
+   }
+  },
+  "tick off works": {
+   "pass": true,
+   "detail": {
+    "result": {
+     "ok": true,
+     "open": []
+    }
+   }
+  },
+  "notes search (read-only, no yes needed) finds the line": {
+   "pass": true,
+   "detail": [
+    {
+     "file": "garden.md",
+     "line": 1,
+     "text": "Tomatoes go in the sunny bed by the fence."
+    }
+   ]
+  },
+  "calculator": {
+   "pass": true,
+   "detail": {
+    "result": {
+     "value": 395
+    }
+   }
+  },
+  "calculator refuses code": {
+   "pass": true,
+   "detail": {
+    "error": "only arithmetic"
+   }
+  },
+  "tools must live on this PC": {
+   "pass": true,
+   "detail": {
+    "error": "url must be http://127.0.0.1:<port>/... (tools run on this PC only)"
+   }
+  },
+  "web pages from other sites are refused": {
+   "pass": true,
+   "detail": {
+    "error": "only this PC"
+   }
+  },
+  "a re-pointed name is refused": {
+   "pass": true,
+   "detail": {
+    "error": "only this PC"
+   }
+  },
+  "knowledge store finds it": {
+   "pass": true,
+   "detail": [
+    {
+     "id": 1,
+     "title": "Sister",
+     "text": "Maya's birthday is on March 3rd.",
+     "source": "api",
+     "added": "2026-11-05T01:04:05"
+    }
+   ]
+  },
+  "a proposal is not used before approval": {
+   "pass": true,
+   "detail": {
+    "items": []
+   }
+  },
+  "approved: now in the knowledge store": {
+   "pass": true,
+   "detail": [
+    {
+     "id": 2,
+     "title": "From the call of 20261105-0100",
+     "text": "They are learning the cello.",
+     "source": "learned",
+     "added": "2026-11-05T01:04:05"
+    }
+   ]
+  },
+  "undo takes it back out and it waits again": {
+   "pass": true,
+   "detail": {
+    "id": 1,
+    "call": "20261105-0100",
+    "text": "They are learning the cello.",
+    "snippet": "I've been practising the cello.",
+    "status": "waiting",
+    "proposed": "2026-11-05T01:04:05",
+    "decided": "2026-11-05T01:04:05"
+   }
+  },
+  "delete removes it and its snippet for good": {
+   "pass": true,
+   "detail": {
+    "items": []
+   }
+  },
+  "every tool run is logged": {
+   "pass": true,
+   "detail": "5 actions"
+  }
+ }
+}

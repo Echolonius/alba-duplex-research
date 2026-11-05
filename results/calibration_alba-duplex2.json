@@ -1,0 +1,60 @@
+{
+ "rule": "max answered with cut-ins < 8% and reply median <= 0.35 s; else fewest cut-ins",
+ "validation": [
+  "val-V01_S0066_I00000309_P1124",
+  "val-V00_S0589_I00000497_P0742",
+  "val-V00_S1469_I00000195_P1144",
+  "val-V03_S1920_I00000213_P4602",
+  "val-V03_S0213_I00000461_P1466",
+  "val-V02_S5114_I00000040_P5125",
+  "val-V02_S5100_I00000286_P5124",
+  "val-V03_S0870_I00000054_P2962"
+ ],
+ "table": [
+  {
+   "listen_bias": 0.0,
+   "reply_start_median_s": 0.09,
+   "answered_share": 0.103,
+   "cut_in_share": 0.031,
+   "stop_median_s": 0.446,
+   "talk_through_share": 0.0,
+   "mmhm_per_min": 73.731
+  },
+  {
+   "listen_bias": 0.8,
+   "reply_start_median_s": 1.568,
+   "answered_share": 0.09,
+   "cut_in_share": 0.0,
+   "stop_median_s": null,
+   "talk_through_share": null,
+   "mmhm_per_min": 16.345
+  },
+  {
+   "listen_bias": 1.61,
+   "reply_start_median_s": 8.26,
+   "answered_share": 0.026,
+   "cut_in_share": 0.0,
+   "stop_median_s": null,
+   "talk_through_share": null,
+   "mmhm_per_min": 7.274
+  },
+  {
+   "listen_bias": 2.4,
+   "reply_start_median_s": null,
+   "answered_share": 0.0,
+   "cut_in_share": 0.0,
+   "stop_median_s": null,
+   "talk_through_share": null,
+   "mmhm_per_min": 0.629
+  }
+ ],
+ "chosen": {
+  "listen_bias": 0.0,
+  "reply_start_median_s": 0.09,
+  "answered_share": 0.103,
+  "cut_in_share": 0.031,
+  "stop_median_s": 0.446,
+  "talk_through_share": 0.0,
+  "mmhm_per_min": 73.731
+ }
+}

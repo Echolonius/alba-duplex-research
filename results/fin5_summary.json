@@ -1,0 +1,89 @@
+{
+ "label": "LocalVoice",
+ "test_with_people": {
+  "conversations": 6,
+  "minutes": 9.708666666666666,
+  "response_offset_s": {
+   "n": 70,
+   "median": 0.4800000000000022,
+   "p25": 0.2700000000000031,
+   "p75": 0.6424999999999993,
+   "mean": 0.3347142857142848,
+   "share_overlapping_start": 0.14285714285714285,
+   "share_within_200ms": 0.0,
+   "share_over_700ms": 0.21428571428571427
+  },
+  "backchannels_per_min_of_other_speech": 8.010312125955254,
+  "interruptions_per_min": 0.1030007553388725,
+  "kept_talking_when_talked_over_s": {
+   "n": 8,
+   "median": 0.3500000000000003,
+   "p25": 0.2999999999999998,
+   "p75": 0.4,
+   "mean": 0.34125000000000105,
+   "share_overlapping_start": 0.0,
+   "share_within_200ms": 0.125,
+   "share_over_700ms": 0.0
+  },
+  "talk_share": 0.5496444343084611,
+  "overlap_share_of_time": 0.05207929533098862,
+  "bandwidth_hz_median": 11583.984375,
+  "f0_median_hz_per_conversation": [
+   183,
+   187,
+   190,
+   185,
+   186,
+   188
+  ],
+  "f0_range_semitones_median": 12.793192713633738,
+  "f0_sd_semitones_median": 4.096587492276685,
+  "jitter_pct_median": 1.5994824532983916,
+  "shimmer_pct_median": 7.938486704583108,
+  "hnr_db_median": 13.729660754997107
+ },
+ "people_with_test": {
+  "conversations": 6,
+  "minutes": 9.708666666666666,
+  "response_offset_s": {
+   "n": 64,
+   "median": 0.480000000000004,
+   "p25": -0.11250000000000249,
+   "p75": 0.735000000000003,
+   "mean": 0.3634374999999999,
+   "share_overlapping_start": 0.265625,
+   "share_within_200ms": 0.09375,
+   "share_over_700ms": 0.296875
+  },
+  "backchannels_per_min_of_other_speech": 4.979065293651691,
+  "interruptions_per_min": 0.82400604271098,
+  "kept_talking_when_talked_over_s": {
+   "n": 1,
+   "median": 0.04000000000000625,
+   "p25": 0.04000000000000625,
+   "p75": 0.04000000000000625,
+   "mean": 0.04000000000000625,
+   "share_overlapping_start": 0.0,
+   "share_within_200ms": 1.0,
+   "share_over_700ms": 0.0
+  },
+  "talk_share": 0.4503555656915389,
+  "overlap_share_of_time": 0.05207929533098862,
+  "bandwidth_hz_median": 11144.53125,
+  "f0_median_hz_per_conversation": [
+   113,
+   108,
+   96,
+   112,
+   107,
+   96
+  ],
+  "f0_range_semitones_median": 22.14078383589825,
+  "f0_sd_semitones_median": 7.40244815542719,
+  "jitter_pct_median": 3.6248133110940057,
+  "shimmer_pct_median": 11.30111841231675,
+  "hnr_db_median": 8.499832695343782
+ },
+ "test_with_ai": null,
+ "ai_with_test": null
+}

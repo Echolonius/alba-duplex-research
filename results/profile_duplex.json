@@ -1,0 +1,18 @@
+{
+ "encoder_step": {
+  "wall_ms": 88.14,
+  "gpu_kernel_ms": 75.32,
+  "launches": 790
+ },
+ "frame_sampler": {
+  "wall_ms": 134.47,
+  "gpu_kernel_ms": 76.96,
+  "launches": 1283
+ },
+ "codec_frame": {
+  "wall_ms": 57.2,
+  "gpu_kernel_ms": 32.75,
+  "launches": 557
+ },
+ "lm_two_vectors_ms": 29.65
+}

@@ -1,0 +1,1357 @@
+{
+ "note": "Held-out spoken test battery (check 4). Test data only: never used for training, never paraphrased into training data. Each item: turns the person says (spoken by a synthetic voice; earlier turns are said first in the same call), and how the last reply is scored: 'any' = reply must contain at least one of these (case-insensitive), 'none' = must contain none of these, 'silent' = a good reply is no reply. Written 4 November 2026.",
+ "items": [
+  {
+   "id": "fact01",
+   "cat": "facts",
+   "turns": [
+    "What's the capital of Australia?"
+   ],
+   "any": [
+    "canberra"
+   ]
+  },
+  {
+   "id": "fact02",
+   "cat": "facts",
+   "turns": [
+    "How many legs does a spider have?"
+   ],
+   "any": [
+    "eight",
+    "8"
+   ]
+  },
+  {
+   "id": "fact03",
+   "cat": "facts",
+   "turns": [
+    "Who painted the Mona Lisa?"
+   ],
+   "any": [
+    "leonardo",
+    "da vinci"
+   ]
+  },
+  {
+   "id": "fact04",
+   "cat": "facts",
+   "turns": [
+    "What planet is known as the red planet?"
+   ],
+   "any": [
+    "mars"
+   ]
+  },
+  {
+   "id": "fact05",
+   "cat": "facts",
+   "turns": [
+    "What's the boiling point of water in Celsius?"
+   ],
+   "any": [
+    "100",
+    "hundred"
+   ]
+  },
+  {
+   "id": "fact06",
+   "cat": "facts",
+   "turns": [
+    "Which ocean is the biggest?"
+   ],
+   "any": [
+    "pacific"
+   ]
+  },
+  {
+   "id": "fact07",
+   "cat": "facts",
+   "turns": [
+    "Who wrote Romeo and Juliet?"
+   ],
+   "any": [
+    "shakespeare"
+   ]
+  },
+  {
+   "id": "fact08",
+   "cat": "facts",
+   "turns": [
+    "What gas do plants take in from the air?"
+   ],
+   "any": [
+    "carbon dioxide",
+    "co2",
+    "c o 2"
+   ]
+  },
+  {
+   "id": "fact09",
+   "cat": "facts",
+   "turns": [
+    "What's the largest planet in our solar system?"
+   ],
+   "any": [
+    "jupiter"
+   ]
+  },
+  {
+   "id": "fact10",
+   "cat": "facts",
+   "turns": [
+    "In what country are the pyramids of Giza?"
+   ],
+   "any": [
+    "egypt"
+   ]
+  },
+  {
+   "id": "fact11",
+   "cat": "facts",
+   "turns": [
+    "How many players does a soccer team have on the field?"
+   ],
+   "any": [
+    "eleven",
+    "11"
+   ]
+  },
+  {
+   "id": "fact12",
+   "cat": "facts",
+   "turns": [
+    "What's the chemical symbol for gold?"
+   ],
+   "any": [
+    "au",
+    "a u"
+   ]
+  },
+  {
+   "id": "fact13",
+   "cat": "facts",
+   "turns": [
+    "Who was the first person to walk on the moon?"
+   ],
+   "any": [
+    "armstrong"
+   ]
+  },
+  {
+   "id": "fact14",
+   "cat": "facts",
+   "turns": [
+    "What's the main language spoken in Brazil?"
+   ],
+   "any": [
+    "portuguese"
+   ]
+  },
+  {
+   "id": "fact15",
+   "cat": "facts",
+   "turns": [
+    "What's the fastest land animal?"
+   ],
+   "any": [
+    "cheetah"
+   ]
+  },
+  {
+   "id": "fact16",
+   "cat": "facts",
+   "turns": [
+    "Which video game company makes Mario?"
+   ],
+   "any": [
+    "nintendo"
+   ]
+  },
+  {
+   "id": "fact17",
+   "cat": "facts",
+   "turns": [
+    "What's the tallest mountain on Earth?"
+   ],
+   "any": [
+    "everest"
+   ]
+  },
+  {
+   "id": "fact18",
+   "cat": "facts",
+   "turns": [
+    "What do bees make?"
+   ],
+   "any": [
+    "honey"
+   ]
+  },
+  {
+   "id": "fact19",
+   "cat": "facts",
+   "turns": [
+    "What's the freezing point of water in Fahrenheit?"
+   ],
+   "any": [
+    "32",
+    "thirty-two",
+    "thirty two"
+   ]
+  },
+  {
+   "id": "fact20",
+   "cat": "facts",
+   "turns": [
+    "Who's the main character in The Legend of Zelda games, the one you play as?"
+   ],
+   "any": [
+    "link"
+   ]
+  },
+  {
+   "id": "fact21",
+   "cat": "facts",
+   "turns": [
+    "How many continents are there?"
+   ],
+   "any": [
+    "seven",
+    "7"
+   ]
+  },
+  {
+   "id": "fact22",
+   "cat": "facts",
+   "turns": [
+    "What's the hardest natural material?"
+   ],
+   "any": [
+    "diamond"
+   ]
+  },
+  {
+   "id": "fact23",
+   "cat": "facts",
+   "turns": [
+    "What instrument has eighty-eight keys?"
+   ],
+   "any": [
+    "piano"
+   ]
+  },
+  {
+   "id": "fact24",
+   "cat": "facts",
+   "turns": [
+    "What's the capital of Japan?"
+   ],
+   "any": [
+    "tokyo"
+   ]
+  },
+  {
+   "id": "fact25",
+   "cat": "facts",
+   "turns": [
+    "Which blue hedgehog is Sega's mascot?"
+   ],
+   "any": [
+    "sonic"
+   ]
+  },
+  {
+   "id": "fact26",
+   "cat": "facts",
+   "turns": [
+    "What organ pumps blood through your body?"
+   ],
+   "any": [
+    "heart"
+   ]
+  },
+  {
+   "id": "fact27",
+   "cat": "facts",
+   "turns": [
+    "How many days are in a leap year?"
+   ],
+   "any": [
+    "366",
+    "three hundred sixty-six",
+    "three hundred and sixty-six",
+    "three hundred sixty six"
+   ]
+  },
+  {
+   "id": "fact28",
+   "cat": "facts",
+   "turns": [
+    "What's the closest star to Earth?"
+   ],
+   "any": [
+    "sun"
+   ]
+  },
+  {
+   "id": "fact29",
+   "cat": "facts",
+   "turns": [
+    "Who discovered penicillin?"
+   ],
+   "any": [
+    "fleming"
+   ]
+  },
+  {
+   "id": "fact30",
+   "cat": "facts",
+   "turns": [
+    "What's the longest river in Africa?"
+   ],
+   "any": [
+    "nile"
+   ]
+  },
+  {
+   "id": "reas01",
+   "cat": "reasoning",
+   "turns": [
+    "If I have three apples and eat one, then buy five more, how many do I have?"
+   ],
+   "any": [
+    "seven",
+    "7"
+   ]
+  },
+  {
+   "id": "reas02",
+   "cat": "reasoning",
+   "turns": [
+    "What's twelve times eleven?"
+   ],
+   "any": [
+    "132",
+    "hundred thirty-two",
+    "hundred and thirty-two",
+    "hundred thirty two"
+   ]
+  },
+  {
+   "id": "reas03",
+   "cat": "reasoning",
+   "turns": [
+    "If today is Monday, what day will it be in three days?"
+   ],
+   "any": [
+    "thursday"
+   ]
+  },
+  {
+   "id": "reas04",
+   "cat": "reasoning",
+   "turns": [
+    "Which is heavier, a kilo of feathers or a kilo of bricks?"
+   ],
+   "any": [
+    "same",
+    "neither",
+    "equal",
+    "both"
+   ]
+  },
+  {
+   "id": "reas05",
+   "cat": "reasoning",
+   "turns": [
+    "Tom is taller than Sam, and Sam is taller than Lee. Who's the shortest?"
+   ],
+   "any": [
+    "lee"
+   ]
+  },
+  {
+   "id": "reas06",
+   "cat": "reasoning",
+   "turns": [
+    "A movie starts at seven forty and runs two hours. When does it end?"
+   ],
+   "any": [
+    "nine forty",
+    "9:40",
+    "9 40"
+   ]
+  },
+  {
+   "id": "reas07",
+   "cat": "reasoning",
+   "turns": [
+    "What's half of a hundred and twenty?"
+   ],
+   "any": [
+    "sixty",
+    "60"
+   ]
+  },
+  {
+   "id": "reas08",
+   "cat": "reasoning",
+   "turns": [
+    "If a shirt costs twenty dollars and it's twenty-five percent off, what's the price?"
+   ],
+   "any": [
+    "fifteen",
+    "15"
+   ]
+  },
+  {
+   "id": "reas09",
+   "cat": "reasoning",
+   "turns": [
+    "I'm facing north and turn right twice. Which way am I facing now?"
+   ],
+   "any": [
+    "south"
+   ]
+  },
+  {
+   "id": "reas10",
+   "cat": "reasoning",
+   "turns": [
+    "How many minutes are in two and a half hours?"
+   ],
+   "any": [
+    "150",
+    "hundred fifty",
+    "hundred and fifty"
+   ]
+  },
+  {
+   "id": "reas11",
+   "cat": "reasoning",
+   "turns": [
+    "What comes next: two, four, eight, sixteen?"
+   ],
+   "any": [
+    "32",
+    "thirty-two",
+    "thirty two"
+   ]
+  },
+  {
+   "id": "reas12",
+   "cat": "reasoning",
+   "turns": [
+    "If all cats are animals and Whiskers is a cat, is Whiskers an animal?"
+   ],
+   "any": [
+    "yes",
+    "yeah",
+    "yep",
+    "of course",
+    "sure",
+    "definitely",
+    "is an animal",
+    "be an animal"
+   ]
+  },
+  {
+   "id": "reas13",
+   "cat": "reasoning",
+   "turns": [
+    "I had ten bucks, spent four on coffee and three on a muffin. How much is left?"
+   ],
+   "any": [
+    "three",
+    "3"
+   ]
+  },
+  {
+   "id": "reas14",
+   "cat": "reasoning",
+   "turns": [
+    "Which is bigger, a third or a quarter?"
+   ],
+   "any": [
+    "third"
+   ]
+  },
+  {
+   "id": "reas15",
+   "cat": "reasoning",
+   "turns": [
+    "My flight leaves at noon and I need to be there two hours early. When should I arrive?"
+   ],
+   "any": [
+    "ten",
+    "10"
+   ]
+  },
+  {
+   "id": "mem01",
+   "cat": "memory",
+   "turns": [
+    "My dog's name is Biscuit and she's a corgi.",
+    "Wait, what breed did I say my dog was?"
+   ],
+   "any": [
+    "corgi"
+   ]
+  },
+  {
+   "id": "mem02",
+   "cat": "memory",
+   "turns": [
+    "I'm flying to Denver on Friday for my cousin's wedding.",
+    "Where did I say I'm flying?"
+   ],
+   "any": [
+    "denver"
+   ]
+  },
+  {
+   "id": "mem03",
+   "cat": "memory",
+   "turns": [
+    "My favorite color is green, by the way.",
+    "Okay, so what's my favorite color?"
+   ],
+   "any": [
+    "green"
+   ]
+  },
+  {
+   "id": "mem04",
+   "cat": "memory",
+   "turns": [
+    "I've got three kids, two boys and a girl.",
+    "How many kids do I have?"
+   ],
+   "any": [
+    "three",
+    "3"
+   ]
+  },
+  {
+   "id": "mem05",
+   "cat": "memory",
+   "turns": [
+    "My sister Maya just started college.",
+    "What's my sister's name again?"
+   ],
+   "any": [
+    "maya"
+   ]
+  },
+  {
+   "id": "mem06",
+   "cat": "memory",
+   "turns": [
+    "I've been playing Elden Ring all week.",
+    "Which game did I say I've been playing?"
+   ],
+   "any": [
+    "elden"
+   ]
+  },
+  {
+   "id": "mem07",
+   "cat": "memory",
+   "turns": [
+    "I work as a nurse at night.",
+    "Do you remember what my job is?"
+   ],
+   "any": [
+    "nurse"
+   ]
+  },
+  {
+   "id": "mem08",
+   "cat": "memory",
+   "turns": [
+    "My birthday's on March third.",
+    "When's my birthday?"
+   ],
+   "any": [
+    "march"
+   ]
+  },
+  {
+   "id": "mem09",
+   "cat": "memory",
+   "turns": [
+    "I had pancakes for breakfast.",
+    "And I'm thinking tacos for dinner.",
+    "What did I have for breakfast?"
+   ],
+   "any": [
+    "pancake"
+   ]
+  },
+  {
+   "id": "mem10",
+   "cat": "memory",
+   "turns": [
+    "My car is a red Honda Civic.",
+    "What color is my car?"
+   ],
+   "any": [
+    "red"
+   ]
+  },
+  {
+   "id": "mem11",
+   "cat": "memory",
+   "turns": [
+    "I'm learning to play the guitar.",
+    "What instrument am I learning?"
+   ],
+   "any": [
+    "guitar"
+   ]
+  },
+  {
+   "id": "mem12",
+   "cat": "memory",
+   "turns": [
+    "My cat's called Pepper.",
+    "My other cat is Salt.",
+    "What's my first cat called?"
+   ],
+   "any": [
+    "pepper"
+   ]
+  },
+  {
+   "id": "mem13",
+   "cat": "memory",
+   "turns": [
+    "I live in Ohio.",
+    "Which state do I live in?"
+   ],
+   "any": [
+    "ohio"
+   ]
+  },
+  {
+   "id": "mem14",
+   "cat": "memory",
+   "turns": [
+    "My exam is on Thursday.",
+    "When's my exam?"
+   ],
+   "any": [
+    "thursday"
+   ]
+  },
+  {
+   "id": "mem15",
+   "cat": "memory",
+   "turns": [
+    "I'm allergic to peanuts.",
+    "What am I allergic to?"
+   ],
+   "any": [
+    "peanut"
+   ]
+  },
+  {
+   "id": "trap01",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "I'm bored."
+   ],
+   "none": [
+    "how can i help",
+    "how may i help",
+    "how can i assist",
+    "assist you",
+    "what can i do for you",
+    "is there anything",
+    "anything else",
+    "let me know if"
+   ]
+  },
+  {
+   "id": "trap02",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "Not much going on today."
+   ],
+   "none": [
+    "how can i help",
+    "how may i help",
+    "how can i assist",
+    "assist you",
+    "what can i do for you",
+    "is there anything",
+    "anything else",
+    "let me know if"
+   ]
+  },
+  {
+   "id": "trap03",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "I don't really know what to talk about."
+   ],
+   "none": [
+    "how can i help",
+    "how may i help",
+    "how can i assist",
+    "assist you",
+    "what can i do for you",
+    "anything else",
+    "let me know if"
+   ]
+  },
+  {
+   "id": "trap04",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "Hmm."
+   ],
+   "none": [
+    "how can i help",
+    "how may i help",
+    "how can i assist",
+    "assist you",
+    "what can i do for you",
+    "anything else",
+    "let me know if"
+   ]
+  },
+  {
+   "id": "trap05",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "Thanks for chatting."
+   ],
+   "none": [
+    "how can i help",
+    "how can i assist",
+    "assist you",
+    "anything else",
+    "let me know if",
+    "feel free to reach out"
+   ]
+  },
+  {
+   "id": "trap06",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "What's up?"
+   ],
+   "none": [
+    "how can i help",
+    "how can i assist",
+    "assist you",
+    "what can i do for you",
+    "anything else",
+    "as an ai"
+   ]
+  },
+  {
+   "id": "trap07",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "Tell me something about yourself."
+   ],
+   "none": [
+    "how can i help",
+    "how can i assist",
+    "assist you",
+    "as an ai language model",
+    "i'm here to help"
+   ]
+  },
+  {
+   "id": "trap08",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "Ugh, Mondays."
+   ],
+   "none": [
+    "how can i help",
+    "how can i assist",
+    "assist you",
+    "anything else",
+    "let me know if"
+   ]
+  },
+  {
+   "id": "trap09",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "Do you have a favorite movie?"
+   ],
+   "none": [
+    "as an ai",
+    "i don't have personal",
+    "i don't have preferences",
+    "i do not have personal"
+   ]
+  },
+  {
+   "id": "trap10",
+   "cat": "helpdesk_trap",
+   "turns": [
+    "Pick one for me, pizza or burgers?"
+   ],
+   "none": [
+    "as an ai",
+    "i don't have personal",
+    "i don't have preferences",
+    "it depends on your"
+   ]
+  },
+  {
+   "id": "unk01",
+   "cat": "uncertainty",
+   "turns": [
+    "What did I have for breakfast today?"
+   ],
+   "any": [
+    "don't know",
+    "no idea",
+    "not sure",
+    "can't know",
+    "didn't tell",
+    "haven't told",
+    "you tell me",
+    "no clue",
+    "not sure",
+    "can't tell",
+    "wouldn't know"
+   ]
+  },
+  {
+   "id": "unk02",
+   "cat": "uncertainty",
+   "turns": [
+    "What's the weather like outside right now?"
+   ],
+   "any": [
+    "don't know",
+    "can't check",
+    "can't see",
+    "no idea",
+    "not sure",
+    "offline",
+    "no internet",
+    "can't look",
+    "wouldn't know",
+    "don't have"
+   ]
+  },
+  {
+   "id": "unk03",
+   "cat": "uncertainty",
+   "turns": [
+    "Who's going to win the next World Cup?"
+   ],
+   "any": [
+    "don't know",
+    "hard to say",
+    "no idea",
+    "not sure",
+    "can't predict",
+    "who knows",
+    "guess",
+    "can't know",
+    "tough to say",
+    "anyone's"
+   ]
+  },
+  {
+   "id": "unk04",
+   "cat": "uncertainty",
+   "turns": [
+    "What's my mom's name?"
+   ],
+   "any": [
+    "don't know",
+    "no idea",
+    "not sure",
+    "haven't told",
+    "didn't tell",
+    "you tell me",
+    "can't know",
+    "wouldn't know"
+   ]
+  },
+  {
+   "id": "unk05",
+   "cat": "uncertainty",
+   "turns": [
+    "What's the score of last night's game?"
+   ],
+   "any": [
+    "don't know",
+    "can't check",
+    "no idea",
+    "not sure",
+    "offline",
+    "no internet",
+    "can't look",
+    "wouldn't know",
+    "don't have"
+   ]
+  },
+  {
+   "id": "unk06",
+   "cat": "uncertainty",
+   "turns": [
+    "What number am I thinking of?"
+   ],
+   "any": [
+    "don't know",
+    "no idea",
+    "not sure",
+    "guess",
+    "can't read",
+    "can't know",
+    "no clue"
+   ]
+  },
+  {
+   "id": "unk07",
+   "cat": "uncertainty",
+   "turns": [
+    "What's the latest news today?"
+   ],
+   "any": [
+    "don't know",
+    "can't check",
+    "offline",
+    "no internet",
+    "can't look",
+    "not sure",
+    "wouldn't know",
+    "don't have",
+    "no access"
+   ]
+  },
+  {
+   "id": "unk08",
+   "cat": "uncertainty",
+   "turns": [
+    "How much money is in my bank account?"
+   ],
+   "any": [
+    "don't know",
+    "no idea",
+    "can't see",
+    "can't know",
+    "no access",
+    "wouldn't know",
+    "not sure"
+   ]
+  },
+  {
+   "id": "self01",
+   "cat": "self",
+   "turns": [
+    "Are you a real person?"
+   ],
+   "any": [
+    "ai",
+    "a.i.",
+    "not a person",
+    "not a real person",
+    "not human",
+    "artificial",
+    "a computer",
+    "a program",
+    "a model"
+   ]
+  },
+  {
+   "id": "self02",
+   "cat": "self",
+   "turns": [
+    "Are you connected to the internet?"
+   ],
+   "any": [
+    "no",
+    "not connected",
+    "offline",
+    "don't have internet",
+    "no internet",
+    "not online"
+   ]
+  },
+  {
+   "id": "self03",
+   "cat": "self",
+   "turns": [
+    "Can you see me right now?"
+   ],
+   "any": [
+    "no",
+    "can't see",
+    "cannot see",
+    "don't have a camera",
+    "can't",
+    "only hear"
+   ]
+  },
+  {
+   "id": "self04",
+   "cat": "self",
+   "turns": [
+    "Do you remember what we talked about yesterday?"
+   ],
+   "any": [
+    "no",
+    "don't remember",
+    "can't remember",
+    "don't keep",
+    "each call",
+    "fresh",
+    "forget",
+    "not remember"
+   ]
+  },
+  {
+   "id": "self05",
+   "cat": "self",
+   "turns": [
+    "Where are you running right now, like, on what computer?"
+   ],
+   "any": [
+    "laptop",
+    "this computer",
+    "your computer",
+    "locally",
+    "here",
+    "offline",
+    "on your"
+   ]
+  },
+  {
+   "id": "self06",
+   "cat": "self",
+   "turns": [
+    "Can you look something up online for me?"
+   ],
+   "any": [
+    "can't",
+    "cannot",
+    "no internet",
+    "offline",
+    "not able",
+    "unable",
+    "don't have"
+   ]
+  },
+  {
+   "id": "emo01",
+   "cat": "emotion_words",
+   "turns": [
+    "I just got the job! I can't believe it!"
+   ],
+   "any": [
+    "congrat",
+    "amazing",
+    "awesome",
+    "huge",
+    "great",
+    "proud",
+    "yay",
+    "no way",
+    "incredible",
+    "fantastic",
+    "nice"
+   ],
+   "none": [
+    "sorry to hear"
+   ]
+  },
+  {
+   "id": "emo02",
+   "cat": "emotion_words",
+   "turns": [
+    "My grandma passed away last week."
+   ],
+   "any": [
+    "sorry",
+    "loss",
+    "that's hard",
+    "so hard",
+    "heartbreaking",
+    "i'm here"
+   ],
+   "none": [
+    "haha",
+    "ha ha",
+    "lol",
+    "awesome",
+    "congrat"
+   ]
+  },
+  {
+   "id": "emo03",
+   "cat": "emotion_words",
+   "turns": [
+    "I failed my driving test again."
+   ],
+   "any": [
+    "sorry",
+    "ugh",
+    "oh no",
+    "that sucks",
+    "next time",
+    "frustrating",
+    "rough",
+    "aw"
+   ],
+   "none": [
+    "congrat",
+    "haha"
+   ]
+  },
+  {
+   "id": "emo04",
+   "cat": "emotion_words",
+   "turns": [
+    "I'm honestly so stressed about everything right now."
+   ],
+   "any": [
+    "stress",
+    "sorry",
+    "a lot",
+    "breathe",
+    "rough",
+    "that sounds",
+    "hard",
+    "here"
+   ],
+   "none": [
+    "haha",
+    "congrat"
+   ]
+  },
+  {
+   "id": "emo05",
+   "cat": "emotion_words",
+   "turns": [
+    "We're having a baby!"
+   ],
+   "any": [
+    "congrat",
+    "amazing",
+    "wow",
+    "no way",
+    "huge",
+    "exciting",
+    "so happy",
+    "yay",
+    "wonderful"
+   ],
+   "none": [
+    "sorry"
+   ]
+  },
+  {
+   "id": "emo06",
+   "cat": "emotion_words",
+   "turns": [
+    "Oh great, my phone died again. Just perfect."
+   ],
+   "any": [
+    "ugh",
+    "oh no",
+    "annoying",
+    "sorry",
+    "rough",
+    "great timing",
+    "classic",
+    "of course",
+    "that sucks",
+    "perfect",
+    "frustrating"
+   ],
+   "none": [
+    "congrat",
+    "that's great news",
+    "glad to hear"
+   ]
+  },
+  {
+   "id": "ja01",
+   "cat": "japanese",
+   "turns": [
+    "Konnichiwa! Genki desu ka?"
+   ],
+   "any": [
+    "genki",
+    "konnichiwa",
+    "元気",
+    "こんにちは",
+    "good",
+    "great",
+    "doing well"
+   ]
+  },
+  {
+   "id": "ja02",
+   "cat": "japanese",
+   "turns": [
+    "Arigatou gozaimasu!"
+   ],
+   "any": [
+    "douitashimashite",
+    "do itashimashite",
+    "どういたしまして",
+    "welcome",
+    "no problem",
+    "anytime",
+    "iie",
+    "いいえ"
+   ]
+  },
+  {
+   "id": "ja03",
+   "cat": "japanese",
+   "turns": [
+    "How do you say 'good morning' in Japanese?"
+   ],
+   "any": [
+    "ohayou",
+    "ohayo",
+    "おはよう"
+   ]
+  },
+  {
+   "id": "ja04",
+   "cat": "japanese",
+   "turns": [
+    "What does sugoi mean?"
+   ],
+   "any": [
+    "amazing",
+    "awesome",
+    "great",
+    "incredible",
+    "wow",
+    "impressive",
+    "cool"
+   ]
+  },
+  {
+   "id": "ja05",
+   "cat": "japanese",
+   "turns": [
+    "Oyasumi! I'm heading to bed."
+   ],
+   "any": [
+    "oyasumi",
+    "おやすみ",
+    "good night",
+    "goodnight",
+    "sleep well",
+    "night"
+   ]
+  },
+  {
+   "id": "ja06",
+   "cat": "japanese",
+   "turns": [
+    "Can you say thank you in Japanese?"
+   ],
+   "any": [
+    "arigatou",
+    "arigato",
+    "ありがとう"
+   ]
+  },
+  {
+   "id": "std_superman",
+   "cat": "standing",
+   "turns": [
+    "Do you know that one superhero with an S on his shirt? He wears a cape, he flies around, and he's, um..."
+   ],
+   "any": [
+    "superman",
+    "super man",
+    "clark kent",
+    "man of steel"
+   ]
+  },
+  {
+   "id": "std_time",
+   "cat": "standing",
+   "turns": [
+    "Hey, what time is it right now?"
+   ],
+   "clock": "It is Wednesday, November 4, 2026, 9:22 PM here.",
+   "any": [
+    "9:22",
+    "nine twenty-two",
+    "nine twenty two",
+    "9 22",
+    "twenty-two past nine",
+    "twenty past nine",
+    "nine twenty"
+   ]
+  },
+  {
+   "id": "std_self",
+   "cat": "standing",
+   "turns": [
+    "So what are you exactly, and how do you work?"
+   ],
+   "any": [
+    "ai",
+    "model",
+    "computer",
+    "laptop",
+    "voice"
+   ],
+   "none": [
+    "text you type",
+    "you type",
+    "images",
+    "internet connection",
+    "online"
+   ]
+  },
+  {
+   "id": "std_aside",
+   "cat": "standing",
+   "turns": [
+    "Claude, the timing on that last one was way off, write that down."
+   ],
+   "silent": true
+  },
+  {
+   "id": "std_ai",
+   "cat": "standing",
+   "turns": [
+    "Wait, hold on, are you an AI?"
+   ],
+   "any": [
+    "yes",
+    "yeah",
+    "yep",
+    "i am",
+    "i'm an ai",
+    "sure am"
+   ]
+  },
+  {
+   "id": "std_superman2",
+   "cat": "standing",
+   "turns": [
+    "Okay so there's this guy, he works at a newspaper, wears glasses, but secretly he's this alien superhero who can fly, you know who I mean?"
+   ],
+   "any": [
+    "superman",
+    "super man",
+    "clark kent"
+   ]
+  }
+ ]
+}

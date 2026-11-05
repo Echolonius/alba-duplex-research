@@ -1,0 +1,31 @@
+# Environments, toolchains and caches (rebuilt locally, see README)
+.venv/
+.venv-train/
+.uv/
+cache/
+__pycache__/
+*.pyc
+
+# Downloaded models and binaries (official sources; fingerprints in models/manifests/)
+bin/
+models/*
+!models/manifests/
+
+# Datasets, generated training data, recordings and audio (licences and privacy: never committed)
+data/*
+!data/tests/
+data/tests/**/audio/
+data/tests/timing/
+!data/tests-fresh/
+data/tests-fresh/**/audio/
+sessions/
+reference/
+logs/
+*.wav
+*.flac
+*.mp3
+*.npy
+*.gguf
+*.safetensors
+*.pt
+*.onnx

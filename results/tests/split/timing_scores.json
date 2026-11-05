@@ -1,0 +1,398 @@
+{
+ "all": {
+  "reply_start_median_s": 1.646,
+  "reply_start_p90_s": 3.532,
+  "replies_overlapping_share": 0.031,
+  "replies_slower_than_0.7s_share": 0.876,
+  "answered_share": 0.48,
+  "shifts": 202,
+  "cut_in_share": 0.009,
+  "holds": 450,
+  "stop_median_s": 0.476,
+  "stops_n": 37,
+  "stop_within_0.4s_share": 0.243,
+  "talk_through_share": 0.286,
+  "talk_through_n": 14,
+  "mmhm_per_min": 15.231
+ },
+ "seamless (strangers)": {
+  "reply_start_median_s": 1.925,
+  "reply_start_p90_s": 3.877,
+  "replies_overlapping_share": 0.03,
+  "replies_slower_than_0.7s_share": 0.864,
+  "answered_share": 0.415,
+  "shifts": 159,
+  "cut_in_share": 0.012,
+  "holds": 326,
+  "stop_median_s": 0.474,
+  "stops_n": 26,
+  "stop_within_0.4s_share": 0.308,
+  "talk_through_share": 0.25,
+  "talk_through_n": 12,
+  "mmhm_per_min": 17.447
+ },
+ "your calls": {
+  "reply_start_median_s": 1.392,
+  "reply_start_p90_s": 2.24,
+  "replies_overlapping_share": 0.032,
+  "replies_slower_than_0.7s_share": 0.903,
+  "answered_share": 0.721,
+  "shifts": 43,
+  "cut_in_share": 0.0,
+  "holds": 124,
+  "stop_median_s": 0.638,
+  "stops_n": 11,
+  "stop_within_0.4s_share": 0.091,
+  "talk_through_share": 0.5,
+  "talk_through_n": 2,
+  "mmhm_per_min": 10.265
+ },
+ "targets": {
+  "reply_start_median_s": "<= 0.3",
+  "stop_median_s": "<= 0.4",
+  "cut_in_share": "< 0.10"
+ },
+ "per_item": {
+  "seamless-V03_S0478_I00000056_P1810": {
+   "shifts": 33,
+   "answered": 3,
+   "latencies": [
+    0.572,
+    1.668,
+    -0.394
+   ],
+   "holds": 6,
+   "cut_ins": 1,
+   "stops": [
+    2.674,
+    0.986
+   ],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 4,
+   "caller_speech_min": 0.904
+  },
+  "seamless-V03_S1930_I00000119_P5055": {
+   "shifts": 19,
+   "answered": 8,
+   "latencies": [
+    0.836,
+    3.378,
+    2.034,
+    5.374,
+    2.28,
+    0.662,
+    1.476,
+    1.122
+   ],
+   "holds": 26,
+   "cut_ins": 1,
+   "stops": [
+    0.622,
+    0.326,
+    0.352
+   ],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 34,
+   "caller_speech_min": 1.977
+  },
+  "seamless-V03_S1930_I00000114_P5054": {
+   "shifts": 19,
+   "answered": 10,
+   "latencies": [
+    1.966,
+    1.414,
+    3.29,
+    0.384,
+    1.41,
+    3.926,
+    1.402,
+    3.828,
+    2.428,
+    1.524
+   ],
+   "holds": 23,
+   "cut_ins": 0,
+   "stops": [
+    0.006
+   ],
+   "talk_through": 0,
+   "talk_through_n": 2,
+   "mmhm": 40,
+   "caller_speech_min": 1.547
+  },
+  "seamless-V03_S0921_I00000317_P3164": {
+   "shifts": 10,
+   "answered": 4,
+   "latencies": [
+    2.402,
+    1.646,
+    -0.882,
+    6.698
+   ],
+   "holds": 40,
+   "cut_ins": 1,
+   "stops": [
+    0.432,
+    0.492,
+    0.256,
+    0.474
+   ],
+   "talk_through": 1,
+   "talk_through_n": 1,
+   "mmhm": 31,
+   "caller_speech_min": 1.761
+  },
+  "seamless-V03_S1498_I00000046_P4104": {
+   "shifts": 12,
+   "answered": 5,
+   "latencies": [
+    1.946,
+    3.448,
+    6.812,
+    2.562,
+    4.222
+   ],
+   "holds": 32,
+   "cut_ins": 0,
+   "stops": [
+    0.368,
+    0.474
+   ],
+   "talk_through": 1,
+   "talk_through_n": 1,
+   "mmhm": 33,
+   "caller_speech_min": 1.402
+  },
+  "seamless-V00_S0675_I00000372_P0832": {
+   "shifts": 10,
+   "answered": 5,
+   "latencies": [
+    3.658,
+    0.956,
+    0.756,
+    1.948,
+    1.958
+   ],
+   "holds": 32,
+   "cut_ins": 0,
+   "stops": [
+    0.514,
+    0.428
+   ],
+   "talk_through": 0,
+   "talk_through_n": 2,
+   "mmhm": 29,
+   "caller_speech_min": 1.657
+  },
+  "seamless-V03_S0225_I00000374_P1518": {
+   "shifts": 6,
+   "answered": 6,
+   "latencies": [
+    2.316,
+    1.904,
+    2.07,
+    1.848,
+    2.002,
+    2.036
+   ],
+   "holds": 40,
+   "cut_ins": 0,
+   "stops": [
+    0.934,
+    0.474
+   ],
+   "talk_through": 1,
+   "talk_through_n": 4,
+   "mmhm": 35,
+   "caller_speech_min": 2.184
+  },
+  "seamless-V03_S2054_I00000279_P1596": {
+   "shifts": 19,
+   "answered": 15,
+   "latencies": [
+    1.176,
+    0.638,
+    2.706,
+    1.094,
+    1.604,
+    0.478,
+    0.592,
+    1.546,
+    1.958,
+    2.672,
+    0.544,
+    0.724,
+    1.36,
+    2.902,
+    1.212
+   ],
+   "holds": 9,
+   "cut_ins": 0,
+   "stops": [
+    0.766,
+    0.858,
+    0.768,
+    0.888,
+    0.85,
+    0.16
+   ],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 23,
+   "caller_speech_min": 0.484
+  },
+  "seamless-V00_S0282_I00000483_P0380": {
+   "shifts": 5,
+   "answered": 1,
+   "latencies": [
+    4.22
+   ],
+   "holds": 37,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 26,
+   "caller_speech_min": 2.551
+  },
+  "seamless-V01_S0066_I00000134_P1125": {
+   "shifts": 8,
+   "answered": 1,
+   "latencies": [
+    0.842
+   ],
+   "holds": 30,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 1,
+   "mmhm": 31,
+   "caller_speech_min": 2.133
+  },
+  "seamless-V03_S1930_I00000116_P5055": {
+   "shifts": 8,
+   "answered": 4,
+   "latencies": [
+    4.908,
+    1.568,
+    2.226,
+    1.542
+   ],
+   "holds": 28,
+   "cut_ins": 0,
+   "stops": [],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 25,
+   "caller_speech_min": 1.322
+  },
+  "seamless-V03_S1731_I00000333_P4935": {
+   "shifts": 10,
+   "answered": 4,
+   "latencies": [
+    3.136,
+    3.23,
+    3.272,
+    1.292
+   ],
+   "holds": 23,
+   "cut_ins": 1,
+   "stops": [
+    0.072,
+    0.078,
+    0.444,
+    0.476
+   ],
+   "talk_through": 0,
+   "talk_through_n": 1,
+   "mmhm": 28,
+   "caller_speech_min": 1.508
+  },
+  "call-20261104-200542": {
+   "shifts": 22,
+   "answered": 14,
+   "latencies": [
+    0.652,
+    1.004,
+    1.104,
+    1.022,
+    3.316,
+    1.282,
+    0.896,
+    1.742,
+    1.48,
+    1.65,
+    1.666,
+    0.894,
+    1.642,
+    1.358
+   ],
+   "holds": 89,
+   "cut_ins": 0,
+   "stops": [
+    0.426,
+    0.758,
+    0.826,
+    0.856,
+    0.638,
+    0.474,
+    0.266
+   ],
+   "talk_through": 1,
+   "talk_through_n": 1,
+   "mmhm": 51,
+   "caller_speech_min": 6.107
+  },
+  "call-20261104-201901": {
+   "shifts": 12,
+   "answered": 10,
+   "latencies": [
+    2.082,
+    0.654,
+    3.758,
+    1.084,
+    -0.856,
+    1.4,
+    2.046,
+    1.378,
+    1.692,
+    2.26
+   ],
+   "holds": 16,
+   "cut_ins": 0,
+   "stops": [
+    0.786,
+    0.498,
+    0.75
+   ],
+   "talk_through": 0,
+   "talk_through_n": 0,
+   "mmhm": 21,
+   "caller_speech_min": 1.094
+  },
+  "call-20261104-212022": {
+   "shifts": 9,
+   "answered": 7,
+   "latencies": [
+    0.73,
+    2.082,
+    1.792,
+    1.146,
+    1.392,
+    0.93,
+    2.24
+   ],
+   "holds": 19,
+   "cut_ins": 0,
+   "stops": [
+    0.46
+   ],
+   "talk_through": 0,
+   "talk_through_n": 1,
+   "mmhm": 17,
+   "caller_speech_min": 1.469
+  }
+ }
+}

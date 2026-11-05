@@ -1,0 +1,48 @@
+{
+ "before": {
+  "0.1": {
+   "auc": 0.713,
+   "shifts": 122,
+   "holds": 435
+  },
+  "0.2": {
+   "auc": 0.72,
+   "shifts": 108,
+   "holds": 435
+  },
+  "0.3": {
+   "auc": 0.714,
+   "shifts": 94,
+   "holds": 329
+  },
+  "0.5": {
+   "auc": 0.713,
+   "shifts": 72,
+   "holds": 160
+  }
+ },
+ "after": {
+  "0.1": {
+   "auc": 0.778,
+   "shifts": 122,
+   "holds": 435
+  },
+  "0.2": {
+   "auc": 0.788,
+   "shifts": 108,
+   "holds": 435
+  },
+  "0.3": {
+   "auc": 0.808,
+   "shifts": 94,
+   "holds": 329
+  },
+  "0.5": {
+   "auc": 0.811,
+   "shifts": 72,
+   "holds": 160
+  }
+ },
+ "epochs": 2,
+ "conversations": 149
+}

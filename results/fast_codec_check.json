@@ -1,0 +1,24 @@
+{
+ "frames": 34,
+ "clip_rate": 24000,
+ "codec_dtype": "torch.bfloat16",
+ "library": {
+  "samples": 65280,
+  "first_frame_samples": 1440,
+  "ms_per_frame": 51.11
+ },
+ "fast-eager": {
+  "samples": 65280,
+  "first_frame_samples": 1440,
+  "ms_per_frame": 46.73,
+  "max_abs_diff": 0.04398,
+  "snr_db": 35.3
+ },
+ "fast-graph": {
+  "samples": 65280,
+  "first_frame_samples": 1440,
+  "ms_per_frame": 1.73,
+  "max_abs_diff": 0.04398,
+  "snr_db": 35.3
+ }
+}
