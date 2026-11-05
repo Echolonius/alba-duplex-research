@@ -404,3 +404,7 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   everything". Still paused.
 - Logged change to the frozen record (10:28): data/tests/README.md gained the row for the tools set (documentation
   only, no test data or scorer changed); its SHA-256 in data/tests/HASHES.txt is now 6e3969f4...
+- Export completed (5 Nov, evening): the voices.json files of the battery, red-team, tools and fresh1 test sets (which
+  preset Pocket TTS voice speaks each item) had been left out of the first export. Added unchanged; the three frozen ones
+  match their fingerprints in data/tests/HASHES.txt. The timing set's items.json stays private, because 3 of its 15
+  tracks are the owner's own calls.
