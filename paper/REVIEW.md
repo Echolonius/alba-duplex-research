@@ -145,7 +145,7 @@ A live test of run 2 (28 s) showed both sides. Its first two replies fit the mom
 
 ## 7. Failure analysis
 
-Every serious failure came from the data layout or the decoding, not the model's capacity, and none showed in the training loss. Each was found by logging the model's individual decisions.
+Every serious failure came from the data, the decoding or the runtime, not the model's capacity, and none showed in the training loss. Most were found by logging the model's individual decisions.
 
 | Failure | How it was found | Effect | Fix |
 | --- | --- | --- | --- |
