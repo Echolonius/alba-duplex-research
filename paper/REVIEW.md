@@ -205,7 +205,7 @@ The code, test definitions and summary results are in this repository, with this
 
 Three things are deliberately left out:
 
-- **Weights and binaries:** fetched from official sources by `tools/fetch_models.sh` and checked against the checksums in `models/manifests/`.
+- **Weights and binaries:** base models are fetched from official sources by `tools/fetch_models.sh` and checked against the checksums in `models/manifests/`. The two trained adapters are a separate download (release v0.2, non-commercial research only).
 - **Datasets and generated data:** Seamless Interaction, CREMA-D and RAVDESS come from their official hosts; the generated conversations are rebuilt by the scripts.
 - **Every recording:** the owner's calls stay private, and Dessa's demos were used for measurement only.
 

@@ -147,6 +147,10 @@ torch 2.15 with CUDA 13.2 wheels, transformers 5.22, peft 0.21, bitsandbytes 0.5
 (`tools/calibrate_duplex.py`), and score on the frozen sets. The [lab notebook](docs/lab-notebook.md) records every
 step as it was run.
 
+**Downloads** ([releases](https://github.com/Echolonius/alba-duplex-research/releases)): the synthetic-voice test
+clips (v0.1), and the trained adapters of runs 1 and 2 (v0.2; safetensors, for non-commercial research only).
+`tools/export_alba.py` turns an adapter into the files the runtime loads.
+
 ## Licenses and credits
 
 Code and documents: MIT ([`LICENSE`](LICENSE)). Models and data keep their own licenses: LFM3-Audio-2B and LFM2.5
