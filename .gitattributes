@@ -1,0 +1,4 @@
+# Frozen test definitions are fingerprinted (data/tests/HASHES.txt): store and check out their bytes unchanged
+data/tests/** -text
+data/tests-fresh/** -text
+*.png binary
