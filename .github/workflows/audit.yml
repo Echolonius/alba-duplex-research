@@ -1,0 +1,38 @@
+name: Contribution audit
+
+# Runs on every pull request to main. Read-only token, no secrets, nothing contributed is executed: the auditor
+# comes from main (a pull request cannot change the checker it is checked by), and pull requests from outside
+# contributors only run after the owner approves them.
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the pull request
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          path: pr
+      - name: Check out the auditor from main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+          path: base
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Audit the changes
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python base/tools/audit_contribution.py --base "$BASE_SHA" --repo pr
+      - name: Python files compile (nothing is run)
+        run: python -m compileall -q pr/app pr/tools pr/integrations
