@@ -46,6 +46,7 @@ first lines say what it does and how to run it.
 | `calibrate_duplex.py` | Picks the listen setting on 8 validation conversations by a rule fixed in advance |
 | `diag_duplex_decode.py` | Logs every plan decision with the model's top choices (found the untrainable marker) |
 | `diag_duplex_track.py` | Per-utterance breakdown of one real conversation (found the "Yeah." loop) |
+| `diag_duplex_data.py` | What the training data teaches per source, before training: her utterances by kind, whose words carry loss, what they open with, and her text positions: LISTEN, starts, learned words and context-only words, which carry no loss (test: `test_diag_duplex_data.py`) |
 | `probe_duplex_val.py`, `speech_match.py` | Replies to 11 validation prompts, and whether the speech says what was planned |
 | `check_frame_path.py`, `profile_duplex.py` | Speech-frame fit through the deployed model, and where each step's time goes |
 
