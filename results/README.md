@@ -4,6 +4,8 @@ Summary scores and diagnostics behind the [review paper](../paper/REVIEW.md). No
 included. "Validation" means data kept apart from the frozen tests and used for decisions; "frozen" means the
 held-out tests in `data/tests/`.
 
+Per-call numbers for the owner's three private calls were removed on 6 November 2026 for privacy; totals are unchanged.
+
 ## Duplex model
 
 | File | What it holds |
