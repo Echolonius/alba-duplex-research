@@ -449,4 +449,6 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   a Windows line-ending copy, so that check failed on Linux and macOS. tools/score_fresh.py is now also kept
   byte-exact on every checkout, like the other scorers (.gitattributes). Without --public-only the builder
   fingerprints the same files as before, and no test definition or scorer changed. The builder's new SHA-256 is in
-  data/tests/HASHES.txt. Next: score the v0.2 adapters on the public set.
+  data/tests/HASHES.txt. The public set's README (documentation only) now says what each step needs and which step
+  is Windows only, and shows people scored from their sound (the paper's 66%) next to people from the labels (81%);
+  its new SHA-256 is in data/tests-public/HASHES.txt. Next: score the v0.2 adapters on the public set.
