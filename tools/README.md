@@ -57,6 +57,29 @@ first lines say what it does and how to run it.
 | `test_fast_audio.py`, `test_fast_frames.py`, `test_fast_codec.py` | The CUDA-graph steps against the library's own output |
 | `test_api.py` | The local tool API and both example integrations, end to end |
 
+**Full-Duplex-Bench**
+
+`run_fdb.py` runs the duplex model on [Full-Duplex-Bench](https://github.com/DanielLin94144/Full-Duplex-Bench)'s
+offline tasks (v1.0: pauses, backchannels, smooth turn-taking, interruptions; v1.5: overlaps), so Alba's scores sit
+on the same scale as Moshi's and PersonaPlex's. It streams each input 80 ms at a time through `run_timing_duplex.py`'s
+own loop (her sound placed 240 ms after the step that made it) and writes `output.wav`, and `clean_output.wav` for
+v1.5, next to each input: mono, 16 kHz, exactly as long as the input.
+
+1. Download the data from the benchmark's link (`v1_v1.5/dataset/README.md` there) into `data/fdb/`, which is not
+   committed (the Candor and ICC parts are CC BY-NC 4.0). Outputs go into the data folder, so use one copy per model
+   or setting.
+2. Run it. A stopped run continues where it left off; each finished input gets a row (speed, late frames, starts) in
+   `results/fdb/<tag>/speed.jsonl`.
+
+       .venv-train/Scripts/python.exe -I tools/run_fdb.py --model models/alba-duplex --data data/fdb/v1_0 --tag duplex
+
+3. Score with the benchmark's own scripts in its own environment: `v1_v1.5/get_transcript/asr.py` for the
+   transcripts, then `v1_v1.5/evaluation/evaluate.py --task <task>`, and `get_timing.py` for v1.5 (see its
+   `evaluation/README.md`).
+
+`test_run_fdb.py` checks the adapter with a fake model, no weights needed. The benchmark's v2 and v3 talk to a live
+model (an examiner over WebRTC, tool calls over LiveKit) and are not covered.
+
 **Other**
 
 | Script | What it does |
