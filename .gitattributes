@@ -6,6 +6,7 @@ data/tests-public/** -text
 # Fingerprinted scorers (data/tests/HASHES.txt): byte-exact on every checkout
 tools/score_battery.py -text
 tools/score_feeling.py -text
+tools/score_fresh.py -text
 tools/score_redteam.py -text
 tools/score_timing.py -text
 tools/judge_local.py -text

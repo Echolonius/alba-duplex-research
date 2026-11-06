@@ -68,11 +68,14 @@ class PublicBuild(unittest.TestCase):
         self.assertTrue((out / 'audio' / f'seamless-{A}-caller.flac').exists())
         self.assertTrue((out / 'audio' / f'seamless-{A}-partner.flac').exists())
         (self.root / 'tools').mkdir()
-        for name in ('score_timing.py', 'judge_local.py', 'build_testsets.py'):
+        for name in ('score_timing.py', 'score_fresh.py', 'judge_local.py', 'build_testsets.py'):
             (self.root / 'tools' / name).write_text('# stand-in\n')
         build_testsets.fingerprints(build_testsets.PUBLIC)
         hashes = (self.root / 'data' / 'tests-public' / 'HASHES.txt').read_bytes()
         self.assertIn(b'  data/tests-public/timing/items.json\n', hashes)
+        self.assertIn(b'  tools/score_timing.py\n', hashes)
+        self.assertNotIn(b'score_fresh.py', hashes)      # only the scorer this set uses
+        self.assertNotIn(b'judge_local.py', hashes)
         self.assertNotIn(b'\r', hashes)
         self.assertFalse((self.root / 'data' / 'tests').exists())      # the frozen folder is never written
         self.assertFalse((self.root / 'sessions').exists())

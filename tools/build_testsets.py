@@ -262,7 +262,10 @@ def speak_items(kind):
 
 def fingerprints(base=T):
     files = sorted(p for p in base.rglob('*') if p.is_file() and p.name != 'HASHES.txt')
-    scorers = sorted((ROOT / 'tools').glob('score_*.py')) + [ROOT / 'tools' / 'judge_local.py']
+    if base == PUBLIC:      # only the scorer the public set uses, so other or later scorers leave its record as is
+        scorers = [ROOT / 'tools' / 'score_timing.py']
+    else:
+        scorers = sorted((ROOT / 'tools').glob('score_*.py')) + [ROOT / 'tools' / 'judge_local.py']
     lines = []
     for p in files + scorers + [ROOT / 'tools' / 'build_testsets.py']:
         lines.append(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(ROOT).as_posix()}')

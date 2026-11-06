@@ -442,3 +442,11 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   Also checked: with the three calls replaced by made-up ones (and a stand-in voice detector), the builder and the
   scorer before and after this change give byte-identical files on the frozen path, and the public items.json is
   exactly the Seamless part of that build. The public set's fingerprints: data/tests-public/HASHES.txt.
+- Logged change to a frozen file after review (6 November 2026): tools/build_testsets.py --public-only now records
+  only the scorer the public set uses (tools/score_timing.py) in data/tests-public/HASHES.txt, instead of every
+  tools/score_*.py and tools/judge_local.py. Why: a scorer added or edited later for another test would have broken
+  the public set's "nothing changed" rebuild check, and tools/score_fresh.py's fingerprint there had been taken from
+  a Windows line-ending copy, so that check failed on Linux and macOS. tools/score_fresh.py is now also kept
+  byte-exact on every checkout, like the other scorers (.gitattributes). Without --public-only the builder
+  fingerprints the same files as before, and no test definition or scorer changed. The builder's new SHA-256 is in
+  data/tests/HASHES.txt. Next: score the v0.2 adapters on the public set.
