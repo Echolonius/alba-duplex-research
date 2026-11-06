@@ -432,3 +432,13 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
      numbers. For builds already scored on the frozen set, the "seamless (strangers)" group of their
      timing_scores.json covers the same 12 tracks with the same definitions, so it is their reference on the public
      set; a fresh run can differ from it by the system's own sampling.
+- Result (built from Meta's 24 original files as fetched on 6 November, 0.92 GB, their SHA-256 now pinned in
+  data/tests-public/timing/sources.json; 12 tracks, 40 min, 159 hand-offs, 326 pauses, 67 mm-hms):
+  (a) the human reference on the public set is byte for byte results/tests/human/timing_scores.json: met.
+  (b) could not be checked as written: no script in the repository makes results/tests/mock-human, and scoring the
+  partner tracks directly as a system's output does not give its numbers (e.g. 31 instead of 25 mm-hms on
+  seamless-V03_S1930_I00000119_P5055), so it was made some other way. Not needed: all 24 rebuilt audio files match
+  their fingerprints in data/tests/HASHES.txt byte for byte, so the sound is the same.
+  Also checked: with the three calls replaced by made-up ones (and a stand-in voice detector), the builder and the
+  scorer before and after this change give byte-identical files on the frozen path, and the public items.json is
+  exactly the Seamless part of that build. The public set's fingerprints: data/tests-public/HASHES.txt.

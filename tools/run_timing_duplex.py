@@ -88,7 +88,7 @@ def run_track(alba, x, delay, listen_bias, h=None):
 def ten_minutes(alba, delay, bias, args, minutes=10.0):
     """One continuous call of `minutes` (held-out callers back to back, 1 s apart): the real-time factor over the
     whole call, as check 5 asks, with the model's memory growing the whole time."""
-    tests, res = folders(args)
+    tests, results = folders(args)
     items = json.loads((tests / 'items.json').read_text(encoding='utf8'))['items']
     parts, total = [], 0
     for it in items:
@@ -100,7 +100,7 @@ def ten_minutes(alba, delay, bias, args, minutes=10.0):
     x = np.concatenate(parts)[:int(minutes * 60 * 16000)]
     voice24, t, late = run_track(alba, x, delay, bias)
     tag = args.tag + ('-cpu' if args.cpu else '')
-    out = res / tag
+    out = results / tag
     out.mkdir(parents=True, exist_ok=True)
     res = {'minutes': minutes, 'device': 'cpu' if args.cpu else 'cuda', 'rtf': float(t.sum() / (len(t) * 0.08)),
            'rtf_last_minute': float(t[-750:].sum() / (min(750, len(t)) * 0.08)),
@@ -125,7 +125,7 @@ def main():
     ap.add_argument('--public', action='store_true',
                     help='the public timing set (data/tests-public/timing), into results/tests-public/<tag>/')
     args = ap.parse_args()
-    tests, res = folders(args)
+    tests, results = folders(args)
     md = ROOT / args.model
     st = model_settings(md)
     delay = int(st.get('delay_steps', DELAY))
@@ -139,7 +139,7 @@ def main():
     items = json.loads((tests / 'items.json').read_text(encoding='utf8'))['items']
     if args.only:
         items = [i for i in items if i['id'] in args.only.split(',')]
-    out = res / (args.tag + ('-speakers' if args.speakers else '')) / 'timing'
+    out = results / (args.tag + ('-speakers' if args.speakers else '')) / 'timing'
     out.mkdir(parents=True, exist_ok=True)
     h = echo_path() if args.speakers else None
     speed = {}

@@ -32,7 +32,7 @@ first lines say what it does and how to run it.
 
 | Script | What it does |
 | --- | --- |
-| `build_testsets.py`, `build_tool_tests.py` | Build the frozen test sets and record their fingerprints |
+| `build_testsets.py`, `build_tool_tests.py` | Build the frozen test sets and record their fingerprints (`--public-only`: the public timing set anyone can rebuild, `data/tests-public`) |
 | `run_timing_duplex.py` + `score_timing.py` | Timing on real recordings (check 2) and speed (check 5); speech placed when a listener would hear it |
 | `run_items_duplex.py` + `score_battery.py`, `score_redteam.py`, `score_feeling.py`, `score_fresh.py` | Spoken battery, red team, feeling and fresh standing tests |
 | `run_tools_duplex.py` | Tool use by voice (check 7), against its own sandbox |

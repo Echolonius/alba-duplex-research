@@ -202,7 +202,9 @@ def build_timing(public_only=False):
         items.append({'id': name, 'source': 'your call (local only; testing only, never training)',
                       'caller': f'audio/{name}-caller.flac', 'partner': None, 'seconds': round(n / SR, 2),
                       'caller_segments': a, **ev})
-    (out / 'items.json').write_text(json.dumps({'items': items}, indent=1), encoding='utf8')
+    # the public set is rebuilt on any system, so its files get the same line endings everywhere
+    (out / 'items.json').write_text(json.dumps({'items': items}, indent=1), encoding='utf8',
+                                    newline='\n' if public_only else None)
     print(f"timing: {len(items)} caller tracks, {sum(len(i['shifts']) for i in items)} shifts, "
           f"{sum(len(i['holds']) for i in items)} holds, {sum(len(i['a_backchannels']) for i in items)} mm-hms, "
           f"{sum(i['seconds'] for i in items) / 60:.0f} min")
@@ -264,7 +266,7 @@ def fingerprints(base=T):
     lines = []
     for p in files + scorers + [ROOT / 'tools' / 'build_testsets.py']:
         lines.append(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(ROOT).as_posix()}')
-    (base / 'HASHES.txt').write_text('\n'.join(lines) + '\n', encoding='utf8')
+    (base / 'HASHES.txt').write_text('\n'.join(lines) + '\n', encoding='utf8', newline=None if base == T else '\n')
     whole = hashlib.sha256('\n'.join(lines).encode()).hexdigest()
     print(f'fingerprints: {len(lines)} files, overall {whole[:16]}')
     return whole

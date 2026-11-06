@@ -1,19 +1,274 @@
 {
  "source": "https://dl.fbaipublicfiles.com/seamless_interaction",
+ "license": "CC BY-NC 4.0 (Meta FAIR, \"Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset\", 2025; https://creativecommons.org/licenses/by-nc/4.0/)",
  "label": "naturalistic",
  "split": "test",
  "pairs": [
-  ["V03_S0478_I00000056_P1810", "V03_S0478_I00000056_P1811"],
-  ["V03_S1930_I00000119_P5054", "V03_S1930_I00000119_P5055"],
-  ["V03_S1930_I00000114_P5054", "V03_S1930_I00000114_P5055"],
-  ["V03_S0921_I00000317_P3164", "V03_S0921_I00000317_P3165"],
-  ["V03_S1498_I00000046_P4104", "V03_S1498_I00000046_P4235"],
-  ["V00_S0675_I00000372_P0831", "V00_S0675_I00000372_P0832"],
-  ["V03_S0225_I00000374_P1518", "V03_S0225_I00000374_P1519"],
-  ["V03_S2054_I00000279_P1596", "V03_S2054_I00000279_P5607"],
-  ["V00_S0282_I00000483_P0380", "V00_S0282_I00000483_P0381"],
-  ["V01_S0066_I00000134_P1124", "V01_S0066_I00000134_P1125"],
-  ["V03_S1930_I00000116_P5054", "V03_S1930_I00000116_P5055"],
-  ["V03_S1731_I00000333_P4934", "V03_S1731_I00000333_P4935"]
- ]
+  [
+   "V03_S0478_I00000056_P1810",
+   "V03_S0478_I00000056_P1811"
+  ],
+  [
+   "V03_S1930_I00000119_P5054",
+   "V03_S1930_I00000119_P5055"
+  ],
+  [
+   "V03_S1930_I00000114_P5054",
+   "V03_S1930_I00000114_P5055"
+  ],
+  [
+   "V03_S0921_I00000317_P3164",
+   "V03_S0921_I00000317_P3165"
+  ],
+  [
+   "V03_S1498_I00000046_P4104",
+   "V03_S1498_I00000046_P4235"
+  ],
+  [
+   "V00_S0675_I00000372_P0831",
+   "V00_S0675_I00000372_P0832"
+  ],
+  [
+   "V03_S0225_I00000374_P1518",
+   "V03_S0225_I00000374_P1519"
+  ],
+  [
+   "V03_S2054_I00000279_P1596",
+   "V03_S2054_I00000279_P5607"
+  ],
+  [
+   "V00_S0282_I00000483_P0380",
+   "V00_S0282_I00000483_P0381"
+  ],
+  [
+   "V01_S0066_I00000134_P1124",
+   "V01_S0066_I00000134_P1125"
+  ],
+  [
+   "V03_S1930_I00000116_P5054",
+   "V03_S1930_I00000116_P5055"
+  ],
+  [
+   "V03_S1731_I00000333_P4934",
+   "V03_S1731_I00000333_P4935"
+  ]
+ ],
+ "files": {
+  "V03_S0478_I00000056_P1810": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S0478_I00000056_P1810.wav",
+   "bytes": 21120058,
+   "sha256": "599e806c6f5f3b6d4faefd1b93644df6d42c4b1c2a9c05a043c8f50b5f364905",
+   "rate": 48000,
+   "seconds": 110.0,
+   "transcript_sha256": "1fe9ba4f974bc517a925a1260a38a4af2770df6d90fd8ef8444a55ea9cab5e6c",
+   "vad_sha256": "6c1ae090d483f888783d30f2ef7f180f0f7628bc29607b7d226885b05b0cc358"
+  },
+  "V03_S0478_I00000056_P1811": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S0478_I00000056_P1811.wav",
+   "bytes": 21120058,
+   "sha256": "fbf908660a0cfb56bb6f829b53312a8e39269ecd565a96476e89b50e4991ff3d",
+   "rate": 48000,
+   "seconds": 110.0,
+   "transcript_sha256": "420646b8754a034f579f104063a851946b8277569dafc6e7644d79094feaa4ce",
+   "vad_sha256": "4cf1ca834bbe170031253e67781241f2b3a082f8ea54a162077aa9074c66c926"
+  },
+  "V03_S1930_I00000119_P5054": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1930_I00000119_P5054.wav",
+   "bytes": 52608058,
+   "sha256": "3176a8d715b4a51f36e0ebb069a58ceda2b92b685f9257f05c3ccaec9bf6d3e3",
+   "rate": 48000,
+   "seconds": 274.0,
+   "transcript_sha256": "76604ffab1d5ea428a03ae318ca47399f791b333032a7e90ee8b1c4272549d8c",
+   "vad_sha256": "6f08fe5492dcabaa914183bb84e1abc840758be374773103f8c6c4e1677089b9"
+  },
+  "V03_S1930_I00000119_P5055": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1930_I00000119_P5055.wav",
+   "bytes": 52608058,
+   "sha256": "88cc815ec3c2a9ace0fdb1026b65488b2cdae55d56ebe48ae29f0fb957f8fc7f",
+   "rate": 48000,
+   "seconds": 274.0,
+   "transcript_sha256": "4328a183d777f7a97461224806d34ac1d4e63a1ee8a6ae79c8f38ed73fdeff3f",
+   "vad_sha256": "e5511f70c78dbf5185823cd9c628b27ca97305843a640fc2be53194bf0dbcd04"
+  },
+  "V03_S1930_I00000114_P5054": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1930_I00000114_P5054.wav",
+   "bytes": 49536058,
+   "sha256": "c09b15749cc2097c0d3799ebc4be3c2ff81d11d44e3ed1836e1b69ddc41f9cd1",
+   "rate": 48000,
+   "seconds": 258.0,
+   "transcript_sha256": "df8e58bf50d3eb5b539aed7d383df737265096d9078455e5453002e7dd37f4a8",
+   "vad_sha256": "4631b803ecbd8b7c1eac76ef57793af3621cc7dff8909b8da29afc28a7eddf08"
+  },
+  "V03_S1930_I00000114_P5055": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1930_I00000114_P5055.wav",
+   "bytes": 49536058,
+   "sha256": "0458edbf62d5778f701d30b53e9a066bfbad8f4288dc1c33ca96e130bb0f6149",
+   "rate": 48000,
+   "seconds": 258.0,
+   "transcript_sha256": "74deb2ee9b68cb4aa89d6bdf025e591992a44faee7e5073ef10831d45dfb1c74",
+   "vad_sha256": "43185124549b606779adf694b5f801a3c8f1bc67905f1f85eb96ea976f3c655a"
+  },
+  "V03_S0921_I00000317_P3164": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S0921_I00000317_P3164.wav",
+   "bytes": 34944058,
+   "sha256": "003136133d7bdc3700d0a89d397b1cca5ac4c3b018e22b1aff8da9517e140930",
+   "rate": 48000,
+   "seconds": 182.0,
+   "transcript_sha256": "2d88cf70d0d202e57497084c7e57712d3802611f5873611e71ad4788cca956ba",
+   "vad_sha256": "828af2dd92dc0d0c3cab96e147d55bca4c4ed05dc52e147b9c4732c8e71f3e5b"
+  },
+  "V03_S0921_I00000317_P3165": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S0921_I00000317_P3165.wav",
+   "bytes": 34944058,
+   "sha256": "c5fc0d96ae9b77686841818335f4b6e95fe3a110d7ad921366d038f6a946d9ef",
+   "rate": 48000,
+   "seconds": 182.0,
+   "transcript_sha256": "e4a7f362bcb5ce62da2d714c1fa00cc5e151536c6c955ba34c82cdc96216f2ea",
+   "vad_sha256": "60de6b642a9ff59e577eb2584b232403f8f2f12a7dbc11ac15e1b4096a124248"
+  },
+  "V03_S1498_I00000046_P4104": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1498_I00000046_P4104.wav",
+   "bytes": 36480058,
+   "sha256": "754b5c2be947ae1a4024a62c14812a683ce6d7eebf3785bf7af9bf3150b25007",
+   "rate": 48000,
+   "seconds": 190.0,
+   "transcript_sha256": "4714e2cde1a5e4745e7cab4836dd2560c5ec8b7f97da75ce89a7c6aa6afcdaae",
+   "vad_sha256": "349f301adb028e84cb96828129fc349c33a26246b65bd59dd34671d21b6ccc56"
+  },
+  "V03_S1498_I00000046_P4235": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1498_I00000046_P4235.wav",
+   "bytes": 36480058,
+   "sha256": "14afdcf4a4e6db6eda5988c91c19d8c3fe41617aa9a9060fc2ce616f47a7659a",
+   "rate": 48000,
+   "seconds": 190.0,
+   "transcript_sha256": "6e9da409f4f9dfc271ca012d40194ce6050e2e0dcfb9cbf4287496a61473491e",
+   "vad_sha256": "b6514fed1cf77dd54caa91e9d85a5b2f2eb5fd97996799fa2a23f9980ffae9ad"
+  },
+  "V00_S0675_I00000372_P0831": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V00_S0675_I00000372_P0831.wav",
+   "bytes": 36096058,
+   "sha256": "63a9ebbbcb59b811bd7cec30d561263db97856f7a66c5cf32e1777370940a09a",
+   "rate": 48000,
+   "seconds": 188.0,
+   "transcript_sha256": "e1fc6868a392b7a2ceb1bc61c82d3f7be073655cc92a29a029f2e971ad3911b9",
+   "vad_sha256": "cf4115375a44d7a64c0da1e9b1d35063bed5fac804d73016d78e829dab25ac76"
+  },
+  "V00_S0675_I00000372_P0832": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V00_S0675_I00000372_P0832.wav",
+   "bytes": 36096058,
+   "sha256": "0d28076028330398f08802606b4902f95b262fa1df9a68422ab18cbd0db5ae21",
+   "rate": 48000,
+   "seconds": 188.0,
+   "transcript_sha256": "d7225a095218e4254e618474f4eebcc033c7266e728a3202d2bf0cea5c60e6e7",
+   "vad_sha256": "89f070263afb1b9020a8b8481081cd07a0a7e4585fb0cd99bde62fb4771bab63"
+  },
+  "V03_S0225_I00000374_P1518": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S0225_I00000374_P1518.wav",
+   "bytes": 49920058,
+   "sha256": "81acd620f0a63947fef06c433866fa7f63a39f04e4617e7c3f1f5f69443820ba",
+   "rate": 48000,
+   "seconds": 260.0,
+   "transcript_sha256": "b3a73cbd30552dacec944ec9f25d95f0a9bf74fe5509e454ffddc364861e3d16",
+   "vad_sha256": "5fb36d02f285fa30777cde2eba949521862395f0699a77c8bdcb60c7d809c2e6"
+  },
+  "V03_S0225_I00000374_P1519": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S0225_I00000374_P1519.wav",
+   "bytes": 49920058,
+   "sha256": "fe375f96a3f5a2638241f1593db9b5d2b3b74bd9bf4a7c5229b8855815e40557",
+   "rate": 48000,
+   "seconds": 260.0,
+   "transcript_sha256": "9cef0ccb0b40ec506d8250da425de5956c842b846d05cb618c1ccfa3f2a323b7",
+   "vad_sha256": "bdc1923d9b8185f7d867aff8f6e21b05386ac2d0abfcf04d691638d2e8f49207"
+  },
+  "V03_S2054_I00000279_P1596": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S2054_I00000279_P1596.wav",
+   "bytes": 35328058,
+   "sha256": "4b7228a938f483985e635eebde0dede3d0490caff465a925687b0331ce0d8c6f",
+   "rate": 48000,
+   "seconds": 184.0,
+   "transcript_sha256": "bb1f42a1ef83b7fc8fcee569b7ec4991e7619be2c40a36ddbb3aa12d31b797af",
+   "vad_sha256": "80ee9a82a99128a0bfffe90561dc0f278a93bf41d9ac6fa41ac04871ee5ebefe"
+  },
+  "V03_S2054_I00000279_P5607": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S2054_I00000279_P5607.wav",
+   "bytes": 35328058,
+   "sha256": "3d0d4a8424630c6312ffceceaa5f2c4dc699ddd69311584f839bba1f065ed0f3",
+   "rate": 48000,
+   "seconds": 184.0,
+   "transcript_sha256": "e57563f74c4593baad05894cb0e6fe04bec0087cd5158c570b97845be0aceeaf",
+   "vad_sha256": "6edfdbfcb354c2d8b491d7973c4607f9adaf2dc7a6565d1b9999f4facb6d1679"
+  },
+  "V00_S0282_I00000483_P0380": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V00_S0282_I00000483_P0380.wav",
+   "bytes": 43008058,
+   "sha256": "191528ade6ceff8c878e24bf0b9402157e205fefbd6088f5261667e7032bfced",
+   "rate": 48000,
+   "seconds": 224.0,
+   "transcript_sha256": "477ad21f8e57972cbe559d767e707e3e2fe3961a84ae0405142919f121e1f40d",
+   "vad_sha256": "bc53c205847ad4a85165d1717e8628e0c16707c718f0d227ccad04addd7d6093"
+  },
+  "V00_S0282_I00000483_P0381": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V00_S0282_I00000483_P0381.wav",
+   "bytes": 43008058,
+   "sha256": "9c621379557b5ee233ae70318b139d3ac5ee81d8c81853882e05fad71a74f714",
+   "rate": 48000,
+   "seconds": 224.0,
+   "transcript_sha256": "b028db9ac2c220d122682f46e5a13a0b54d4f4b6a0076f36f60feb1593a7bc8f",
+   "vad_sha256": "f27c49bf69c0b5b32d4112bae1e12413ab631691a3be1c3bc8f765ccf1a12b23"
+  },
+  "V01_S0066_I00000134_P1124": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V01_S0066_I00000134_P1124.wav",
+   "bytes": 32640058,
+   "sha256": "88e505ce65df021ff9d11babade753b4b990954cb092967c8549469457647b12",
+   "rate": 48000,
+   "seconds": 170.0,
+   "transcript_sha256": "b3e48c49c0a7687203d7d018feb567d626996b2d4c9756f42408bcf8f5a5e872",
+   "vad_sha256": "7b665d3136cd1e42bdd58ececd5de0a2703d87e23caa57d0842bb1fc4f805b39"
+  },
+  "V01_S0066_I00000134_P1125": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V01_S0066_I00000134_P1125.wav",
+   "bytes": 32640058,
+   "sha256": "2bc58cdab0646d056ddee6c88cf7f6ef27d66597a878b5fa82a2381374936de6",
+   "rate": 48000,
+   "seconds": 170.0,
+   "transcript_sha256": "83565221d9fd0bf0c4ed68c90cbe4dd5440336fb3d269f7956540e1ba765216e",
+   "vad_sha256": "85b698a95777c16522e3b1ff49d622ccde1113c7ad08a5bc66b06722e1f65050"
+  },
+  "V03_S1930_I00000116_P5054": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1930_I00000116_P5054.wav",
+   "bytes": 33024058,
+   "sha256": "7d59371b19be278a6028a927c8678b76b139b8442c4640e427fbae57b4be9e2d",
+   "rate": 48000,
+   "seconds": 172.0,
+   "transcript_sha256": "40f7af96e550c6c8aa3730ed7f95ba1d2701b7d9a702ecbe1effde5528bfd6e3",
+   "vad_sha256": "ac41906b3ca9f528fd50ce7ac408f9a422e554a405b4373b19756a0b08ff555a"
+  },
+  "V03_S1930_I00000116_P5055": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1930_I00000116_P5055.wav",
+   "bytes": 33024058,
+   "sha256": "082211fded0182566879531fe0abae7dfd14453b3ae3a410a21ec510c4fe7f26",
+   "rate": 48000,
+   "seconds": 172.0,
+   "transcript_sha256": "e706aec8153362c8e3a3ff8f57d20e361dbf5862c3636507f4e6237fb62685cf",
+   "vad_sha256": "099ee0091621607db2c37d3491e89e4ef8c9f21890587f2b2116f737fcbd8576"
+  },
+  "V03_S1731_I00000333_P4934": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1731_I00000333_P4934.wav",
+   "bytes": 33024058,
+   "sha256": "e8bbf216f16a46a3085cec087a46d2650a3f6ccc344d4cb9d06f654cfdb6daee",
+   "rate": 48000,
+   "seconds": 172.0,
+   "transcript_sha256": "d6d7033673510344e4c089d77dac12888ccebb00d2114c3a0d6a3a312edc2efb",
+   "vad_sha256": "5b9b227c7c72ce6d42224dc60c26c678319252c44225995a480a7f4cc151a7ad"
+  },
+  "V03_S1731_I00000333_P4935": {
+   "url": "https://dl.fbaipublicfiles.com/seamless_interaction/naturalistic/test/audio/V03_S1731_I00000333_P4935.wav",
+   "bytes": 33024058,
+   "sha256": "be41df75facdad1cc180c8598a9ee14871e408270f96aa2aa03da28fc09cbeae",
+   "rate": 48000,
+   "seconds": 172.0,
+   "transcript_sha256": "c2a9b6988fbcc77253d4d4608e0e1a78390d56062d0bbbc3619ee07a5b11c0c7",
+   "vad_sha256": "ea5d5fd26ea5a0c6991f87c516a2b6120382ed2770ebbba638016f4c6cca66e9"
+  }
+ }
 }

@@ -31,7 +31,7 @@ import soundfile as sf
 ROOT = Path(__file__).resolve().parent.parent
 TESTS = ROOT / 'data' / 'tests' / 'timing'
 PUBLIC = ROOT / 'data' / 'tests-public' / 'timing'
-BC_MAX = 0.8         # a system segment shorter than this is a listening sound, not a turn
+BC_MAX = 0.8          # a system segment shorter than this is a listening sound, not a turn
 
 
 def energy_segments(x, sr=16000, floor_db=-45, min_gap=0.25):
