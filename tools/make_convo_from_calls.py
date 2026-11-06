@@ -3,8 +3,9 @@ microphone is the *listening* side; Alba's reply to each of your turns is newly 
 (Gemma 4 E4B, never Claude) under her persona, and spoken by Pocket TTS 'alba'. Your voice is never a speaking
 target and is never cloned.
 
-Left out: the three newest calls (held out for testing, see tools/build_testsets.HELD_OUT_CALLS), anything you
+Left out: the three newest calls (held out for testing, listed in data/tests/private_calls.json), anything you
 said to Claude (the aside rule), anything near a test item (the leak filter), turns under 1.2 s or over 10 s.
+Without that list (it stays on your PC, git-ignored) this stops, so the test calls never end up in training.
 
   python -I tools/make_convo_from_calls.py [--port 9946]
 Writes data/convo/calls.jsonl and the clips in data/convo/audio/ (same layout as make_convo_audio.py's output).
@@ -23,7 +24,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 from app import server  # noqa: E402
 from app.brain import ASIDE  # noqa: E402
 from app.config import Config  # noqa: E402
-from build_testsets import HELD_OUT_CALLS  # noqa: E402
+from build_testsets import held_out_calls  # noqa: E402
 from make_convo_text import TRAIN_SYSTEM, alba_reply, leaks  # noqa: E402
 
 
@@ -55,6 +56,10 @@ def main():
     ap.add_argument('--port', type=int, default=9946)
     ap.add_argument('--model', default=str(ROOT / 'models' / 'text' / 'gemma-4-E4B-it-Q4_0.gguf'))
     args = ap.parse_args()
+    held_out = held_out_calls()
+    if not held_out:
+        sys.exit('needs data/tests/private_calls.json, the list of your held-out test calls (it stays on your PC), '
+                 'so that they are left out of training')
     from app.speech import PocketVoice
     adir = ROOT / 'data' / 'convo' / 'audio'
     adir.mkdir(parents=True, exist_ok=True)
@@ -67,7 +72,7 @@ def main():
     rows = []
     try:
         for d in sorted((ROOT / 'sessions').iterdir()):
-            if d.name in HELD_OUT_CALLS or not (d / 'person_clean16k.flac').exists() or not (d / 'events.jsonl').exists():
+            if d.name in held_out or not (d / 'person_clean16k.flac').exists() or not (d / 'events.jsonl').exists():
                 continue
             for k, (t, text, clip) in enumerate(turns_of(d.name)):
                 cid = f'call-{d.name}-{k:03d}'

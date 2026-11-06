@@ -209,44 +209,6 @@
    "talk_through_n": 0,
    "mmhm": 17,
    "caller_speech_min": 1.508
-  },
-  "call-20261104-200542": {
-   "shifts": 22,
-   "answered": 0,
-   "latencies": [],
-   "holds": 89,
-   "cut_ins": 0,
-   "stops": [],
-   "talk_through": 0,
-   "talk_through_n": 0,
-   "mmhm": 33,
-   "caller_speech_min": 6.107
-  },
-  "call-20261104-201901": {
-   "shifts": 12,
-   "answered": 1,
-   "latencies": [
-    0.978
-   ],
-   "holds": 16,
-   "cut_ins": 0,
-   "stops": [],
-   "talk_through": 0,
-   "talk_through_n": 0,
-   "mmhm": 8,
-   "caller_speech_min": 1.094
-  },
-  "call-20261104-212022": {
-   "shifts": 9,
-   "answered": 0,
-   "latencies": [],
-   "holds": 19,
-   "cut_ins": 0,
-   "stops": [],
-   "talk_through": 0,
-   "talk_through_n": 0,
-   "mmhm": 6,
-   "caller_speech_min": 1.469
   }
  }
 }

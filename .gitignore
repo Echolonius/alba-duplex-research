@@ -18,6 +18,8 @@ data/tests/**/audio/
 data/tests/timing/
 !data/tests-fresh/
 data/tests-fresh/**/audio/
+!data/tests-public/
+data/tests-public/**/audio/
 sessions/
 reference/
 logs/
@@ -29,3 +31,8 @@ logs/
 *.safetensors
 *.pt
 *.onnx
+
+# The owner's held-out test calls stay private: the list of their ids and the fingerprints of the files made from
+# them (tools/build_testsets.py keeps both in data/tests/; ignored anywhere in case a copy lands elsewhere)
+private_calls.json
+HASHES-private.txt

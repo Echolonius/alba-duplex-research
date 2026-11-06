@@ -20,8 +20,9 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   on one GB200 NVL72 rack (72 GPUs); runs faster than real time on a MacBook Pro M4 Max (up to 128 GB, 546 GB/s).
   No size, paper or weights. Bandwidth math allows up to ~20B parameters there; this laptop has ~1/12 of that
   bandwidth on the processor and 4 GB on the graphics card, so its smarts cannot be matched by size here.
-- Live call 11 (sessions/20261104-212022, split design + learned timing): "Really awkward and missed a lot of
-  moments with pause and emotional nuance"; first sound median 1.39 s; 8 of 19 replies by the 0.7 s silence rule.
+- Live call 11 (session id kept private, redacted 6 November 2026; split design + learned timing): "Really
+  awkward and missed a lot of moments with pause and emotional nuance"; first sound median 1.39 s; 8 of 19 replies
+  by the 0.7 s silence rule.
 - Learned timing model (VAP): on your calls tells a turn end from a pause better than Smart Turn in the first
   0.2 s (AUC 0.81 vs 0.75, tools/eval_turns_calls.py); at chance on synthetic voices. Rebuilt in PyTorch
   (app/vap_torch.py), exact; streaming runs 11-13 ms per 20 ms step on the processor.
@@ -408,3 +409,68 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   preset Pocket TTS voice speaks each item) had been left out of the first export. Added unchanged; the three frozen ones
   match their fingerprints in data/tests/HASHES.txt. The timing set's items.json stays private, because 3 of its 15
   tracks are the owner's own calls.
+
+### 6 November 2026: a public timing set anyone can rebuild (issue #9)
+- Why: the timing test (check 2) cannot be built, run or scored outside the owner's PC, because 3 of its 15 tracks
+  are the owner's own calls. Its other 12 tracks come from Meta's Seamless Interaction test split, which anyone can
+  download (CC BY-NC 4.0, no account).
+- Logged change to frozen files: tools/build_testsets.py gains --public-only (the 12 Seamless tracks alone, into
+  data/tests-public/timing with their own fingerprints in data/tests-public/HASHES.txt; never reads sessions/,
+  never writes data/tests/), and without the flag it now stops before writing anything if one of the three held-out
+  calls is missing (before, it quietly wrote a smaller set over the frozen one and re-fingerprinted it).
+  tools/score_timing.py gains --public (reads data/tests-public/timing, reads outputs from and writes scores to
+  results/tests-public/). Without the flags both run exactly the code they ran before, on the same inputs, so the
+  frozen set and its scores do not change. Their new SHA-256 are recorded in data/tests/HASHES.txt.
+- Rules fixed before the public set was built:
+  1. It is the frozen set's 12 Seamless tracks, unchanged: the same conversations and caller side, cut and labelled
+     by the same code, in the same order. It counts as reproduced only if (a) the human reference on it
+     (score_timing.py --public human) equals results/tests/human/timing_scores.json in every number of every track,
+     and (b) the partners' own sound, scored the way a system's is, equals results/tests/mock-human/timing_scores.json.
+     The 24 rebuilt audio files are also compared with their fingerprints in data/tests/HASHES.txt; if only the FLAC
+     bytes differ, (b) says whether the sound is the same.
+  2. It is test data like data/tests/: never trained on, never used for decisions (those use validation data).
+  3. Its scores are always reported as the public set's, apart from the 15-track scores, which stay the paper's
+     numbers. For builds already scored on the frozen set, the "seamless (strangers)" group of their
+     timing_scores.json covers the same 12 tracks with the same definitions, so it is their reference on the public
+     set; a fresh run can differ from it by the system's own sampling.
+- Result (built from Meta's 24 original files as fetched on 6 November, 0.92 GB, their SHA-256 now pinned in
+  data/tests-public/timing/sources.json; 12 tracks, 40 min, 159 hand-offs, 326 pauses, 67 mm-hms):
+  (a) the human reference on the public set is byte for byte results/tests/human/timing_scores.json: met.
+  (b) could not be checked as written: no script in the repository makes results/tests/mock-human, and scoring the
+  partner tracks directly as a system's output does not give its numbers (e.g. 31 instead of 25 mm-hms on
+  seamless-V03_S1930_I00000119_P5055), so it was made some other way. Not needed: all 24 rebuilt audio files match
+  their fingerprints in data/tests/HASHES.txt byte for byte, so the sound is the same.
+  Also checked: with the three calls replaced by made-up ones (and a stand-in voice detector), the builder and the
+  scorer before and after this change give byte-identical files on the frozen path, and the public items.json is
+  exactly the Seamless part of that build. The public set's fingerprints: data/tests-public/HASHES.txt.
+- Logged change to a frozen file after review (6 November 2026): tools/build_testsets.py --public-only now records
+  only the scorer the public set uses (tools/score_timing.py) in data/tests-public/HASHES.txt, instead of every
+  tools/score_*.py and tools/judge_local.py. Why: a scorer added or edited later for another test would have broken
+  the public set's "nothing changed" rebuild check, and tools/score_fresh.py's fingerprint there had been taken from
+  a Windows line-ending copy, so that check failed on Linux and macOS. tools/score_fresh.py is now also kept
+  byte-exact on every checkout, like the other scorers (.gitattributes). Without --public-only the builder
+  fingerprints the same files as before, and no test definition or scorer changed. The builder's new SHA-256 is in
+  data/tests/HASHES.txt. The public set's README (documentation only) now says what each step needs and which step
+  is Windows only, and shows people scored from their sound (the paper's 66%) next to people from the labels (81%);
+  its new SHA-256 is in data/tests-public/HASHES.txt. Next: score the v0.2 adapters on the public set.
+
+### 6 November 2026: the owner's private call details out of the public files
+- Why (the owner's decision, for privacy): the ids of the owner's three held-out calls (the timing set's 3 private
+  tracks) and each call's own numbers were in public files. Only totals stay public; the list of the three calls is
+  kept privately by the owner.
+- Logged change to frozen files, for this privacy reason only: tools/build_testsets.py no longer names the three
+  calls. It reads them from data/tests/private_calls.json, which stays on the owner's PC (git-ignored); without it,
+  building the frozen timing set stops before writing anything (--public-only does not need it). Its fingerprint
+  step now writes the lines of the files made from those calls (call-*, named after them) to
+  data/tests/HASHES-private.txt (also git-ignored) instead of data/tests/HASHES.txt, so those three lines were
+  removed from HASHES.txt; the overall fingerprint it prints still covers them. tools/make_convo_from_calls.py reads
+  the same list and stops without it, so the test calls can never end up in training. With the list in place the
+  builder builds the same files from the same inputs: no test definition, test file or scorer changed, and no score
+  changes. The builder's new SHA-256 (d9fa6657...) is in data/tests/HASHES.txt and data/tests-public/HASHES.txt.
+- Results: the three calls' per-call rows were removed from results/tests/split/timing_scores.json,
+  results/tests/duplex/timing_scores.json and results/tests/duplex/speed.json; every total and group score,
+  including "your calls", is unchanged (noted in results/README.md). The entry on live call 11 near the top no
+  longer gives its session id.
+- Next: tools/score_timing.py and tools/run_timing_duplex.py still write per-call rows on the owner's PC; drop them
+  the same way before publishing new frozen timing results (totals stay). Then score the v0.2 adapters on the
+  public set.

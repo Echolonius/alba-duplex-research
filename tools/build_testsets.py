@@ -14,7 +14,18 @@
 Everything here is test data: training scripts never read data/tests/, and it is never paraphrased into
 training data. Building twice gives the same files (fixed seeds).
 
+Your three held-out calls are named only in data/tests/private_calls.json, which stays on your PC (git-ignored):
+{"held_out_calls": [their sessions/ folder names]}. Without it, building timing/ stops before writing anything.
+The fingerprints of the files made from them (call-*) go to data/tests/HASHES-private.txt (also git-ignored)
+instead of HASHES.txt.
+
   python -I tools/build_testsets.py [--only timing,feeling,battery,redteam]
+
+The timing set's 12 Seamless tracks on their own, without your calls, form the public timing set
+(data/tests-public/timing, see its README): anyone can rebuild it from Meta's download. --public-only builds just
+that, never reads sessions/ and never changes data/tests/:
+
+  python -I tools/build_testsets.py --public-only
 """
 import argparse
 import hashlib
@@ -32,11 +43,13 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / 'tools'))
 T = ROOT / 'data' / 'tests'
+PUBLIC = ROOT / 'data' / 'tests-public'      # the timing set's Seamless tracks only, with their own fingerprints
 SR = 16000
 BC_WORDS = {'uh-huh', 'uhhuh', 'mm-hmm', 'mm-hm', 'mhm', 'mmhm', 'hmm', 'hm', 'mm', 'mmm', 'yeah', 'yes', 'yep', 'yup',
             'right', 'okay', 'ok', 'sure', 'wow', 'oh', 'really', 'exactly', 'true', 'nice', 'cool', 'ah', 'uh', 'um',
             'totally', 'definitely', 'absolutely', 'gotcha', 'i', 'see', 'no', 'yeah,', 'huh'}
-HELD_OUT_CALLS = ['20261104-200542', '20261104-201901', '20261104-212022']   # your calls kept for testing only
+PRIVATE_CALLS = 'private_calls.json'     # in data/tests/: your calls kept for testing only (private, git-ignored)
+PRIVATE_HASHES = 'HASHES-private.txt'    # in data/tests/: fingerprints of the files made from them (private, too)
 VOICES = ['anna', 'caro_davy', 'cosette', 'eve', 'javert', 'jean', 'marius', 'michael', 'vera']
 
 
@@ -97,12 +110,31 @@ def load16(path):
     return x
 
 
-def build_timing():
-    out = T / 'timing'
+def held_out_calls():
+    """Your calls kept for testing only (their sessions/ folder names), from data/tests/private_calls.json, which
+    stays on your PC; None without it."""
+    p = T / PRIVATE_CALLS
+    return json.loads(p.read_text(encoding='utf8'))['held_out_calls'] if p.exists() else None
+
+
+def build_timing(public_only=False):
+    """public_only: the Seamless tracks alone, into data/tests-public/timing: the same 12 conversations, chosen and
+    cut by the same code (their list is data/tests-public/timing/sources.json); sessions/ is never read."""
+    out = (PUBLIC if public_only else T) / 'timing'
+    calls = [] if public_only else held_out_calls()
+    if not public_only and not calls:
+        sys.exit('timing: the frozen set needs the list of your three held-out calls, data/tests/private_calls.json '
+                 '(it stays on your PC, git-ignored); without it, build the public set: --public-only')
+    if any(not (ROOT / 'sessions' / s / 'person_clean16k.flac').exists() and
+           not (ROOT / 'sessions' / s / 'person.flac').exists() for s in calls):
+        # without them this would quietly write a smaller set over the frozen one
+        sys.exit('timing: the frozen set needs your three held-out calls (sessions/, they stay on your PC); '
+                 'without them, build the public set: --public-only')
     (out / 'audio').mkdir(parents=True, exist_ok=True)
     items = []
     src = ROOT / 'data' / 'seamless' / 'test'
-    pairs = json.loads((src / 'pairs.json').read_text(encoding='utf8'))
+    pairs = json.loads((out / 'sources.json').read_text(encoding='utf8'))['pairs'] if public_only else \
+        json.loads((src / 'pairs.json').read_text(encoding='utf8'))
     manifest = json.loads((src / 'manifest.json').read_text(encoding='utf8'))['files']
 
     def seg(fid):
@@ -141,10 +173,11 @@ def build_timing():
                       'caller': f'audio/{name}-caller.flac', 'partner': f'audio/{name}-partner.flac',
                       'seconds': round(n / SR, 2), 'caller_segments': a, 'partner_segments': b, **ev})
     # your newest calls: you are the caller; the partner was the old Alba, so only your own moments count
-    from app.config import Config
-    from app.listen import SileroVAD
-    vad = SileroVAD(Config().paths.vad)
-    for sess in HELD_OUT_CALLS:
+    if calls:
+        from app.config import Config
+        from app.listen import SileroVAD
+        vad = SileroVAD(Config().paths.vad)
+    for sess in calls:
         d = ROOT / 'sessions' / sess
         if not (d / 'person_clean16k.flac').exists() and (d / 'person.flac').exists():
             # the call was never analyzed: make its echo-cleaned 16 kHz tracks the same way analyze_call does
@@ -185,7 +218,9 @@ def build_timing():
         items.append({'id': name, 'source': 'your call (local only; testing only, never training)',
                       'caller': f'audio/{name}-caller.flac', 'partner': None, 'seconds': round(n / SR, 2),
                       'caller_segments': a, **ev})
-    (out / 'items.json').write_text(json.dumps({'items': items}, indent=1), encoding='utf8')
+    # the public set is rebuilt on any system, so its files get the same line endings everywhere
+    (out / 'items.json').write_text(json.dumps({'items': items}, indent=1), encoding='utf8',
+                                    newline='\n' if public_only else None)
     print(f"timing: {len(items)} caller tracks, {sum(len(i['shifts']) for i in items)} shifts, "
           f"{sum(len(i['holds']) for i in items)} holds, {sum(len(i['a_backchannels']) for i in items)} mm-hms, "
           f"{sum(i['seconds'] for i in items) / 60:.0f} min")
@@ -241,15 +276,28 @@ def speak_items(kind):
     print(f'{kind}: {len(spec["items"])} items, {n} clips spoken')
 
 
-def fingerprints():
-    files = sorted(p for p in T.rglob('*') if p.is_file() and p.name != 'HASHES.txt')
-    scorers = sorted((ROOT / 'tools').glob('score_*.py')) + [ROOT / 'tools' / 'judge_local.py']
-    lines = []
+def fingerprints(base=T):
+    """base/HASHES.txt: the SHA-256 of every file under base, the scorers and this builder. The files made from your
+    calls (call-*, named after them) are recorded in the private base/HASHES-private.txt instead; the overall
+    fingerprint covers both, as before."""
+    skip = ('HASHES.txt', PRIVATE_HASHES, PRIVATE_CALLS)
+    files = sorted(p for p in base.rglob('*') if p.is_file() and p.name not in skip)
+    if base == PUBLIC:      # only the scorer the public set uses, so other or later scorers leave its record as is
+        scorers = [ROOT / 'tools' / 'score_timing.py']
+    else:
+        scorers = sorted((ROOT / 'tools').glob('score_*.py')) + [ROOT / 'tools' / 'judge_local.py']
+    lines, private = [], []
     for p in files + scorers + [ROOT / 'tools' / 'build_testsets.py']:
         lines.append(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(ROOT).as_posix()}')
-    (T / 'HASHES.txt').write_text('\n'.join(lines) + '\n', encoding='utf8')
+        if p.name.startswith('call-'):
+            private.append(lines[-1])
+    newline = None if base == T else '\n'
+    (base / 'HASHES.txt').write_text('\n'.join(l for l in lines if l not in private) + '\n', encoding='utf8',
+                                     newline=newline)
+    if private:
+        (base / PRIVATE_HASHES).write_text('\n'.join(private) + '\n', encoding='utf8', newline=newline)
     whole = hashlib.sha256('\n'.join(lines).encode()).hexdigest()
-    print(f'fingerprints: {len(lines)} files, overall {whole[:16]}')
+    print(f'fingerprints: {len(lines)} files ({len(private)} of them in {PRIVATE_HASHES}), overall {whole[:16]}')
     return whole
 
 
@@ -257,7 +305,13 @@ def main():
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser()
     ap.add_argument('--only', default='timing,feeling,battery,redteam')
+    ap.add_argument('--public-only', action='store_true',
+                    help='only the public timing set (data/tests-public): no private calls, data/tests/ untouched')
     args = ap.parse_args()
+    if args.public_only:
+        build_timing(public_only=True)
+        fingerprints(PUBLIC)
+        return
     parts = args.only.split(',')
     if 'timing' in parts:
         build_timing()
