@@ -20,8 +20,9 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   on one GB200 NVL72 rack (72 GPUs); runs faster than real time on a MacBook Pro M4 Max (up to 128 GB, 546 GB/s).
   No size, paper or weights. Bandwidth math allows up to ~20B parameters there; this laptop has ~1/12 of that
   bandwidth on the processor and 4 GB on the graphics card, so its smarts cannot be matched by size here.
-- Live call 11 (sessions/20261104-212022, split design + learned timing): "Really awkward and missed a lot of
-  moments with pause and emotional nuance"; first sound median 1.39 s; 8 of 19 replies by the 0.7 s silence rule.
+- Live call 11 (session id kept private, redacted 6 November 2026; split design + learned timing): "Really
+  awkward and missed a lot of moments with pause and emotional nuance"; first sound median 1.39 s; 8 of 19 replies
+  by the 0.7 s silence rule.
 - Learned timing model (VAP): on your calls tells a turn end from a pause better than Smart Turn in the first
   0.2 s (AUC 0.81 vs 0.75, tools/eval_turns_calls.py); at chance on synthetic voices. Rebuilt in PyTorch
   (app/vap_torch.py), exact; streaming runs 11-13 ms per 20 ms step on the processor.
@@ -452,3 +453,24 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   data/tests/HASHES.txt. The public set's README (documentation only) now says what each step needs and which step
   is Windows only, and shows people scored from their sound (the paper's 66%) next to people from the labels (81%);
   its new SHA-256 is in data/tests-public/HASHES.txt. Next: score the v0.2 adapters on the public set.
+
+### 6 November 2026: the owner's private call details out of the public files
+- Why (the owner's decision, for privacy): the ids of the owner's three held-out calls (the timing set's 3 private
+  tracks) and each call's own numbers were in public files. Only totals stay public; the list of the three calls is
+  kept privately by the owner.
+- Logged change to frozen files, for this privacy reason only: tools/build_testsets.py no longer names the three
+  calls. It reads them from data/tests/private_calls.json, which stays on the owner's PC (git-ignored); without it,
+  building the frozen timing set stops before writing anything (--public-only does not need it). Its fingerprint
+  step now writes the lines of the files made from those calls (call-*, named after them) to
+  data/tests/HASHES-private.txt (also git-ignored) instead of data/tests/HASHES.txt, so those three lines were
+  removed from HASHES.txt; the overall fingerprint it prints still covers them. tools/make_convo_from_calls.py reads
+  the same list and stops without it, so the test calls can never end up in training. With the list in place the
+  builder builds the same files from the same inputs: no test definition, test file or scorer changed, and no score
+  changes. The builder's new SHA-256 (d9fa6657...) is in data/tests/HASHES.txt and data/tests-public/HASHES.txt.
+- Results: the three calls' per-call rows were removed from results/tests/split/timing_scores.json,
+  results/tests/duplex/timing_scores.json and results/tests/duplex/speed.json; every total and group score,
+  including "your calls", is unchanged (noted in results/README.md). The entry on live call 11 near the top no
+  longer gives its session id.
+- Next: tools/score_timing.py and tools/run_timing_duplex.py still write per-call rows on the owner's PC; drop them
+  the same way before publishing new frozen timing results (totals stay). Then score the v0.2 adapters on the
+  public set.

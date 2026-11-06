@@ -14,6 +14,11 @@
 Everything here is test data: training scripts never read data/tests/, and it is never paraphrased into
 training data. Building twice gives the same files (fixed seeds).
 
+Your three held-out calls are named only in data/tests/private_calls.json, which stays on your PC (git-ignored):
+{"held_out_calls": [their sessions/ folder names]}. Without it, building timing/ stops before writing anything.
+The fingerprints of the files made from them (call-*) go to data/tests/HASHES-private.txt (also git-ignored)
+instead of HASHES.txt.
+
   python -I tools/build_testsets.py [--only timing,feeling,battery,redteam]
 
 The timing set's 12 Seamless tracks on their own, without your calls, form the public timing set
@@ -43,7 +48,8 @@ SR = 16000
 BC_WORDS = {'uh-huh', 'uhhuh', 'mm-hmm', 'mm-hm', 'mhm', 'mmhm', 'hmm', 'hm', 'mm', 'mmm', 'yeah', 'yes', 'yep', 'yup',
             'right', 'okay', 'ok', 'sure', 'wow', 'oh', 'really', 'exactly', 'true', 'nice', 'cool', 'ah', 'uh', 'um',
             'totally', 'definitely', 'absolutely', 'gotcha', 'i', 'see', 'no', 'yeah,', 'huh'}
-HELD_OUT_CALLS = ['20261104-200542', '20261104-201901', '20261104-212022']   # your calls kept for testing only
+PRIVATE_CALLS = 'private_calls.json'     # in data/tests/: your calls kept for testing only (private, git-ignored)
+PRIVATE_HASHES = 'HASHES-private.txt'    # in data/tests/: fingerprints of the files made from them (private, too)
 VOICES = ['anna', 'caro_davy', 'cosette', 'eve', 'javert', 'jean', 'marius', 'michael', 'vera']
 
 
@@ -104,11 +110,21 @@ def load16(path):
     return x
 
 
+def held_out_calls():
+    """Your calls kept for testing only (their sessions/ folder names), from data/tests/private_calls.json, which
+    stays on your PC; None without it."""
+    p = T / PRIVATE_CALLS
+    return json.loads(p.read_text(encoding='utf8'))['held_out_calls'] if p.exists() else None
+
+
 def build_timing(public_only=False):
     """public_only: the Seamless tracks alone, into data/tests-public/timing: the same 12 conversations, chosen and
     cut by the same code (their list is data/tests-public/timing/sources.json); sessions/ is never read."""
     out = (PUBLIC if public_only else T) / 'timing'
-    calls = [] if public_only else HELD_OUT_CALLS
+    calls = [] if public_only else held_out_calls()
+    if not public_only and not calls:
+        sys.exit('timing: the frozen set needs the list of your three held-out calls, data/tests/private_calls.json '
+                 '(it stays on your PC, git-ignored); without it, build the public set: --public-only')
     if any(not (ROOT / 'sessions' / s / 'person_clean16k.flac').exists() and
            not (ROOT / 'sessions' / s / 'person.flac').exists() for s in calls):
         # without them this would quietly write a smaller set over the frozen one
@@ -261,17 +277,27 @@ def speak_items(kind):
 
 
 def fingerprints(base=T):
-    files = sorted(p for p in base.rglob('*') if p.is_file() and p.name != 'HASHES.txt')
+    """base/HASHES.txt: the SHA-256 of every file under base, the scorers and this builder. The files made from your
+    calls (call-*, named after them) are recorded in the private base/HASHES-private.txt instead; the overall
+    fingerprint covers both, as before."""
+    skip = ('HASHES.txt', PRIVATE_HASHES, PRIVATE_CALLS)
+    files = sorted(p for p in base.rglob('*') if p.is_file() and p.name not in skip)
     if base == PUBLIC:      # only the scorer the public set uses, so other or later scorers leave its record as is
         scorers = [ROOT / 'tools' / 'score_timing.py']
     else:
         scorers = sorted((ROOT / 'tools').glob('score_*.py')) + [ROOT / 'tools' / 'judge_local.py']
-    lines = []
+    lines, private = [], []
     for p in files + scorers + [ROOT / 'tools' / 'build_testsets.py']:
         lines.append(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(ROOT).as_posix()}')
-    (base / 'HASHES.txt').write_text('\n'.join(lines) + '\n', encoding='utf8', newline=None if base == T else '\n')
+        if p.name.startswith('call-'):
+            private.append(lines[-1])
+    newline = None if base == T else '\n'
+    (base / 'HASHES.txt').write_text('\n'.join(l for l in lines if l not in private) + '\n', encoding='utf8',
+                                     newline=newline)
+    if private:
+        (base / PRIVATE_HASHES).write_text('\n'.join(private) + '\n', encoding='utf8', newline=newline)
     whole = hashlib.sha256('\n'.join(lines).encode()).hexdigest()
-    print(f'fingerprints: {len(lines)} files, overall {whole[:16]}')
+    print(f'fingerprints: {len(lines)} files ({len(private)} of them in {PRIVATE_HASHES}), overall {whole[:16]}')
     return whole
 
 
