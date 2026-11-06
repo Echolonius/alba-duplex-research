@@ -60,22 +60,44 @@ first lines say what it does and how to run it.
 **Full-Duplex-Bench**
 
 `run_fdb.py` runs the duplex model on [Full-Duplex-Bench](https://github.com/DanielLin94144/Full-Duplex-Bench)'s
-offline tasks (v1.0: pauses, backchannels, smooth turn-taking, interruptions; v1.5: overlaps), so Alba's scores sit
-on the same scale as Moshi's and PersonaPlex's. It streams each input 80 ms at a time through `run_timing_duplex.py`'s
-own loop (her sound placed 240 ms after the step that made it) and writes `output.wav`, and `clean_output.wav` for
-v1.5, next to each input: mono, 16 kHz, exactly as long as the input.
+offline tasks (v1.0: pauses, backchannels, smooth turn-taking, interruptions; v1.5: overlaps). It streams each input
+80 ms at a time through `run_timing_duplex.py`'s own loop (her sound placed 240 ms after the step that made it) and
+writes `output.wav`, and `clean_output.wav` for v1.5, next to each input: mono, 16 kHz, exactly as long as the input.
+Alba's scores then sit on the same scale as Moshi's and PersonaPlex's, with one caveat: her sound is placed as if
+every step kept up with real time. A step slower than its budget makes a late frame (a gap a listener would hear),
+which the run counts but does not move. So only a run without late frames, on a fast enough CUDA GPU, shows what
+you would hear. Inputs with late frames are logged with `"real_time": false`, and the run ends with a warning that
+says how many. With `--cpu`, expect most replies to be late: such a run checks the pipeline, not the timing.
 
-1. Download the data from the benchmark's link (`v1_v1.5/dataset/README.md` there) into `data/fdb/`, which is not
-   committed (the Candor and ICC parts are CC BY-NC 4.0). Outputs go into the data folder, so use one copy per model
-   or setting.
-2. Run it. A stopped run continues where it left off; each finished input gets a row (speed, late frames, starts) in
-   `results/fdb/<tag>/speed.jsonl`.
+1. **Model files.** Unzip a trained adapter from release v0.2 into `models/`, then turn it into the files the
+   runtime loads: `tools/export_alba.py --lora models/<adapter folder> --out models/alba-duplex` (see "Rebuilding"
+   in the main README).
+2. **Data.** Download v1.0 and v1.5 from the link in the benchmark's `v1_v1.5/dataset/README.md` into `data/fdb/`,
+   which is not committed. Licenses, as the benchmark gives them: its code is CC BY-NC 4.0; the synthetic v1.0 sets
+   and all of v1.5 are MIT; the Candor and ICC sets of v1.0 are CC BY-NC 4.0, and the terms of the CANDOR corpus and
+   ICC they come from apply too. Outputs go into the data folder, so use one copy per model or setting.
+3. **Run** on a CUDA GPU (`--cpu` works, but not in real time). A stopped run continues where it left off.
 
        .venv-train/Scripts/python.exe -I tools/run_fdb.py --model models/alba-duplex --data data/fdb/v1_0 --tag duplex
 
-3. Score with the benchmark's own scripts in its own environment: `v1_v1.5/get_transcript/asr.py` for the
-   transcripts, then `v1_v1.5/evaluation/evaluate.py --task <task>`, and `get_timing.py` for v1.5 (see its
-   `evaluation/README.md`).
+   Each finished input gets a row in `results/fdb/<tag>/speed.jsonl`: speed, late frames, `real_time`, replies
+   started, its seed, and what made it: the model's fingerprint (a hash of its files), the device and the settings.
+   A log made with another model, device or setting stops the run instead of mixing outputs: use a new `--tag` with
+   a fresh copy of the data, or `--force` to continue it anyway. Reruns repeat on the same machine: every input
+   opens the call with the same words (no clock line) and draws its random numbers from its own seed.
+4. **Transcribe** with the benchmark's `v1_v1.5/get_transcript/asr.py`, in the benchmark's own environment, once
+   per task folder (`--root_dir`). It runs NVIDIA's parakeet-tdt-0.6b-v2 on a CUDA GPU, so it needs one too. For
+   v1.0, add `--task user_interruption` for the interruption set (it transcribes what follows the interruption).
+   v1.5 needs four runs per task folder, one for each audio file its scorers read: the default (`output.wav`), then
+   `--audio_name input.wav`, `--audio_name clean_input.wav` and `--audio_name clean_output.wav`.
+5. **Score** with `v1_v1.5/evaluation/evaluate.py --task <task> --root_dir <task folder>`: for v1.0 the tasks are
+   `pause_handling`, `backchannel`, `smooth_turn_taking` and `user_interruption`; for v1.5, `behavior` and
+   `general_before_after` (then `significance_test.py`), plus `get_timing.py` (its `evaluation/README.md` gives the
+   order). Two scorers send transcripts to OpenAI and need an `OPENAI_API_KEY`: v1.0 `user_interruption`
+   (GPT-4-turbo: the user's turns and Alba's reply) and v1.5 `behavior` (GPT-4o: all four transcripts of a sample).
+   `get_timing.py` and `general_before_after` load Silero VAD through `torch.hub`, which downloads and runs the
+   latest code of github.com/snakers4/silero-vad; `general_before_after` also downloads model weights (UTMOSv2, and
+   torchaudio's SQUIM).
 
 `test_run_fdb.py` checks the adapter with a fake model, no weights needed. The benchmark's v2 and v3 talk to a live
 model (an examiner over WebRTC, tool calls over LiveKit) and are not covered.
