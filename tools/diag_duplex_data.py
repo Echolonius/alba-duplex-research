@@ -8,15 +8,20 @@ own timeline(), spans_of() and build(), so a change there shows here), and Alba'
   first words    what her learned utterances open with. An "mm-hm" and an answer start with the same marker and part
                  ways at the plan's first word; run 2 answered real voices with a planned "Yeah." almost every time
                  (results/diag_track_alba-duplex2-0.json)
-  text loss      what the text loss is made of: LISTEN steps kept (LISTEN_KEEP of them on average), starts, words
-                 learned and words given as context only; next to it the speech frames the audio loss learns
+  text positions LISTEN steps kept in the loss (LISTEN_KEEP of them on average), starts, words learned and
+                 words given as context only; next to them, the speech frames the audio loss learns per text
+                 position. Context words are read but carry no loss (train_duplex labels them -100), so only the
+                 first three make the text loss: approximate seamless-train data (the real conversations of runs
+                 1-2) gave 49% LISTEN, 3% starts, 10% learned and 38% context positions, so its text loss was
+                 about 79% LISTEN, 5% starts and 16% learned words
 Then the same for the training mix of --shares, each source's 40 s windows weighted as train_duplex's Data.pick
 draws them, split into the real conversations (a real person's recording is what she hears) and the rest.
 
   .venv-train/Scripts/python.exe -I tools/diag_duplex_data.py [--data data/duplex]
       [--shares '{"seamless-own": 0.33, "synthetic": 0.45, "feeling": 0.14, "asides": 0.08}']
 Writes results/diag_duplex_data.json. Words are counted as words and punctuation marks, not the model's own
-word-pieces, so word counts are approximate (in the same way for every source); everything else is exact.
+word-pieces, so word counts are approximate (in the same way for every source). The training-mix numbers are
+estimates: each conversation's counts scaled to one 40 s window (mix() below), not counted in drawn windows.
 """
 import argparse
 import json
@@ -79,6 +84,7 @@ def conversation(meta, persons, G, seed=0, delay=TD.DELAY, plan_chunks='count'):
         elif i == G.audio_out:
             loss['frames'] += 1
         elif i == G.text_end or i >= 0:
+            # words given as context only (label -100) are read, but training puts no loss on them
             loss['words_learned' if lab != -100 else 'words_context'] += 1
     rows = []
     for s, e, u in spans:
@@ -103,6 +109,7 @@ def summarize(convs, weights=None):
     for c, w in zip(convs, weights):
         for k in LOSS:
             loss[k] += w * c['loss'][k]
+    # every text position, with loss or not: the text loss itself is LISTEN kept, starts and words learned only
     text = sum(loss[k] for k in LOSS if k != 'frames')
     return {
         'utterances': round(total, 2),
@@ -114,7 +121,7 @@ def summarize(convs, weights=None):
         'learned_open_with_yeah_share': share(first['yeah'], total_l),
         'learned_first_words': [[word, share(n, total_l)] for word, n in first.most_common(8)],
         'loss_counts': {k: round(loss[k], 2) for k in LOSS},
-        'text_loss_shares': {k: share(loss[k], text) for k in LOSS if k != 'frames'},
+        'text_position_shares': {k: share(loss[k], text) for k in LOSS if k != 'frames'},
     }
 
 
@@ -146,14 +153,15 @@ def report(stats):
                      f"{pct(s['heard_as_turn_share']):>6s} {pct(s['words_learned_share']):>7s} "
                      f"{pct(s['learned_open_with_yeah_share']):>8s}  {top}")
     lines.append('')
-    lines.append(f"{'text loss is made of':20s} {'LISTEN':>7s} {'starts':>7s} {'learned':>8s} {'context':>8s}"
+    lines.append(f"{'text positions':20s} {'LISTEN':>7s} {'starts':>7s} {'learned':>8s} {'context':>8s}"
                  f"  frames per text position")
     for name, s in stats.items():
-        t = s['text_loss_shares']
+        t = s['text_position_shares']
         n_text = sum(v for k, v in s['loss_counts'].items() if k != 'frames')
         ratio = f"{s['loss_counts']['frames'] / n_text:.1f}" if n_text else '-'
         lines.append(f"{name:20s} {pct(t['listen_kept']):>7s} {pct(t['starts']):>7s} {pct(t['words_learned']):>8s} "
                      f"{pct(t['words_context']):>8s}  {ratio}")
+    lines.append('(context words are read but carry no loss; the text loss is LISTEN, starts and learned words)')
     return '\n'.join(lines)
 
 

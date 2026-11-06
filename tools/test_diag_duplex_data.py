@@ -54,7 +54,7 @@ def main():
           s['learned_first_words'][0] == ['yeah', 0.667], s['learned_first_words'])
     check('real: four utterances last 0.8 s or more', s['heard_as_turn_share'] == 0.8, s['heard_as_turn_share'])
     want = {'listen_kept': 117.8, 'starts': 5, 'words_learned': 22, 'words_context': 33, 'frames': 158}
-    check('real: what the losses are made of (worked out by hand)', s['loss_counts'] == want, s['loss_counts'])
+    check('real: text positions and frames (worked out by hand)', s['loss_counts'] == want, s['loss_counts'])
 
     own = D.summarize([D.conversation(OWN, [], G)])
     check('own words: every word learned, even with "I" in it', own['words_learned_share'] == 1.0 and
