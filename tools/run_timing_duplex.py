@@ -12,6 +12,9 @@ With --speakers, Alba's own voice is mixed back into what she hears (laptop spea
 answer her own echo), as a 40 ms delayed, -10 dB, band-limited copy of what is playing at that moment.
 
   .venv-train/Scripts/python.exe -I tools/run_timing_duplex.py --model models/alba-duplex --tag duplex [--speakers]
+
+--public runs the public timing set instead (data/tests-public/timing: the frozen set's 12 Seamless tracks, which
+anyone can rebuild) and writes to results/tests-public/<tag>/; score it with tools/score_timing.py --public <tag>.
 """
 import argparse
 import json
@@ -28,6 +31,12 @@ sys.path.insert(0, str(ROOT))
 from app.duplex import DELAY, FIRST_STEP, OUT_STEP, STEP, AlbaDuplex  # noqa: E402
 
 TESTS = ROOT / 'data' / 'tests' / 'timing'
+PUBLIC = ROOT / 'data' / 'tests-public' / 'timing'
+
+
+def folders(args):
+    """(test folder, results folder): the frozen set's, or with --public the public set's (kept apart)."""
+    return (PUBLIC, ROOT / 'results' / 'tests-public') if args.public else (TESTS, ROOT / 'results' / 'tests')
 
 
 def model_settings(md):
@@ -79,10 +88,11 @@ def run_track(alba, x, delay, listen_bias, h=None):
 def ten_minutes(alba, delay, bias, args, minutes=10.0):
     """One continuous call of `minutes` (held-out callers back to back, 1 s apart): the real-time factor over the
     whole call, as check 5 asks, with the model's memory growing the whole time."""
-    items = json.loads((TESTS / 'items.json').read_text(encoding='utf8'))['items']
+    tests, res = folders(args)
+    items = json.loads((tests / 'items.json').read_text(encoding='utf8'))['items']
     parts, total = [], 0
     for it in items:
-        x, sr = sf.read(TESTS / it['caller'], dtype='float32')
+        x, sr = sf.read(tests / it['caller'], dtype='float32')
         parts += [x, np.zeros(16000, np.float32)]
         total += len(x) + 16000
         if total >= minutes * 60 * 16000:
@@ -90,7 +100,7 @@ def ten_minutes(alba, delay, bias, args, minutes=10.0):
     x = np.concatenate(parts)[:int(minutes * 60 * 16000)]
     voice24, t, late = run_track(alba, x, delay, bias)
     tag = args.tag + ('-cpu' if args.cpu else '')
-    out = ROOT / 'results' / 'tests' / tag
+    out = res / tag
     out.mkdir(parents=True, exist_ok=True)
     res = {'minutes': minutes, 'device': 'cpu' if args.cpu else 'cuda', 'rtf': float(t.sum() / (len(t) * 0.08)),
            'rtf_last_minute': float(t[-750:].sum() / (min(750, len(t)) * 0.08)),
@@ -112,7 +122,10 @@ def main():
     ap.add_argument('--ten-minutes', action='store_true',
                     help='check 5: one continuous 10-minute call (held-out callers back to back); speed only')
     ap.add_argument('--cpu', action='store_true', help='processor only (the path to phones): no graphics card at all')
+    ap.add_argument('--public', action='store_true',
+                    help='the public timing set (data/tests-public/timing), into results/tests-public/<tag>/')
     args = ap.parse_args()
+    tests, res = folders(args)
     md = ROOT / args.model
     st = model_settings(md)
     delay = int(st.get('delay_steps', DELAY))
@@ -123,15 +136,15 @@ def main():
         alba = AlbaDuplex(md / 'model-Q4_K_M.gguf', md / 'hf')
     if args.ten_minutes:
         return ten_minutes(alba, delay, bias, args)
-    items = json.loads((TESTS / 'items.json').read_text(encoding='utf8'))['items']
+    items = json.loads((tests / 'items.json').read_text(encoding='utf8'))['items']
     if args.only:
         items = [i for i in items if i['id'] in args.only.split(',')]
-    out = ROOT / 'results' / 'tests' / (args.tag + ('-speakers' if args.speakers else '')) / 'timing'
+    out = res / (args.tag + ('-speakers' if args.speakers else '')) / 'timing'
     out.mkdir(parents=True, exist_ok=True)
     h = echo_path() if args.speakers else None
     speed = {}
     for it in items:
-        x, sr = sf.read(TESTS / it['caller'], dtype='float32')
+        x, sr = sf.read(tests / it['caller'], dtype='float32')
         assert sr == 16000, sr
         voice24, t, late = run_track(alba, x, delay, bias, h)
         sf.write(out / f"{it['id']}-voice.flac", signal.resample_poly(voice24, 2, 3).astype(np.float32), 16000)

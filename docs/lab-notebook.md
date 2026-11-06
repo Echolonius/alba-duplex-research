@@ -408,3 +408,27 @@ Newest entries at the bottom. Every entry ends with the next step, so any sessio
   preset Pocket TTS voice speaks each item) had been left out of the first export. Added unchanged; the three frozen ones
   match their fingerprints in data/tests/HASHES.txt. The timing set's items.json stays private, because 3 of its 15
   tracks are the owner's own calls.
+
+### 6 November 2026: a public timing set anyone can rebuild (issue #9)
+- Why: the timing test (check 2) cannot be built, run or scored outside the owner's PC, because 3 of its 15 tracks
+  are the owner's own calls. Its other 12 tracks come from Meta's Seamless Interaction test split, which anyone can
+  download (CC BY-NC 4.0, no account).
+- Logged change to frozen files: tools/build_testsets.py gains --public-only (the 12 Seamless tracks alone, into
+  data/tests-public/timing with their own fingerprints in data/tests-public/HASHES.txt; never reads sessions/,
+  never writes data/tests/), and without the flag it now stops before writing anything if one of the three held-out
+  calls is missing (before, it quietly wrote a smaller set over the frozen one and re-fingerprinted it).
+  tools/score_timing.py gains --public (reads data/tests-public/timing, reads outputs from and writes scores to
+  results/tests-public/). Without the flags both run exactly the code they ran before, on the same inputs, so the
+  frozen set and its scores do not change. Their new SHA-256 are recorded in data/tests/HASHES.txt.
+- Rules fixed before the public set was built:
+  1. It is the frozen set's 12 Seamless tracks, unchanged: the same conversations and caller side, cut and labelled
+     by the same code, in the same order. It counts as reproduced only if (a) the human reference on it
+     (score_timing.py --public human) equals results/tests/human/timing_scores.json in every number of every track,
+     and (b) the partners' own sound, scored the way a system's is, equals results/tests/mock-human/timing_scores.json.
+     The 24 rebuilt audio files are also compared with their fingerprints in data/tests/HASHES.txt; if only the FLAC
+     bytes differ, (b) says whether the sound is the same.
+  2. It is test data like data/tests/: never trained on, never used for decisions (those use validation data).
+  3. Its scores are always reported as the public set's, apart from the 15-track scores, which stay the paper's
+     numbers. For builds already scored on the frozen set, the "seamless (strangers)" group of their
+     timing_scores.json covers the same 12 tracks with the same definitions, so it is their reference on the public
+     set; a fresh run can differ from it by the system's own sampling.

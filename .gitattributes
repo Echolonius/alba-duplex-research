@@ -1,6 +1,7 @@
 # Frozen test definitions are fingerprinted (data/tests/HASHES.txt): store and check out their bytes unchanged
 data/tests/** -text
 data/tests-fresh/** -text
+data/tests-public/** -text
 *.png binary
 # Fingerprinted scorers (data/tests/HASHES.txt): byte-exact on every checkout
 tools/score_battery.py -text

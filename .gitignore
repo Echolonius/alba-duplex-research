@@ -18,6 +18,8 @@ data/tests/**/audio/
 data/tests/timing/
 !data/tests-fresh/
 data/tests-fresh/**/audio/
+!data/tests-public/
+data/tests-public/**/audio/
 sessions/
 reference/
 logs/

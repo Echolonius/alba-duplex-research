@@ -15,6 +15,12 @@ Everything here is test data: training scripts never read data/tests/, and it is
 training data. Building twice gives the same files (fixed seeds).
 
   python -I tools/build_testsets.py [--only timing,feeling,battery,redteam]
+
+The timing set's 12 Seamless tracks on their own, without your calls, form the public timing set
+(data/tests-public/timing, see its README): anyone can rebuild it from Meta's download. --public-only builds just
+that, never reads sessions/ and never changes data/tests/:
+
+  python -I tools/build_testsets.py --public-only
 """
 import argparse
 import hashlib
@@ -32,6 +38,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / 'tools'))
 T = ROOT / 'data' / 'tests'
+PUBLIC = ROOT / 'data' / 'tests-public'      # the timing set's Seamless tracks only, with their own fingerprints
 SR = 16000
 BC_WORDS = {'uh-huh', 'uhhuh', 'mm-hmm', 'mm-hm', 'mhm', 'mmhm', 'hmm', 'hm', 'mm', 'mmm', 'yeah', 'yes', 'yep', 'yup',
             'right', 'okay', 'ok', 'sure', 'wow', 'oh', 'really', 'exactly', 'true', 'nice', 'cool', 'ah', 'uh', 'um',
@@ -97,12 +104,21 @@ def load16(path):
     return x
 
 
-def build_timing():
-    out = T / 'timing'
+def build_timing(public_only=False):
+    """public_only: the Seamless tracks alone, into data/tests-public/timing: the same 12 conversations, chosen and
+    cut by the same code (their list is data/tests-public/timing/sources.json); sessions/ is never read."""
+    out = (PUBLIC if public_only else T) / 'timing'
+    calls = [] if public_only else HELD_OUT_CALLS
+    if any(not (ROOT / 'sessions' / s / 'person_clean16k.flac').exists() and
+           not (ROOT / 'sessions' / s / 'person.flac').exists() for s in calls):
+        # without them this would quietly write a smaller set over the frozen one
+        sys.exit('timing: the frozen set needs your three held-out calls (sessions/, they stay on your PC); '
+                 'without them, build the public set: --public-only')
     (out / 'audio').mkdir(parents=True, exist_ok=True)
     items = []
     src = ROOT / 'data' / 'seamless' / 'test'
-    pairs = json.loads((src / 'pairs.json').read_text(encoding='utf8'))
+    pairs = json.loads((out / 'sources.json').read_text(encoding='utf8'))['pairs'] if public_only else \
+        json.loads((src / 'pairs.json').read_text(encoding='utf8'))
     manifest = json.loads((src / 'manifest.json').read_text(encoding='utf8'))['files']
 
     def seg(fid):
@@ -141,10 +157,11 @@ def build_timing():
                       'caller': f'audio/{name}-caller.flac', 'partner': f'audio/{name}-partner.flac',
                       'seconds': round(n / SR, 2), 'caller_segments': a, 'partner_segments': b, **ev})
     # your newest calls: you are the caller; the partner was the old Alba, so only your own moments count
-    from app.config import Config
-    from app.listen import SileroVAD
-    vad = SileroVAD(Config().paths.vad)
-    for sess in HELD_OUT_CALLS:
+    if calls:
+        from app.config import Config
+        from app.listen import SileroVAD
+        vad = SileroVAD(Config().paths.vad)
+    for sess in calls:
         d = ROOT / 'sessions' / sess
         if not (d / 'person_clean16k.flac').exists() and (d / 'person.flac').exists():
             # the call was never analyzed: make its echo-cleaned 16 kHz tracks the same way analyze_call does
@@ -241,13 +258,13 @@ def speak_items(kind):
     print(f'{kind}: {len(spec["items"])} items, {n} clips spoken')
 
 
-def fingerprints():
-    files = sorted(p for p in T.rglob('*') if p.is_file() and p.name != 'HASHES.txt')
+def fingerprints(base=T):
+    files = sorted(p for p in base.rglob('*') if p.is_file() and p.name != 'HASHES.txt')
     scorers = sorted((ROOT / 'tools').glob('score_*.py')) + [ROOT / 'tools' / 'judge_local.py']
     lines = []
     for p in files + scorers + [ROOT / 'tools' / 'build_testsets.py']:
         lines.append(f'{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.relative_to(ROOT).as_posix()}')
-    (T / 'HASHES.txt').write_text('\n'.join(lines) + '\n', encoding='utf8')
+    (base / 'HASHES.txt').write_text('\n'.join(lines) + '\n', encoding='utf8')
     whole = hashlib.sha256('\n'.join(lines).encode()).hexdigest()
     print(f'fingerprints: {len(lines)} files, overall {whole[:16]}')
     return whole
@@ -257,7 +274,13 @@ def main():
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser()
     ap.add_argument('--only', default='timing,feeling,battery,redteam')
+    ap.add_argument('--public-only', action='store_true',
+                    help='only the public timing set (data/tests-public): no private calls, data/tests/ untouched')
     args = ap.parse_args()
+    if args.public_only:
+        build_timing(public_only=True)
+        fingerprints(PUBLIC)
+        return
     parts = args.only.split(',')
     if 'timing' in parts:
         build_timing()

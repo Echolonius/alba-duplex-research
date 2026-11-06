@@ -16,6 +16,10 @@ Targets (goal, check 2): reply start <= 0.3 s median; stops <= 0.4 s median; cut
 
   python -I tools/score_timing.py <tag> [<tag> ...]      (or 'human' for the reference)
 Writes results/tests/<tag>/timing_scores.json.
+
+--public scores the public timing set instead (data/tests-public/timing: the same 12 Seamless tracks without the
+owner's calls, which anyone can rebuild): the system's output is read from results/tests-public/<tag>/timing/ and
+the scores go to results/tests-public/<tag>/timing_scores.json, apart from the frozen set's.
 """
 import json
 import sys
@@ -26,7 +30,8 @@ import soundfile as sf
 
 ROOT = Path(__file__).resolve().parent.parent
 TESTS = ROOT / 'data' / 'tests' / 'timing'
-BC_MAX = 0.8          # a system segment shorter than this is a listening sound, not a turn
+PUBLIC = ROOT / 'data' / 'tests-public' / 'timing'
+BC_MAX = 0.8         # a system segment shorter than this is a listening sound, not a turn
 
 
 def energy_segments(x, sr=16000, floor_db=-45, min_gap=0.25):
@@ -103,8 +108,11 @@ def summarize(rows):
 
 def main():
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
-    items = json.loads((TESTS / 'items.json').read_text(encoding='utf8'))['items']
-    for tag in sys.argv[1:]:
+    tags = [a for a in sys.argv[1:] if a != '--public']
+    tests, res = (PUBLIC, ROOT / 'results' / 'tests-public') if '--public' in sys.argv[1:] else \
+        (TESTS, ROOT / 'results' / 'tests')
+    items = json.loads((tests / 'items.json').read_text(encoding='utf8'))['items']
+    for tag in tags:
         rows, per = [], {}
         for it in items:
             if tag == 'human':
@@ -112,7 +120,7 @@ def main():
                     continue
                 segs = [(s, e) for s, e, bc in it['partner_segments']]
             else:
-                p = ROOT / 'results' / 'tests' / tag / 'timing' / f"{it['id']}-voice.flac"
+                p = res / tag / 'timing' / f"{it['id']}-voice.flac"
                 if not p.exists():
                     continue
                 x, sr = sf.read(p, dtype='float32')
@@ -126,7 +134,7 @@ def main():
         out = {g: summarize(v) for g, v in groups.items() if v}
         out['targets'] = {'reply_start_median_s': '<= 0.3', 'stop_median_s': '<= 0.4', 'cut_in_share': '< 0.10'}
         out['per_item'] = per
-        dest = ROOT / 'results' / 'tests' / tag
+        dest = res / tag
         dest.mkdir(parents=True, exist_ok=True)
         (dest / 'timing_scores.json').write_text(json.dumps(out, indent=1), encoding='utf8')
         print(f'== {tag}')
