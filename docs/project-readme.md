@@ -88,7 +88,7 @@ talking". **What changed since (4 November evening):**
 - *Hardware audit* (`results/audit/`): in a call the graphics card sat idle 64% of the time, the processor
   89%, and 18 GB of memory went unused. The laptop also holds the graphics card to 30 W of its 80 W (a power
   setting, not heat). The target is now a phone, so the laptop's processor is the stand-in: see
-  [PHONE-PLAN.md](PHONE-PLAN.md).
+  [PHONE-PLAN.md](plans/phone-plan.md).
 - *It reads along while you talk*: at each of your pauses the brain reads your words so far, so when you stop
   only the last few are left to read.
 - *A phone-class voice*: Kyutai's Pocket TTS runs on two processor threads, starts speaking ~0.12 s after it
@@ -146,7 +146,7 @@ All of these live in `app/config.py`.
 ## The test bench (since 4 November 2026, night)
 
 Every build is now scored the same way on held-out tests it is never trained on (`data/tests/`, details in its
-README; plan and numbers in [PROGRESS.md](PROGRESS.md); the goal in [GOAL-PROMPT.md](GOAL-PROMPT.md)):
+README; plan and numbers in [PROGRESS.md](lab-notebook.md); the goal in [GOAL-PROMPT.md](goal-prompt.md)):
 
 | Test | What it plays | Runner | Scorer |
 |---|---|---|---|
