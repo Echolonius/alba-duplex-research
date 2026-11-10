@@ -136,10 +136,11 @@ hosts), and every recording (the owner's calls stay private; Block's Dessa demos
 
 ## Score it yourself
 
-The timing test has a public part: its 12 conversations from Meta's Seamless Interaction test split (40 minutes,
-159 turn hand-offs), without the owner's private calls. Anyone can rebuild it and score people on it; running Alba
-on it takes more set-up. Its [README](data/tests-public/README.md) has the full steps, the license (CC BY-NC 4.0,
-non-commercial research only) and the reference numbers.
+The timing test scores turn-taking on recordings of real callers. It has a public part that anyone can rebuild and
+score: its 12 conversations from Meta's Seamless Interaction test split (40 minutes, 159 turn hand-offs), without
+the owner's private calls. Scoring people on it needs no data download; running Alba on it takes more set-up. The
+set's [README](data/tests-public/README.md) has the full steps, the license (CC BY-NC 4.0, non-commercial research
+only) and the reference numbers.
 
 | To | You need |
 | --- | --- |
