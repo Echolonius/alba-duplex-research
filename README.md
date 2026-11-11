@@ -171,6 +171,10 @@ Windows:
 "$PY" -I tools/score_timing.py --public human duplex
 ```
 
+For run 2, add `--listen-bias 0` when you run it (here and with `tools/run_fdb.py`): the listen setting the project's
+fixed rule picked on validation data (`results/calibration_alba-duplex2.json`). Run 1 uses its trained default. Use a
+separate `--out` folder and `--tag` for each adapter.
+
 The scorer prints the scores and saves them in `results/tests-public/<tag>/timing_scores.json`: the share of
 hand-offs answered, how soon replies start (target: a median of 0.3 s or less), the share of thinking pauses cut
 into (under 10%) and how fast the system stops when talked over (0.4 s or less). On these 12 tracks people answer
@@ -198,7 +202,8 @@ for two scorers, which send transcripts to OpenAI. Every step is in the [tools R
   and check it, but the revision the runs used is not recorded here), and llama.cpp b12094's source in
   `tools/llama-src/llama.cpp-b12094`, whose converter the export runs.
 - **Alba's scores.** No run on the public set itself and none on Full-Duplex-Bench is in the repository yet, and
-  run 2 was never scored on the timing test. Help is welcome: issues
+  run 2 was never scored on the timing test. The Full-Duplex-Bench adapter has been checked only with a fake model
+  (`tools/test_run_fdb.py`), not yet with the trained one. Help is welcome: issues
   [9](https://github.com/Echolonius/alba-duplex-research/issues/9) and
   [1](https://github.com/Echolonius/alba-duplex-research/issues/1).
 - **People scored from their sound.** The 66% comes from the frozen record; no script in the repository remakes it.
