@@ -19,6 +19,7 @@
   <a href="#how-it-works">How it works</a> ·
   <a href="#what-went-wrong-and-what-it-taught">Lessons</a> ·
   <a href="#repository-map">Repository map</a> ·
+  <a href="#score-it-yourself">Score it yourself</a> ·
   <a href="#rebuilding">Rebuild</a>
 </p>
 
@@ -132,6 +133,80 @@ injection.
 
 Left out on purpose: model weights (re-fetched from official sources and checked), datasets (from their official
 hosts), and every recording (the owner's calls stay private; Block's Dessa demos were used for measurement only).
+
+## Score it yourself
+
+The timing test scores turn-taking on recordings of real callers. It has a public part that anyone can rebuild and
+score: its 12 conversations from Meta's Seamless Interaction test split (40 minutes, 159 turn hand-offs), without
+the owner's private calls. Scoring people on it needs no data download; running Alba on it takes more set-up. The
+set's [README](data/tests-public/README.md) has the full steps, the license (CC BY-NC 4.0, non-commercial research
+only) and the reference numbers.
+
+| To | You need |
+| --- | --- |
+| Score the people reference | This repository, bash and `uv`. No data download, no GPU |
+| Rebuild the audio | Also a 0.92 GB download from Meta, with no account (44 MB is kept) |
+| Run and score Alba | Also Windows, an NVIDIA GPU with 4 GB or more, a trained adapter from release v0.2, and set-up that is not scripted yet (see "Still missing") |
+
+From the repository folder, in bash (Git Bash on Windows):
+
+```bash
+source tools/env.sh && uv sync               # the Python environment, kept inside this folder
+[ -x "$PY" ] || PY="$LV/.venv/bin/python"    # Linux and macOS: env.sh's $PY is the Windows path
+
+"$PY" -I tools/score_timing.py --public human      # people reference, from the labels: no data download
+"$PY" -I tools/fetch_seamless.py --pairs-from data/tests-public/timing/sources.json   # 0.92 GB download, 44 MB kept
+"$PY" -I tools/build_testsets.py --public-only
+git status data/tests-public        # nothing changed: the set and its fingerprints were rebuilt exactly
+```
+
+To run Alba, set up as in [Rebuilding](#rebuilding), add the pieces listed under "Still missing" below, and unzip
+a trained adapter from [release v0.2](https://github.com/Echolonius/alba-duplex-research/releases/tag/v0.2) into
+`models/`: `alba-duplex-run1-lora.zip` (run 1) or `alba-duplex-run2-lora.zip` (run 2), 63 MB each. Then, on
+Windows:
+
+```bash
+.venv-train/Scripts/python.exe -I tools/export_alba.py --lora models/<unzipped folder> --out models/alba-duplex
+.venv-train/Scripts/python.exe -I tools/run_timing_duplex.py --model models/alba-duplex --tag duplex --public
+"$PY" -I tools/score_timing.py --public human duplex
+```
+
+For run 2, add `--listen-bias 0` when you run it (here and with `tools/run_fdb.py`): the listen setting the project's
+fixed rule picked on validation data (`results/calibration_alba-duplex2.json`). Run 1 uses its trained default. Use a
+separate `--out` folder and `--tag` for each adapter.
+
+The scorer prints the scores and saves them in `results/tests-public/<tag>/timing_scores.json`: the share of
+hand-offs answered, how soon replies start (target: a median of 0.3 s or less), the share of thinking pauses cut
+into (under 10%) and how fast the system stops when talked over (0.4 s or less). On these 12 tracks people answer
+81% of hand-offs when scored from the labels, which is what `--public human` gives, and 66% when scored from their
+sound, as a system is. In the frozen runs, on the same 12 tracks, the cascade answered 42% (48% on all 15 tracks)
+and duplex run 1 answered 4%.
+
+**Full-Duplex-Bench.** `tools/run_fdb.py` answers the benchmark's offline tasks (v1.0 and v1.5) and writes Alba's
+side where the benchmark's own scorers read it. A run without late frames then puts her on the same scale as Moshi
+and PersonaPlex:
+
+```bash
+.venv-train/Scripts/python.exe -I tools/run_fdb.py --model models/alba-duplex --data data/fdb/v1_0 --tag duplex
+```
+
+It needs the same model files and the benchmark's data in `data/fdb/` (part of it is CC BY-NC 4.0). Scoring uses
+the benchmark's own scripts in their own environment: a CUDA GPU for the speech recognizer, and an OpenAI API key
+for two scorers, which send transcripts to OpenAI. Every step is in the [tools README](tools/README.md).
+
+**Still missing:**
+
+- **Set-up for running Alba.** Three things it needs are not fetched by `tools/fetch_models.sh` or set up by any
+  script: the `.venv-train` environment (Python 3.12 and [`requirements-train.txt`](requirements-train.txt)), the
+  base model's full checkpoint in `models/lfm3-audio-hf` (LiquidAI/LFM3-Audio-2B; `tools/hf_fetch.py` can download
+  and check it, but the revision the runs used is not recorded here), and llama.cpp b12094's source in
+  `tools/llama-src/llama.cpp-b12094`, whose converter the export runs.
+- **Alba's scores.** No run on the public set itself and none on Full-Duplex-Bench is in the repository yet, and
+  run 2 was never scored on the timing test. The Full-Duplex-Bench adapter has been checked only with a fake model
+  (`tools/test_run_fdb.py`), not yet with the trained one. Help is welcome: issues
+  [9](https://github.com/Echolonius/alba-duplex-research/issues/9) and
+  [1](https://github.com/Echolonius/alba-duplex-research/issues/1).
+- **People scored from their sound.** The 66% comes from the frozen record; no script in the repository remakes it.
 
 ## Rebuilding
 
